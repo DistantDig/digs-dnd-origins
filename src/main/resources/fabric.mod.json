@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "digs_dnd_origins",
+	"version": "${version}",
+	"name": "Digs DnD Origins",
+	"description": "Origin races based on the the tabletop game Dungeons and Dragons!",
+	"authors": [
+		"DistantDig"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/digs_dnd_origins/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.distantdig.digs_dnd_origins.DndOrigins"
+		],
+		"client": [
+			"net.distantdig.digs_dnd_origins.DndOriginsClient"
+		],
+		"fabric-datagen": [
+			"net.distantdig.digs_dnd_origins.DndOriginsDataGenerator"
+		]
+	},
+	"mixins": [
+		"digs_dnd_origins.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
