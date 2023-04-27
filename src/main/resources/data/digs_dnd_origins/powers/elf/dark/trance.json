@@ -1,0 +1,9 @@
+{
+  "name": "Trance",
+  "description": "Elves don't need to sleep. Instead they meditate deeply, remaining semiconscious, for 4 hours a day. Your insomnia builds half as fast.",
+  "type": "origins:modify_insomnia_ticks",
+  "modifier": {
+    "operation": "multiply_base_additive",
+    "value": 1
+  }
+}

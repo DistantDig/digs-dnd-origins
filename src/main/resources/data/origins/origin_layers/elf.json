@@ -8,7 +8,8 @@
 			},
 			"origins": [
 				"digs_dnd_origins:elf/high",
-				"digs_dnd_origins:elf/wood"
+				"digs_dnd_origins:elf/wood",
+				"digs_dnd_origins:elf/dark"
 			]
 		}
 	],

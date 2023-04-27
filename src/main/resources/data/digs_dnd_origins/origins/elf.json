@@ -1,7 +1,8 @@
 {
 	"powers": [
 		"digs_dnd_origins:elf/description_high",
-		"digs_dnd_origins:elf/description_wood"
+		"digs_dnd_origins:elf/description_wood",
+		"digs_dnd_origins:elf/description_dark"
 	],
 	"icon": "minecraft:air",
 	"order": 1,
