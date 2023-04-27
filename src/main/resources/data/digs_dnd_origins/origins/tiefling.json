@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "digs_dnd_origins:tiefling/ability_score_increase",
+    "digs_dnd_origins:tiefling/darkvision",
+    "digs_dnd_origins:tiefling/hellish_resistance",
+    "digs_dnd_origins:tiefling/infernal_legacy"
+  ],
+  "icon": "minecraft:air",
+  "order": 2,
+  "impact": 0,
+  "name": "Tiefling",
+  "description": "Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance."
+}

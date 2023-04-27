@@ -1,0 +1,10 @@
+{
+  "name": "Ability Score Increase",
+  "description": "Due to your increased charisma, your fire spell power is increased by 1.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "spell_power:fire",
+    "value": 1,
+    "operation": "addition"
+  }
+}

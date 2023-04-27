@@ -1,6 +1,6 @@
 {
 	"name": "Damage Resistance",
-	"description": "You are unharmed by non magical flames.",
+	"description": "You are unharmed by flames.",
 	"type": "origins:invulnerability",
 	"damage_condition": {
 		"type": "origins:or",

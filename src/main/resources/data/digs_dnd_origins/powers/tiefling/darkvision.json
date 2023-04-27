@@ -1,0 +1,6 @@
+{
+  "name": "Darkvision",
+  "description": "You can see slightly better than most in the dark.",
+  "type": "origins:night_vision",
+  "strength": 0.5
+}

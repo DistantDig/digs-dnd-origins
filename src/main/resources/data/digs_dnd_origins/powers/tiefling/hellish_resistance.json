@@ -1,0 +1,22 @@
+{
+  "name": "Hellish Resistance",
+  "description": "You are unharmed by flames.",
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "hotFloor"
+      },
+      {
+        "type": "origins:name",
+        "name": "inFire"
+      },
+      {
+        "type": "origins:name",
+        "name": "onFire"
+      }
+    ]
+  }
+}
