@@ -1,0 +1,14 @@
+{
+	"powers": [
+	    "digs_dnd_origins:elf/wood/size",
+		"digs_dnd_origins:elf/wood/darkvision",
+		"digs_dnd_origins:elf/wood/elf_weapon_training",
+		"digs_dnd_origins:elf/wood/fleet_of_foot",
+		"digs_dnd_origins:elf/wood/mask_of_the_wild"
+	],
+	"icon": "minecraft:air",
+	"order": 1,
+	"impact": 0,
+	"name": "Wood Elf",
+	"description": "As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests."
+}

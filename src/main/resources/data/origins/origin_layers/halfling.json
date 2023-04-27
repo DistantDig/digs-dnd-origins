@@ -1,0 +1,17 @@
+{
+	"origins": [
+		{
+			"condition": {
+				"type": "origins:origin",
+				"layer": "origins:origin",
+				"origin": "digs_dnd_origins:halfling"
+			},
+			"origins": [
+				"digs_dnd_origins:halfling/lightfoot",
+				"digs_dnd_origins:halfling/stout"
+			]
+		}
+	],
+	"order": 2,
+	"name": "Halfling Descendance"
+}

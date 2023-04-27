@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"digs_dnd_origins:gnome/rock/size",
+	    "digs_dnd_origins:gnome/rock/speed",
+	    "digs_dnd_origins:gnome/rock/darkvision",
+		"digs_dnd_origins:gnome/rock/tinker"
+	],
+	"icon": "minecraft:air",
+	"order": 1,
+	"impact": 0,
+	"name": "Rock Gnome",
+	"description": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes."
+}

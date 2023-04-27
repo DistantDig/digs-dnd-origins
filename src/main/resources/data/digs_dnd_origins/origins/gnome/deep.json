@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"digs_dnd_origins:gnome/deep/size",
+		"digs_dnd_origins:gnome/deep/speed",
+		"digs_dnd_origins:gnome/deep/superior_darkvision",
+		"digs_dnd_origins:gnome/deep/stone_camoflage"
+	],
+	"icon": "minecraft:air",
+	"order": 1,
+	"impact": 0,
+	"name": "Deep Gnome",
+	"description": "Guarded, and suspicious of outsiders, svirfneblin are cunning and taciturn, but can be just as kind-hearted, loyal, and compassionate as their surface cousins."
+}

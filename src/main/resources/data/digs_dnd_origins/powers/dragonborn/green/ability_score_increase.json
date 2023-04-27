@@ -1,0 +1,10 @@
+{
+	"name": "Ability Score Increase",
+	"description": "Due to your increased strength, you deal 1 extra melee damage.",
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.attack_damage",
+		"operation": "addition",
+		"value": 1
+	}
+}

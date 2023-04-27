@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "digs_dnd_origins:half-orc/size",
+        "digs_dnd_origins:half-orc/darkvision",
+        "digs_dnd_origins:half-orc/menacing",
+        "digs_dnd_origins:half-orc/relentless_endurance",
+        "digs_dnd_origins:half-orc/savage_attacks"
+    ],
+    "icon": "minecraft:air",
+    "order": 2,
+    "impact": 0,
+    "name": "Half-Orc",
+    "description": "Half-orcs’ grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see."
+}

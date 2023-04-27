@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"digs_dnd_origins:halfling/stout/size",
+		"digs_dnd_origins:halfling/stout/speed",
+		"digs_dnd_origins:halfling/stout/lucky",
+		"digs_dnd_origins:halfling/stout/halfling_nimbleness",
+		"digs_dnd_origins:halfling/stout/stout_resilience"
+	],
+	"icon": "minecraft:air",
+	"order": 1,
+	"impact": 0,
+	"name": "Stout Halfling",
+	"description": "As a stout halfling, you’re hardier than average and have some resistance to poison."
+}

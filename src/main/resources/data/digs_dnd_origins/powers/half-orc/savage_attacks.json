@@ -1,0 +1,9 @@
+{
+    "name": "Savage Attacks",
+    "description": "You deal 20% more melee damage",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "value": 0.2,
+        "operation": "multiply_base"
+    }
+}

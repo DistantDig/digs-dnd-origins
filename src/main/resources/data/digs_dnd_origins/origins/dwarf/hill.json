@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"digs_dnd_origins:dwarf/hill/size",
+		"digs_dnd_origins:dwarf/hill/speed",
+		"digs_dnd_origins:dwarf/hill/darkvision",
+		"digs_dnd_origins:dwarf/hill/dwarven_resilience",
+		"digs_dnd_origins:dwarf/hill/dwarven_combat_training",
+		"digs_dnd_origins:dwarf/hill/dwarven_toughness"
+	],
+	"icon": "minecraft:air",
+	"order": 1,
+	"impact": 0,
+	"name": "Hill Dwarf",
+	"description": "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience."
+}

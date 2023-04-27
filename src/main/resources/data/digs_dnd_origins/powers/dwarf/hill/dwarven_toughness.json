@@ -1,0 +1,5 @@
+{
+	"name": "Dwarven Toughness",
+	"description": "Your health is only reduced by 30% rather than the 40% of most other small races.",
+	"type": "origins:simple"
+}

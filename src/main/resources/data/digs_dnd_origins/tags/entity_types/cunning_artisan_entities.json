@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:allay",
+        "minecraft:blaze",
+        "minecraft:ghast",
+        "minecraft:magma_cube",
+        "minecraft:skeleton",
+        "minecraft:skeleton_horse",
+        "minecraft:slime",
+        "minecraft:tadpole",
+        "minecraft:vex",
+        "minecraft:wither_skeleton"
+    ]
+}

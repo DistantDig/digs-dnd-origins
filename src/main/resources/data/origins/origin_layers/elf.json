@@ -1,0 +1,17 @@
+{
+	"origins": [
+		{
+			"condition": {
+				"type": "origins:origin",
+				"layer": "origins:origin",
+				"origin": "digs_dnd_origins:elf"
+			},
+			"origins": [
+				"digs_dnd_origins:elf/high",
+				"digs_dnd_origins:elf/wood"
+			]
+		}
+	],
+	"order": 2,
+	"name": "Elven Lineage"
+}

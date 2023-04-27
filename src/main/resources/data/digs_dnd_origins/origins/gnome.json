@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"digs_dnd_origins:gnome/description_deep",
+		"digs_dnd_origins:gnome/description_forest",
+		"digs_dnd_origins:gnome/description_rock"
+	],
+	"icon": "minecraft:air",
+	"order": 1,
+	"impact": 0,
+	"name": "Gnome",
+	"description": "A gnome’s energy and enthusiasm for living shines through every inch of their tiny body. You will pick a sub race if you pick this race."
+}

@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"digs_dnd_origins:elf/description_high",
+		"digs_dnd_origins:elf/description_wood"
+	],
+	"icon": "minecraft:air",
+	"order": 1,
+	"impact": 0,
+	"name": "Elf",
+	"description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. You will pick a sub race if you pick this race."
+}

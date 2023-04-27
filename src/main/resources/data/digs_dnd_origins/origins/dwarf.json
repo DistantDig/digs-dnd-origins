@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"digs_dnd_origins:dwarf/description_hill",
+		"digs_dnd_origins:dwarf/description_mountain"
+	],
+	"icon": "minecraft:air",
+	"order": 1,
+	"impact": 0,
+	"name": "Dwarf",
+	"description": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. You will pick a sub race if you pick this race."
+}

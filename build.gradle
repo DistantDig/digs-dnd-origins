@@ -84,8 +84,11 @@ dependencies {
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 
-	//origins
+	//mod dependencies
 	modImplementation "com.github.eggohito:origins-fabric:${project.origins_version}"
+	modApi("com.github.Virtuoel:Pehkui:${pehkui_version}", {
+		exclude group: "net.fabricmc.fabric-api"
+	})
 }
 
 processResources {

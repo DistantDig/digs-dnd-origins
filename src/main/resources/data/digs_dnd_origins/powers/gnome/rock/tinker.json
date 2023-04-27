@@ -1,0 +1,27 @@
+{
+    "name": "Tinker",
+    "description": "You know the secret of the copper constructs. You can craft the animated copper gear. To make a copper construct, make a T shape from copper blocks with a carved pumpkin on top. Finally, place the animated gear on the back of the construct.",
+    "type": "origins:multiple",
+    "animated_gear":
+    {
+        "type": "origins:recipe",
+        "recipe":
+        {
+            "id": "digs_dnd_origins:tinker/animated_copper_gear",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "wetlands:copper_gear"
+                },
+                {
+                    "item": "wetlands:bottled_willothewisp"
+                }
+            ],
+            "result":
+            {
+                "item": "wetlands:animated_copper_gear",
+                "count": 1
+            }
+        }
+    }
+}

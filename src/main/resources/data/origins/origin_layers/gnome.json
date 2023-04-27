@@ -1,0 +1,18 @@
+{
+	"origins": [
+		{
+			"condition": {
+				"type": "origins:origin",
+				"layer": "origins:origin",
+				"origin": "digs_dnd_origins:gnome"
+			},
+			"origins": [
+				"digs_dnd_origins:gnome/deep",
+				"digs_dnd_origins:gnome/forest",
+				"digs_dnd_origins:gnome/rock"
+			]
+		}
+	],
+	"order": 2,
+	"name": "Gnomic Descendance"
+}

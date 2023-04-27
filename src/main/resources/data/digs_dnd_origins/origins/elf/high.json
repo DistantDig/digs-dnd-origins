@@ -1,0 +1,13 @@
+{
+	"powers": [
+	    "digs_dnd_origins:elf/high/size",
+		"digs_dnd_origins:elf/high/darkvision",
+		"digs_dnd_origins:elf/high/ability_score_increase",
+	    "digs_dnd_origins:elf/high/elf_weapon_training"
+	],
+	"icon": "minecraft:air",
+	"order": 1,
+	"impact": 0,
+	"name": "High Elf",
+	"description": "As a high elf, you have a keen mind and a mastery of at least the basics of magic."
+}

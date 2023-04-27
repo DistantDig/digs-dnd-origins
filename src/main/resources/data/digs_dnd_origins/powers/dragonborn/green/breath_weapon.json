@@ -1,0 +1,100 @@
+{
+    "name": "Breath Weapon",
+    "description": "You can breath out poison before you in a small cone, poisoning your enemies.",
+    "type": "origins:multiple",
+    
+    "spit": {
+        "type": "origins:fire_projectile",
+        "entity_type": "minecraft:snowball",
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "count": 5,
+        "interval": 0,
+        "start_delay": 0,
+        "speed": 0.5,
+        "divergence": 30.0,
+        "sound": "minecraft:entity.horse.breathe",
+        "tag": "{Silent:1b,Item:{id:\"minecraft:slime_ball\",Count:1b}}",
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": true
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_fuel",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "fuel": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 15,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 8,
+            "should_render": true
+        }
+    },
+    "regen": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_fuel",
+            "change": 1
+        },
+        "interval": 40,
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:precipitation",
+                "precipitation": "none",
+                "inverted": true
+            }
+        }
+    },
+    "consume": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:raycast",
+            "distance": 5,
+            "block": true,
+            "entity": true,
+            "shape_type": "visual",
+            "fluid_handling": "any",
+            "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:extinguish"
+            }
+        },
+            "before_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_fuel",
+                "change": -1
+            }
+        },
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": true
+        }
+    },
+    "poison": {
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:poison",
+                "duration": 100,
+                "amplifier": 0,
+                "show_particles": false
+            }
+        },
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:snowball"
+        }
+    }
+}

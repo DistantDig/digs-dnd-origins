@@ -1,0 +1,19 @@
+{
+	"origins": [
+		{
+			"condition": {
+				"type": "origins:origin",
+				"layer": "origins:origin",
+				"origin": "digs_dnd_origins:dragonborn"
+			},
+			"origins": [
+				"digs_dnd_origins:dragonborn/red",
+				"digs_dnd_origins:dragonborn/green",
+				"digs_dnd_origins:dragonborn/blue",
+				"digs_dnd_origins:dragonborn/white"
+			]
+		}
+	],
+	"order": 2,
+	"name": "Draconic Ancestry"
+}

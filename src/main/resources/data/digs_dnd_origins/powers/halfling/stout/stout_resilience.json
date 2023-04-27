@@ -1,0 +1,6 @@
+{
+    "name": "Stout Resilience",
+	"description": "You are immune to the effects of poison.",
+	"type": "origins:effect_immunity",
+    "effect": "minecraft:poison"
+}

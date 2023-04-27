@@ -1,0 +1,57 @@
+{
+    "name": "Relentless Endurance",
+    "description": "When you are reduced to 0 health, you are reduced to 1 instead. Once you use this trait, you can't use it again until you rest in a bed.",
+    "type": "origins:multiple",
+    "prevent_death": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "digs_dnd_origins:half-orc/relentless_endurance_long_rest",
+                    "change": -1
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:resistance",
+                        "duration": 60,
+                        "amplifier": 4,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "digs_dnd_origins:half-orc/relentless_endurance_long_rest",
+            "comparison": "==",
+            "compare_to": 1
+        }
+    },
+    "long_rest": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 6
+        },
+        "start_value": 1
+    },
+    "sleep_to_rest": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:half-orc/relentless_endurance_long_rest",
+            "change": 1
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "digs_dnd_origins:long_rest_blocks"
+        }
+    }
+}

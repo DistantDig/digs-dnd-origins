@@ -1,0 +1,67 @@
+{
+	"name": "Halfling Nimbleness",
+	"description": "You don't have entity collision with entities larger than you.",
+	"type": "origins:multiple",
+	
+	"toggle": {
+        "type": "origins:toggle",
+        "active_by_default": true,
+        "key": {
+            "key": "key.origins.primary_active"
+        }
+    },
+    
+	"collision": {
+	    "type": "origins:prevent_entity_collision",
+	    "bientity_condition": {
+	        "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:in_tag",
+                                "tag": "digs_dnd_origins:halfling_nimbleness_entities"
+                            },
+                            {
+                                "type": "origins:or",
+                                "conditions": [
+                                    {
+                                        "type": "origins:and",
+                                        "conditions": [
+                                            {
+                                                "type": "origins:nbt",
+                                                "nbt": "{IsBaby:1b}",
+                                                "inverted": true
+                                            },
+                                            {
+                                                "type": "origins:nbt",
+                                                "nbt": "{Tags: ['small']}",
+                                                "inverted": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "origins:nbt",
+                                        "nbt": "{Age:0}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:power_active",
+                        "power": "*:*_toggle"
+                    }
+                }
+            ]
+	    }
+	}
+}
+
+	
