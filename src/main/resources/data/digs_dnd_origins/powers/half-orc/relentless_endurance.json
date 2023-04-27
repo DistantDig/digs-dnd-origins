@@ -9,7 +9,7 @@
             "actions": [
                 {
                     "type": "origins:change_resource",
-                    "resource": "digs_dnd_origins:half-orc/relentless_endurance_long_rest",
+                    "resource": "digs_dnd_origins:half-orc/relentless_endurance_rested",
                     "change": -1
                 },
                 {
@@ -26,12 +26,12 @@
         },
         "condition": {
             "type": "origins:resource",
-            "resource": "digs_dnd_origins:half-orc/relentless_endurance_long_rest",
+            "resource": "digs_dnd_origins:half-orc/relentless_endurance_rested",
             "comparison": "==",
             "compare_to": 1
         }
     },
-    "long_rest": {
+    "rested": {
         "type": "origins:resource",
         "min": 0,
         "max": 1,
@@ -43,10 +43,10 @@
         "start_value": 1
     },
     "sleep_to_rest": {
-        "type": "origins:action_on_block_use",
+        "type": "origins:action_on_wake_up",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "digs_dnd_origins:half-orc/relentless_endurance_long_rest",
+            "resource": "digs_dnd_origins:half-orc/relentless_endurance_rested",
             "change": 1
         },
         "block_condition": {
