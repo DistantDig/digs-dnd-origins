@@ -1,0 +1,17 @@
+{
+  "name": "Ability Score Increase",
+  "description": "Due to your increased charisma, villagers reduce their prices for you.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:hero_of_the_village",
+      "duration": 240,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "interval": 200
+}
