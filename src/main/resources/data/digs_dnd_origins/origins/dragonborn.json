@@ -5,7 +5,7 @@
 		"digs_dnd_origins:dragonborn/description_red",
 		"digs_dnd_origins:dragonborn/description_white"
 	],
-	"icon": "minecraft:air",
+	"icon": "digs_dnd_origins:black_scale",
 	"order": 1,
 	"impact": 0,
 	"name": "Dragonborn",

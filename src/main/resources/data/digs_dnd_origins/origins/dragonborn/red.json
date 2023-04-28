@@ -7,7 +7,7 @@
 		"digs_dnd_origins:dragonborn/red/molten_habitat",
 		"origins:more_exhaustion"
 	],
-	"icon": "minecraft:air",
+	"icon": "digs_dnd_origins:red_scale",
 	"order": 1,
 	"impact": 0,
 	"name": "Red",

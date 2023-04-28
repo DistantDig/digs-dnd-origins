@@ -7,7 +7,7 @@
 		"digs_dnd_origins:dragonborn/green/humid_habitat",
 		"origins:more_exhaustion"
 	],
-	"icon": "minecraft:air",
+	"icon": "digs_dnd_origins:green_scale",
 	"order": 1,
 	"impact": 0,
 	"name": "Green",
