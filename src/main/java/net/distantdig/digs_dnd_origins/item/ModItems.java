@@ -1,7 +1,13 @@
 package net.distantdig.digs_dnd_origins.item;
 
 import net.distantdig.digs_dnd_origins.DndOrigins;
+import net.distantdig.digs_dnd_origins.item.custom.HornsItem;
+import net.fabricmc.fabric.api.item.v1.EquipmentSlotProvider;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.block.CarvedPumpkinBlock;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ElytraItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -14,7 +20,7 @@ public class ModItems {
     public static final Item GREEN_SCALE = registerItem("green_scale", new Item((new FabricItemSettings())));
     public static final Item WHITE_SCALE = registerItem("white_scale", new Item((new FabricItemSettings())));
     public static final Item BLACK_SCALE = registerItem("black_scale", new Item((new FabricItemSettings())));
-    public static final Item HORNS = registerItem("horns", new Item((new FabricItemSettings().maxCount(1))));
+    public static final Item HORNS = registerItem("horns", new HornsItem((new FabricItemSettings().maxCount(1))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(DndOrigins.MOD_ID, name), item);
