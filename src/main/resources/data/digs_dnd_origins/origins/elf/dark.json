@@ -5,6 +5,8 @@
     "digs_dnd_origins:elf/dark/superior_darkvision",
     "digs_dnd_origins:elf/dark/trance",
     "digs_dnd_origins:elf/dark/sunlight_sensitivity",
+    "digs_dnd_origins:elf/dark/drow_magic",
+    "digs_dnd_origins:elf/dark/darkness",
     "digs_dnd_origins:elf/dark/drow_weapon_training"
   ],
   "icon": "minecraft:air",
