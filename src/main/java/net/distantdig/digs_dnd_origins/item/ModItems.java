@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item GREEN_SCALE = registerItem("green_scale", new Item((new FabricItemSettings())));
     public static final Item WHITE_SCALE = registerItem("white_scale", new Item((new FabricItemSettings())));
     public static final Item BLACK_SCALE = registerItem("black_scale", new Item((new FabricItemSettings())));
-    public static final Item HORNS = registerItem("horns", new Item((new FabricItemSettings())));
+    public static final Item HORNS = registerItem("horns", new Item((new FabricItemSettings().maxCount(1))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(DndOrigins.MOD_ID, name), item);

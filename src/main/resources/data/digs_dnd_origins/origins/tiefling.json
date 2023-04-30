@@ -3,7 +3,8 @@
     "digs_dnd_origins:tiefling/ability_score_increase",
     "digs_dnd_origins:tiefling/darkvision",
     "digs_dnd_origins:tiefling/hellish_resistance",
-    "digs_dnd_origins:tiefling/infernal_legacy"
+    "digs_dnd_origins:tiefling/infernal_legacy",
+    "digs_dnd_origins:tiefling/horns"
   ],
   "icon": "minecraft:air",
   "order": 2,
