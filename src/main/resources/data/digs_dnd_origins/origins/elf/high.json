@@ -6,7 +6,7 @@
 		"digs_dnd_origins:elf/high/trance",
 	    "digs_dnd_origins:elf/high/elf_weapon_training"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:amethyst_shard",
 	"order": 1,
 	"impact": 0,
 	"name": "High Elf",

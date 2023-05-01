@@ -7,7 +7,7 @@
 		"digs_dnd_origins:elf/wood/fleet_of_foot",
 		"digs_dnd_origins:elf/wood/mask_of_the_wild"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:bow",
 	"order": 1,
 	"impact": 0,
 	"name": "Wood Elf",

@@ -10,7 +10,7 @@
     "digs_dnd_origins:elf/dark/darkness",
     "digs_dnd_origins:elf/dark/drow_weapon_training"
   ],
-  "icon": "minecraft:air",
+  "icon": "minecraft:echo_shard",
   "order": 1,
   "impact": 0,
   "name": "Dark Elf",
