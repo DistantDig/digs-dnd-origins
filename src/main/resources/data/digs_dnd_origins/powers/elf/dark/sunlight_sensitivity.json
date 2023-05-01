@@ -1,6 +1,6 @@
 {
   "name": "Sunlight Sensitivity",
-  "description": "When in direct sunlight for too long you vision is reduced.",
+  "description": "When in direct sunlight for too long your vision is reduced.",
   "type": "origins:stacking_status_effect",
   "min_stacks": -3,
   "max_stacks": 1,

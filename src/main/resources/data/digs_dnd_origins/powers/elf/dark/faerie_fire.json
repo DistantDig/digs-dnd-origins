@@ -1,6 +1,6 @@
 {
   "name": "Faerie Fire",
-  "description": "Each entity within a 6 block range of the target location will have the glowing effect. This area will remain to glow entities for 1 minute or until you take damage.",
+  "description": "Each entity within a 6 block range of the target location will have the glowing effect. This area will remain to glow entities for 1 minute. Activating this ability a second time or taking damage will cause the effect to end early.",
   "type": "origins:multiple",
 
   "cast": {
@@ -113,7 +113,7 @@
       "actions": [
         {
           "type": "origins:execute_command",
-          "command": "execute at @e[tag=FaerieRef,limit=1,sort=nearest] run particle minecraft:dust 0.3 0 0.3 1 ~ ~1 ~ 2 2 2 0 25 force"
+          "command": "execute at @e[tag=FaerieRef,limit=1,sort=nearest] run particle minecraft:dust 1 0 1 1 ~ ~1 ~ 2 2 2 0 25 force"
         },
         {
           "type": "origins:execute_command",
