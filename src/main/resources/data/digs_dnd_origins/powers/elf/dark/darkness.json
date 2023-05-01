@@ -64,6 +64,12 @@
           "resource": "digs_dnd_origins:elf/dark/darkness_active",
           "comparison": "==",
           "compare_to": 0
+        },
+        {
+          "type": "origins:resource",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+          "comparison": "==",
+          "compare_to": 0
         }
       ]
     }
@@ -112,6 +118,10 @@
         {
           "type": "origins:execute_command",
           "command": "execute at @e[tag=Darkness,limit=1,sort=nearest] run effect give @e[distance=..6] minecraft:blindness 3 0 true"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @e[tag=Darkness,limit=1,sort=nearest] run effect clear @e[distance=..6] minecraft:glowing"
         },
         {
           "type": "origins:change_resource",

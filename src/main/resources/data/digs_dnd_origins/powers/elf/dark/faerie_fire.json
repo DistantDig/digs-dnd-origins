@@ -1,6 +1,6 @@
 {
-  "name": "Darkness",
-  "description": "Magical darkness spreads from a point you are aiming at for a duration of 10 minutes. If you target an entity with this ability then the darkness moves with them. Activating this ability a second time or taking damage will cause the effect to drop.",
+  "name": "Faerie Fire",
+  "description": "Each entity within a 6 block range of the target location will have the glowing effect. This area will remain to glow entities for 1 minute or until you take damage.",
   "type": "origins:multiple",
 
   "cast": {
@@ -16,25 +16,25 @@
         "type": "origins:target_action",
         "action": {
           "type": "origins:execute_command",
-          "command": "tag @s add Darkness"
+          "command": "/summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoBasePlate:1b,Small:1b,DisabledSlots:63,Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,Tags:[\"FaerieRef\",\"Temp\"]}"
         }
       },
       "block_action": {
         "type": "origins:execute_command",
-        "command": "/summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoBasePlate:1b,Small:1b,DisabledSlots:63,Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,Tags:[\"Darkness\",\"Temp\"]}"
+        "command": "/summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoBasePlate:1b,Small:1b,DisabledSlots:63,Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,Tags:[\"FaerieRef\",\"Temp\"]}"
       },
       "hit_action": {
         "type": "origins:and",
         "actions": [
           {
             "type": "origins:change_resource",
-            "resource": "digs_dnd_origins:tiefling/darkness_rested",
+            "resource": "digs_dnd_origins:elf/dark/faerie_fire_rested",
             "change": -1
           },
           {
             "type": "origins:change_resource",
-            "resource": "digs_dnd_origins:tiefling/darkness_active",
-            "change": 4000,
+            "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+            "change": 400,
             "operation": "set"
           }
         ]
@@ -48,20 +48,26 @@
       "should_render": false
     },
     "key": {
-      "key": "key.origins.secondary_active"
+      "key": "key.origins.primary_active"
     },
     "condition": {
       "type": "origins:and",
       "conditions": [
         {
           "type": "origins:resource",
-          "resource": "digs_dnd_origins:tiefling/darkness_rested",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_rested",
           "comparison": "==",
           "compare_to": 1
         },
         {
           "type": "origins:resource",
-          "resource": "digs_dnd_origins:tiefling/darkness_active",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:resource",
+          "resource": "digs_dnd_origins:elf/dark/darkness_active",
           "comparison": "==",
           "compare_to": 0
         }
@@ -72,7 +78,7 @@
     "type": "origins:active_self",
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "digs_dnd_origins:tiefling/darkness_active",
+      "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
       "change": 0,
       "operation": "set"
     },
@@ -81,11 +87,11 @@
       "should_render": false
     },
     "key": {
-      "key": "key.origins.secondary_active"
+      "key": "key.origins.primary_active"
     },
     "condition": {
       "type": "origins:resource",
-      "resource": "digs_dnd_origins:tiefling/darkness_active",
+      "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
       "comparison": ">=",
       "compare_to": 1
     }
@@ -94,32 +100,28 @@
     "type": "origins:action_when_damage_taken",
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "digs_dnd_origins:tiefling/darkness_active",
+      "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
       "change": 0,
       "operation": "set"
     },
     "cooldown": 1
   },
-  "particles": {
+  "glow": {
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:and",
       "actions": [
         {
           "type": "origins:execute_command",
-          "command": "execute at @e[tag=Darkness,limit=1,sort=nearest] run particle minecraft:dust 0 0 0 5 ~ ~1 ~ 2 2 2 0 300 force"
+          "command": "execute at @e[tag=FaerieRef,limit=1,sort=nearest] run particle minecraft:dust 0.3 0 0.3 1 ~ ~1 ~ 2 2 2 0 25 force"
         },
         {
           "type": "origins:execute_command",
-          "command": "execute at @e[tag=Darkness,limit=1,sort=nearest] run effect give @e[distance=..6] minecraft:blindness 3 0 true"
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "execute at @e[tag=Darkness,limit=1,sort=nearest] run effect clear @e[distance=..6] minecraft:glowing"
+          "command": "execute at @e[tag=FaerieRef,limit=1,sort=nearest] run effect give @e[distance=..6,tag=!FaerieRef] minecraft:glowing 3 0"
         },
         {
           "type": "origins:change_resource",
-          "resource": "digs_dnd_origins:tiefling/darkness_active",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
           "change": -1
         }
       ]
@@ -129,7 +131,7 @@
       "actions": [
         {
           "type": "origins:execute_command",
-          "command": "tag @e[tag=Darkness,sort=nearest,limit=1] remove Darkness"
+          "command": "tag @e[tag=Faerie,sort=nearest,limit=1] remove faerie_fire"
         },
         {
           "type": "origins:execute_command",
@@ -140,7 +142,7 @@
     "interval": 3,
     "condition": {
       "type": "origins:resource",
-      "resource": "digs_dnd_origins:tiefling/darkness_active",
+      "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
       "comparison": ">=",
       "compare_to": 1
     }
@@ -148,14 +150,13 @@
   "active": {
     "type": "origins:resource",
     "min": 0,
-    "max": 4000,
+    "max": 400,
     "hud_render": {
       "should_render": true,
-      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
-      "bar_index": 16,
+      "bar_index": 3,
       "condition": {
         "type": "origins:resource",
-        "resource": "digs_dnd_origins:tiefling/darkness_active",
+        "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
         "comparison": ">=",
         "compare_to": 1
       }
@@ -168,20 +169,19 @@
     "start_value": 1,
     "hud_render": {
       "should_render": true,
-      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
-      "bar_index": 16,
+      "bar_index": 3,
       "condition": {
         "type": "origins:or",
         "conditions": [
           {
             "type": "origins:resource",
-            "resource": "digs_dnd_origins:tiefling/darkness_rested",
+            "resource": "digs_dnd_origins:elf/dark/faerie_fire_rested",
             "comparison": "==",
             "compare_to": 1
           },
           {
             "type": "origins:resource",
-            "resource": "digs_dnd_origins:tiefling/darkness_active",
+            "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
             "comparison": "==",
             "compare_to": 0
           }
@@ -196,12 +196,12 @@
       "actions": [
         {
           "type": "origins:change_resource",
-          "resource": "digs_dnd_origins:tiefling/darkness_rested",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_rested",
           "change": 1
         },
         {
           "type": "origins:change_resource",
-          "resource": "digs_dnd_origins:tiefling/darkness_active",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
           "change": 0,
           "operation": "set"
         }
