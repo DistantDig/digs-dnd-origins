@@ -43,6 +43,11 @@ repositories {
 	maven {
 		url "https://maven.terraformersmc.com/"
 	}
+
+	//geckolib repository
+	maven {
+		url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+	}
 }
 
 loom {
@@ -89,6 +94,7 @@ dependencies {
 	modApi("com.github.Virtuoel:Pehkui:${pehkui_version}", {
 		exclude group: "net.fabricmc.fabric-api"
 	})
+	modImplementation 'software.bernie.geckolib:geckolib-fabric-1.19.3:4.0.6'
 }
 
 processResources {
