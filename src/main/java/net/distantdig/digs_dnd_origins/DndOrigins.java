@@ -1,8 +1,11 @@
 package net.distantdig.digs_dnd_origins;
 
+import net.distantdig.digs_dnd_origins.entity.ModEntities;
+import net.distantdig.digs_dnd_origins.entity.custom.ToyFrogEntity;
 import net.distantdig.digs_dnd_origins.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +22,7 @@ public class DndOrigins implements ModInitializer {
         // Proceed with mild caution.
 
         ModItems.registerModItems();
+        FabricDefaultAttributeRegistry.register(ModEntities.TOY_FROG, ToyFrogEntity.setAttributes());
 
         LOGGER.info("Hello Fabric world!");
     }

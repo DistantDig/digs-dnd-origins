@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "digs_dnd_origins:block/custom/horns",
-		"particle": "digs_dnd_origins:block/custom/horns"
+		"0": "digs_dnd_origins:item/3d/horns",
+		"particle": "digs_dnd_origins:item/3d/horns"
 	},
 	"elements": [
 		{
