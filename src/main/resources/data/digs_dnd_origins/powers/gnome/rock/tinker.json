@@ -1,26 +1,28 @@
 {
     "name": "Tinker",
-    "description": "You know the secret of the copper constructs. You can craft the animated copper gear. To make a copper construct, make a T shape from copper blocks with a carved pumpkin on top. Finally, place the animated gear on the back of the construct.",
+    "description": "You can construct a tiny clockwork toy that resembles a frog. Once placed the toy will wander in random directions.",
     "type": "origins:multiple",
     "animated_gear":
     {
         "type": "origins:recipe",
         "recipe":
         {
-            "id": "digs_dnd_origins:tinker/animated_copper_gear",
-            "type": "minecraft:crafting_shapeless",
-            "ingredients": [
-                {
-                    "item": "wetlands:copper_gear"
-                },
-                {
-                    "item": "wetlands:bottled_willothewisp"
-                }
+            "id": "digs_dnd_origins:tinker/toy_frog",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "#",
+                "$"
             ],
-            "result":
-            {
-                "item": "wetlands:animated_copper_gear",
-                "count": 1
+            "key": {
+                "#": {
+                    "item": "minecraft:leather"
+                },
+                "$": {
+                    "item": "minecraft:gold_ingot"
+                }
+            },
+            "result": {
+                "item": "digs_dnd_origins:toy_frog_spawn_egg"
             }
         }
     }
