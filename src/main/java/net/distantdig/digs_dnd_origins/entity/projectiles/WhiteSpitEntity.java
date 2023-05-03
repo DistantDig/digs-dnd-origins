@@ -24,17 +24,17 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class RedSpitEntity extends ThrownItemEntity {
-    public RedSpitEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
+public class WhiteSpitEntity extends ThrownItemEntity {
+    public WhiteSpitEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
         super(entityType, world);
     }
 
-    public RedSpitEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
-        super(DndOrigins.RedSpitEntityType, d, e, f, world);
+    public WhiteSpitEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
+        super(DndOrigins.WhiteSpitEntityType, d, e, f, world);
     }
 
-    public RedSpitEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
-        super(DndOrigins.RedSpitEntityType, livingEntity, world);
+    public WhiteSpitEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
+        super(DndOrigins.WhiteSpitEntityType, livingEntity, world);
     }
 
     @Override
@@ -105,7 +105,7 @@ public class RedSpitEntity extends ThrownItemEntity {
         return 0.0f;
     }
     protected ParticleEffect getParticleType() {
-        return ParticleTypes.FLAME; //particle type
+        return ParticleTypes.CLOUD; //particle type
     }
     protected void onEntityHit(EntityHitResult entityHitResult) { // called on entity hit.
         super.onEntityHit(entityHitResult);

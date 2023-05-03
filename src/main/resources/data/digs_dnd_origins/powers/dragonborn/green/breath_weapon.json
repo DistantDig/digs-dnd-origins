@@ -5,7 +5,7 @@
     
     "spit": {
         "type": "origins:fire_projectile",
-        "entity_type": "minecraft:snowball",
+        "entity_type": "digs_dnd_origins:green_spit",
         "cooldown": 1,
         "hud_render": {
             "should_render": false
@@ -94,7 +94,7 @@
         },
         "damage_condition": {
             "type": "origins:projectile",
-            "projectile": "minecraft:snowball"
+            "projectile": "digs_dnd_origins:green_spit"
         }
     }
 }

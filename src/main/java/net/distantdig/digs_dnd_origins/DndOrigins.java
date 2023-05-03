@@ -2,15 +2,19 @@ package net.distantdig.digs_dnd_origins;
 
 import net.distantdig.digs_dnd_origins.entity.ModEntities;
 import net.distantdig.digs_dnd_origins.entity.custom.ToyFrogEntity;
+import net.distantdig.digs_dnd_origins.entity.projectiles.GreenSpitEntity;
 import net.distantdig.digs_dnd_origins.entity.projectiles.RedSpitEntity;
+import net.distantdig.digs_dnd_origins.entity.projectiles.WhiteSpitEntity;
 import net.distantdig.digs_dnd_origins.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
+import net.fabricmc.fabric.api.particle.v1.FabricParticleTypes;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
+import net.minecraft.particle.DefaultParticleType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -23,10 +27,25 @@ public class DndOrigins implements ModInitializer {
     // That way, it's clear which mod wrote info, warnings, and errors.
     public static final String MOD_ID = "digs_dnd_origins";
     public static final Logger LOGGER = LoggerFactory.getLogger("digs_dnd_origins");
+    public static final DefaultParticleType FALLING_GREEN_WATER = FabricParticleTypes.simple();
     public static final EntityType<RedSpitEntity> RedSpitEntityType = Registry.register(
             Registries.ENTITY_TYPE,
             new Identifier(MOD_ID, "red_spit"),
             FabricEntityTypeBuilder.<RedSpitEntity>create(SpawnGroup.MISC, RedSpitEntity::new)
+                    .dimensions(EntityDimensions.fixed(0.25F, 0.25F))
+                    .trackRangeBlocks(4).trackedUpdateRate(10).build()
+    );
+    public static final EntityType<GreenSpitEntity> GreenSpitEntityType = Registry.register(
+            Registries.ENTITY_TYPE,
+            new Identifier(MOD_ID, "green_spit"),
+            FabricEntityTypeBuilder.<GreenSpitEntity>create(SpawnGroup.MISC, GreenSpitEntity::new)
+                    .dimensions(EntityDimensions.fixed(0.25F, 0.25F))
+                    .trackRangeBlocks(4).trackedUpdateRate(10).build()
+    );
+    public static final EntityType<WhiteSpitEntity> WhiteSpitEntityType = Registry.register(
+            Registries.ENTITY_TYPE,
+            new Identifier(MOD_ID, "white_spit"),
+            FabricEntityTypeBuilder.<WhiteSpitEntity>create(SpawnGroup.MISC, WhiteSpitEntity::new)
                     .dimensions(EntityDimensions.fixed(0.25F, 0.25F))
                     .trackRangeBlocks(4).trackedUpdateRate(10).build()
     );
@@ -38,6 +57,7 @@ public class DndOrigins implements ModInitializer {
 
         ModItems.registerModItems();
         FabricDefaultAttributeRegistry.register(ModEntities.TOY_FROG, ToyFrogEntity.setAttributes());
+
 
         LOGGER.info("Hello Fabric world!");
     }

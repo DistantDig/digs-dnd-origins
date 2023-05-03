@@ -24,17 +24,17 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class RedSpitEntity extends ThrownItemEntity {
-    public RedSpitEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
+public class GreenSpitEntity extends ThrownItemEntity {
+    public GreenSpitEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
         super(entityType, world);
     }
 
-    public RedSpitEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
-        super(DndOrigins.RedSpitEntityType, d, e, f, world);
+    public GreenSpitEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
+        super(DndOrigins.GreenSpitEntityType, d, e, f, world);
     }
 
-    public RedSpitEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
-        super(DndOrigins.RedSpitEntityType, livingEntity, world);
+    public GreenSpitEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
+        super(DndOrigins.GreenSpitEntityType, livingEntity, world);
     }
 
     @Override
@@ -89,7 +89,7 @@ public class RedSpitEntity extends ThrownItemEntity {
         }
         this.setPosition(d, e, f);
 
-        this.world.addParticle(this.getParticleType(), d, e + 0.5, f,
+        this.world.addParticle(this.getParticleType(), (Math.random() - 0.5) + d, Math.random() + e, (Math.random() - 0.5) + f,
                 (Math.random() - 0.5) * 0.2, (Math.random() - 0.5) * 0.2, (Math.random() - 0.5) * 0.2); //movement of the particle from projectile
 
         if (t >= 20) { //the amount of ticks the projectile will stay alive
@@ -102,10 +102,10 @@ public class RedSpitEntity extends ThrownItemEntity {
         }
     }
     protected float getGravity() {
-        return 0.0f;
+        return 0.03f;
     }
     protected ParticleEffect getParticleType() {
-        return ParticleTypes.FLAME; //particle type
+        return DndOrigins.FALLING_GREEN_WATER; //particle type
     }
     protected void onEntityHit(EntityHitResult entityHitResult) { // called on entity hit.
         super.onEntityHit(entityHitResult);
