@@ -5,18 +5,18 @@
     
     "flames": {
         "type": "origins:fire_projectile",
-        "entity_type": "minecraft:snowball",
+        "entity_type": "digs_dnd_origins:red_spit",
         "cooldown": 1,
         "hud_render": {
             "should_render": false
         },
-        "count": 5,
+        "count": 10,
         "interval": 0,
         "start_delay": 0,
-        "speed": 0.5,
-        "divergence": 30.0,
+        "speed": 0.25,
+        "divergence": 45.0,
         "sound": "minecraft:entity.horse.breathe",
-        "tag": "{Fire:999999,HasVisualFire:1b,Silent:1b,Tags:[\"flame\"],Item:{id:\"minecraft:fire_charge\",Count:1b}}",
+        "tag": "{Fire:999999,HasVisualFire:1b,Silent:1b,Tags:[\"flame\"]}",
         "key": {
             "key": "key.origins.primary_active",
             "continuous": true
@@ -59,7 +59,7 @@
         "type": "origins:active_self",
         "entity_action": {
             "type": "origins:raycast",
-            "distance": 5,
+            "distance": 0,
             "block": true,
             "entity": true,
             "shape_type": "visual",
@@ -90,7 +90,7 @@
         },
         "damage_condition": {
             "type": "origins:projectile",
-            "projectile": "minecraft:snowball"
+            "projectile": "digs_dnd_origins:red_spit"
         }
     }
 }
