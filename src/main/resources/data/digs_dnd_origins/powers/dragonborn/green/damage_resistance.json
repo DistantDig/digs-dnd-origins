@@ -1,8 +1,10 @@
 {
-	"name": "Poison Resistance",
-	"description": "You are not affected by poisons.",
-	"type": "origins:effect_immunity",
-	"effects": [
-	    "minecraft:poison"
-	]
+	"name": "Damage Resistance",
+	"description": "Poisons last half as long for you.",
+	"type": "origins:modify_status_effect_duration",
+	"status_effect": "minecraft:poison",
+	"modifier": {
+		"operation": "multiply_base_multiplicative",
+		"value": -0.5
+	}
 }

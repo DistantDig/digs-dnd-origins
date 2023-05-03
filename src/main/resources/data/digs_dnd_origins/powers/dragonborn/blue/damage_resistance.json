@@ -1,18 +1,24 @@
 {
 	"name": "Damage Resistance",
-	"description": "You don't take any damage from lightning strikes.",
+	"description": "You take half as much damage from lightning strikes and slowness effects last half as long on you.",
 	"type": "origins:multiple",
 	"lightning": {
-		"type": "origins:invulnerability",
-	    "damage_condition": {
-		    "type": "origins:name",
-		    "name": "lightningBolt"
-	    }
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type" : "origins:name",
+			"name": "lightningBolt"
+		},
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -0.5
+		}
 	},
 	"stun": {
-		"type": "origins:effect_immunity",
-		"effects": [
-		    "minecraft:slowness"
-	    ]
+		"type": "origins:modify_status_effect_duration",
+		"status_effect": "minecraft:slowness",
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -0.5
+		}
 	}
 }

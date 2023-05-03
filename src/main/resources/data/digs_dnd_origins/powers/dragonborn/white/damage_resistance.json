@@ -1,6 +1,6 @@
 {
 	"name": "Damage Resistance",
-	"description": "You are unaffected by cold temperatures and cannot be slowed.",
+	"description": "You take half damage from freezing and slowness effects last half as long on you.",
 	"type": "origins:multiple",
 	"freeze": {
 		"type": "origins:invulnerability",
@@ -10,9 +10,11 @@
 		}
 	},
 	"slow": {
-		"type": "origins:effect_immunity",
-		"effects": [
-		    "minecraft:slowness"
-	    ]
+		"type": "origins:modify_status_effect_duration",
+		"status_effect": "minecraft:slowness",
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -0.5
+		}
 	}
 }
