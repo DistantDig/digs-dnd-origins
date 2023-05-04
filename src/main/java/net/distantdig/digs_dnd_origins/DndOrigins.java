@@ -6,6 +6,7 @@ import net.distantdig.digs_dnd_origins.entity.projectiles.GreenSpitEntity;
 import net.distantdig.digs_dnd_origins.entity.projectiles.RedSpitEntity;
 import net.distantdig.digs_dnd_origins.entity.projectiles.WhiteSpitEntity;
 import net.distantdig.digs_dnd_origins.item.ModItems;
+import net.distantdig.digs_dnd_origins.particle.ModParticles;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -56,6 +57,8 @@ public class DndOrigins implements ModInitializer {
         // Proceed with mild caution.
 
         ModItems.registerModItems();
+        ModParticles.registerGreenParticles();
+        ModParticles.registerRedParticles();
         FabricDefaultAttributeRegistry.register(ModEntities.TOY_FROG, ToyFrogEntity.setAttributes());
 
 

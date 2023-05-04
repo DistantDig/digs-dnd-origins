@@ -1,6 +1,7 @@
 package net.distantdig.digs_dnd_origins.entity.projectiles;
 
 import net.distantdig.digs_dnd_origins.DndOrigins;
+import net.distantdig.digs_dnd_origins.particle.ModParticles;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.BlockState;
@@ -105,7 +106,7 @@ public class RedSpitEntity extends ThrownItemEntity {
         return 0.0f;
     }
     protected ParticleEffect getParticleType() {
-        return ParticleTypes.FLAME; //particle type
+        return ModParticles.RED_BREATH_PARTICLE; //particle type
     }
     protected void onEntityHit(EntityHitResult entityHitResult) { // called on entity hit.
         super.onEntityHit(entityHitResult);

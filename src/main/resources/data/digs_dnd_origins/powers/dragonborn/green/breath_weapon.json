@@ -10,13 +10,12 @@
         "hud_render": {
             "should_render": false
         },
-        "count": 5,
+        "count": 10,
         "interval": 0,
         "start_delay": 0,
         "speed": 0.5,
         "divergence": 30.0,
-        "sound": "minecraft:entity.horse.breathe",
-        "tag": "{Silent:1b,Item:{id:\"minecraft:slime_ball\",Count:1b}}",
+        "tag": "{Silent:1b,}",
         "key": {
             "key": "key.origins.primary_active",
             "continuous": true
@@ -71,9 +70,26 @@
             }
         },
             "before_action": {
-                "type": "origins:change_resource",
-                "resource": "*:*_fuel",
-                "change": -1
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_fuel",
+                        "change": -1
+                    },
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:block.fire.extinguish",
+                        "volume": 0.5,
+                        "pitch": 1.5
+                    },
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:entity.horse.breathe",
+                        "volume": 0.75,
+                        "pitch": 1.125
+                    }
+                ]
             }
         },
         "key": {

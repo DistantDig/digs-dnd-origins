@@ -13,10 +13,10 @@
         "count": 10,
         "interval": 0,
         "start_delay": 0,
-        "speed": 0.25,
-        "divergence": 45.0,
+        "speed": 0.5,
+        "divergence": 30.0,
         "sound": "minecraft:entity.horse.breathe",
-        "tag": "{Fire:999999,HasVisualFire:1b,Silent:1b,Tags:[\"flame\"]}",
+        "tag": "{Silent:1b,}",
         "key": {
             "key": "key.origins.primary_active",
             "continuous": true

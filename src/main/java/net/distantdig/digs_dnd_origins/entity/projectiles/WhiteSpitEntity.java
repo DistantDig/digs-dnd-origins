@@ -114,7 +114,7 @@ public class WhiteSpitEntity extends ThrownItemEntity {
         entity.damage(DamageSource.thrownProjectile(this, this.getOwner()), (float)i); // deals damage
 
         if (entity instanceof LivingEntity livingEntity) { // checks if entity is an instance of LivingEntity (meaning it is not a boat or minecart)
-            livingEntity.playSound(SoundEvents.ENTITY_PLAYER_HURT_ON_FIRE, 2F, 1F); // plays a sound for the entity hit only
+            livingEntity.playSound(SoundEvents.ENTITY_PLAYER_HURT_FREEZE, 2F, 1F); // plays a sound for the entity hit only
         }
     }
     protected void onCollision(HitResult hitResult) { // called on collision with a block

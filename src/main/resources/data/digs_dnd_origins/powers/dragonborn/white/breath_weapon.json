@@ -10,7 +10,7 @@
         "hud_render": {
             "should_render": false
         },
-        "count": 5,
+        "count": 10,
         "interval": 0,
         "start_delay": 0,
         "speed": 0.5,
@@ -71,9 +71,19 @@
             }
         },
             "before_action": {
-                "type": "origins:change_resource",
-                "resource": "*:*_fuel",
-                "change": -1
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_fuel",
+                        "change": -1
+                    },
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:entity.horse.breathe",
+                        "pitch": 1.5
+                    }
+                ]
             }
         },
         "key": {
