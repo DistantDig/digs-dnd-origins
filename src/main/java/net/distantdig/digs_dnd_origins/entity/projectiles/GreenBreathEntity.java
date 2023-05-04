@@ -24,18 +24,24 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+import software.bernie.geckolib.animatable.GeoEntity;
+import software.bernie.geckolib.core.animatable.GeoAnimatable;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInstanceCache;
+import software.bernie.geckolib.core.animation.*;
+import software.bernie.geckolib.core.object.PlayState;
 
-public class RedSpitEntity extends ThrownItemEntity {
-    public RedSpitEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
+public class GreenBreathEntity extends ThrownItemEntity implements GeoEntity {
+    public GreenBreathEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
         super(entityType, world);
     }
 
-    public RedSpitEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
-        super(DndOrigins.RedSpitEntityType, d, e, f, world);
+    public GreenBreathEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
+        super(DndOrigins.GreenBreathEntityType, d, e, f, world);
     }
 
-    public RedSpitEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
-        super(DndOrigins.RedSpitEntityType, livingEntity, world);
+    public GreenBreathEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
+        super(DndOrigins.GreenBreathEntityType, livingEntity, world);
     }
 
     @Override
@@ -90,7 +96,7 @@ public class RedSpitEntity extends ThrownItemEntity {
         }
         this.setPosition(d, e, f);
 
-        this.world.addParticle(this.getParticleType(), d, e + 0.5, f,
+        this.world.addParticle(this.getParticleType(), (Math.random() - 0.5) + d, Math.random() + e, (Math.random() - 0.5) + f,
                 (Math.random() - 0.5) * 0.2, (Math.random() - 0.5) * 0.2, (Math.random() - 0.5) * 0.2); //movement of the particle from projectile
 
         if (t >= 20) { //the amount of ticks the projectile will stay alive
@@ -103,10 +109,10 @@ public class RedSpitEntity extends ThrownItemEntity {
         }
     }
     protected float getGravity() {
-        return 0.0f;
+        return 0.03f;
     }
     protected ParticleEffect getParticleType() {
-        return ModParticles.RED_BREATH_PARTICLE; //particle type
+        return ModParticles.GREEN_BREATH_PARTICLE; //particle type
     }
     protected void onEntityHit(EntityHitResult entityHitResult) { // called on entity hit.
         super.onEntityHit(entityHitResult);
@@ -125,5 +131,21 @@ public class RedSpitEntity extends ThrownItemEntity {
             this.kill(); // kills the projectile
         }
 
+    }
+    private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
+
+    @Override
+    public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
+        controllerRegistrar.add(new AnimationController<>(this, "controller", 0, this::predicate));
+    }
+
+    private <T extends GeoAnimatable> PlayState predicate(AnimationState<T> tAnimationState) {
+        tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.green_breath.walk", Animation.LoopType.LOOP));
+        return PlayState.CONTINUE;
+    }
+
+    @Override
+    public AnimatableInstanceCache getAnimatableInstanceCache() {
+        return cache;
     }
 }

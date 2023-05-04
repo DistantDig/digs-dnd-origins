@@ -1,6 +1,7 @@
 package net.distantdig.digs_dnd_origins.entity.projectiles;
 
 import net.distantdig.digs_dnd_origins.DndOrigins;
+import net.distantdig.digs_dnd_origins.particle.ModParticles;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.BlockState;
@@ -24,17 +25,17 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class WhiteSpitEntity extends ThrownItemEntity {
-    public WhiteSpitEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
+public class RedBreathEntity extends ThrownItemEntity {
+    public RedBreathEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
         super(entityType, world);
     }
 
-    public WhiteSpitEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
-        super(DndOrigins.WhiteSpitEntityType, d, e, f, world);
+    public RedBreathEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
+        super(DndOrigins.RedBreathEntityType, d, e, f, world);
     }
 
-    public WhiteSpitEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
-        super(DndOrigins.WhiteSpitEntityType, livingEntity, world);
+    public RedBreathEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
+        super(DndOrigins.RedBreathEntityType, livingEntity, world);
     }
 
     @Override
@@ -105,7 +106,7 @@ public class WhiteSpitEntity extends ThrownItemEntity {
         return 0.0f;
     }
     protected ParticleEffect getParticleType() {
-        return ParticleTypes.CLOUD; //particle type
+        return ModParticles.RED_BREATH_PARTICLE; //particle type
     }
     protected void onEntityHit(EntityHitResult entityHitResult) { // called on entity hit.
         super.onEntityHit(entityHitResult);
@@ -114,7 +115,7 @@ public class WhiteSpitEntity extends ThrownItemEntity {
         entity.damage(DamageSource.thrownProjectile(this, this.getOwner()), (float)i); // deals damage
 
         if (entity instanceof LivingEntity livingEntity) { // checks if entity is an instance of LivingEntity (meaning it is not a boat or minecart)
-            livingEntity.playSound(SoundEvents.ENTITY_PLAYER_HURT_FREEZE, 2F, 1F); // plays a sound for the entity hit only
+            livingEntity.playSound(SoundEvents.ENTITY_PLAYER_HURT_ON_FIRE, 2F, 1F); // plays a sound for the entity hit only
         }
     }
     protected void onCollision(HitResult hitResult) { // called on collision with a block

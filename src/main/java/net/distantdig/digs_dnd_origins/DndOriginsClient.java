@@ -14,9 +14,9 @@ public class DndOriginsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         EntityRendererRegistry.register(ModEntities.TOY_FROG, ToyFrogRenderer::new);
-        EntityRendererRegistry.register(DndOrigins.RedSpitEntityType, FlyingItemEntityRenderer::new);
-        EntityRendererRegistry.register(DndOrigins.GreenSpitEntityType, FlyingItemEntityRenderer::new);
-        EntityRendererRegistry.register(DndOrigins.WhiteSpitEntityType, FlyingItemEntityRenderer::new);
+        EntityRendererRegistry.register(DndOrigins.RedBreathEntityType, FlyingItemEntityRenderer::new);
+        EntityRendererRegistry.register(DndOrigins.GreenBreathEntityType, FlyingItemEntityRenderer::new);
+        EntityRendererRegistry.register(DndOrigins.WhiteBreathEntityType, FlyingItemEntityRenderer::new);
 
         ParticleFactoryRegistry.getInstance().register(ModParticles.GREEN_BREATH_PARTICLE, GreenBreathParticle.Factory::new);
         ParticleFactoryRegistry.getInstance().register(ModParticles.RED_BREATH_PARTICLE, RedBreathParticle.Factory::new);

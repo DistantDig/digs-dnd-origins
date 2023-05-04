@@ -1,7 +1,6 @@
 package net.distantdig.digs_dnd_origins.entity.projectiles;
 
 import net.distantdig.digs_dnd_origins.DndOrigins;
-import net.distantdig.digs_dnd_origins.particle.ModParticles;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.BlockState;
@@ -24,24 +23,18 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
-import software.bernie.geckolib.animatable.GeoEntity;
-import software.bernie.geckolib.core.animatable.GeoAnimatable;
-import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
-import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInstanceCache;
-import software.bernie.geckolib.core.animation.*;
-import software.bernie.geckolib.core.object.PlayState;
 
-public class GreenSpitEntity extends ThrownItemEntity implements GeoEntity {
-    public GreenSpitEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
+public class WhiteBreathEntity extends ThrownItemEntity {
+    public WhiteBreathEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
         super(entityType, world);
     }
 
-    public GreenSpitEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
-        super(DndOrigins.GreenSpitEntityType, d, e, f, world);
+    public WhiteBreathEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
+        super(DndOrigins.WhiteBreathEntityType, d, e, f, world);
     }
 
-    public GreenSpitEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
-        super(DndOrigins.GreenSpitEntityType, livingEntity, world);
+    public WhiteBreathEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
+        super(DndOrigins.WhiteBreathEntityType, livingEntity, world);
     }
 
     @Override
@@ -96,7 +89,7 @@ public class GreenSpitEntity extends ThrownItemEntity implements GeoEntity {
         }
         this.setPosition(d, e, f);
 
-        this.world.addParticle(this.getParticleType(), (Math.random() - 0.5) + d, Math.random() + e, (Math.random() - 0.5) + f,
+        this.world.addParticle(this.getParticleType(), d, e + 0.5, f,
                 (Math.random() - 0.5) * 0.2, (Math.random() - 0.5) * 0.2, (Math.random() - 0.5) * 0.2); //movement of the particle from projectile
 
         if (t >= 20) { //the amount of ticks the projectile will stay alive
@@ -109,10 +102,10 @@ public class GreenSpitEntity extends ThrownItemEntity implements GeoEntity {
         }
     }
     protected float getGravity() {
-        return 0.03f;
+        return 0.0f;
     }
     protected ParticleEffect getParticleType() {
-        return ModParticles.GREEN_BREATH_PARTICLE; //particle type
+        return ParticleTypes.CLOUD; //particle type
     }
     protected void onEntityHit(EntityHitResult entityHitResult) { // called on entity hit.
         super.onEntityHit(entityHitResult);
@@ -121,7 +114,7 @@ public class GreenSpitEntity extends ThrownItemEntity implements GeoEntity {
         entity.damage(DamageSource.thrownProjectile(this, this.getOwner()), (float)i); // deals damage
 
         if (entity instanceof LivingEntity livingEntity) { // checks if entity is an instance of LivingEntity (meaning it is not a boat or minecart)
-            livingEntity.playSound(SoundEvents.ENTITY_PLAYER_HURT_ON_FIRE, 2F, 1F); // plays a sound for the entity hit only
+            livingEntity.playSound(SoundEvents.ENTITY_PLAYER_HURT_FREEZE, 2F, 1F); // plays a sound for the entity hit only
         }
     }
     protected void onCollision(HitResult hitResult) { // called on collision with a block
@@ -131,21 +124,5 @@ public class GreenSpitEntity extends ThrownItemEntity implements GeoEntity {
             this.kill(); // kills the projectile
         }
 
-    }
-    private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
-
-    @Override
-    public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
-        controllerRegistrar.add(new AnimationController<>(this, "controller", 0, this::predicate));
-    }
-
-    private <T extends GeoAnimatable> PlayState predicate(AnimationState<T> tAnimationState) {
-        tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.green_spit.walk", Animation.LoopType.LOOP));
-        return PlayState.CONTINUE;
-    }
-
-    @Override
-    public AnimatableInstanceCache getAnimatableInstanceCache() {
-        return cache;
     }
 }
