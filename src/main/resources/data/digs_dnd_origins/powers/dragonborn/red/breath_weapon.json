@@ -5,7 +5,7 @@
     
     "flames": {
         "type": "origins:fire_projectile",
-        "entity_type": "digs_dnd_origins:red_spit",
+        "entity_type": "digs_dnd_origins:red_breath",
         "cooldown": 1,
         "hud_render": {
             "should_render": false
@@ -90,7 +90,7 @@
         },
         "damage_condition": {
             "type": "origins:projectile",
-            "projectile": "digs_dnd_origins:red_spit"
+            "projectile": "digs_dnd_origins:red_breath"
         }
     }
 }

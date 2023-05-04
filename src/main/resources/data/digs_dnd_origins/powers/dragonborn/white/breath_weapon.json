@@ -5,7 +5,7 @@
     
     "frost": {
         "type": "origins:fire_projectile",
-        "entity_type": "digs_dnd_origins:white_spit",
+        "entity_type": "digs_dnd_origins:white_breath",
         "cooldown": 1,
         "hud_render": {
             "should_render": false
@@ -104,7 +104,7 @@
         },
         "damage_condition": {
             "type": "origins:projectile",
-            "projectile": "digs_dnd_origins:white_spit"
+            "projectile": "digs_dnd_origins:white_breath"
         }
     }
 }

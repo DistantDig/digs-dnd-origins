@@ -2,7 +2,7 @@
     "name": "Breath Weapon",
     "description": "You can breath out a line of lightning before you, stunning your enemies.",
     "type": "origins:multiple",
-    
+
     "sound":{
         "type": "origins:active_self",
         "entity_action": {

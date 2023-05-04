@@ -12,14 +12,17 @@ import org.jetbrains.annotations.Nullable;
 public class RedBreathParticle extends SpriteBillboardParticle {
     private final SpriteProvider sprites;
     protected RedBreathParticle(ClientWorld world, double x, double y, double z,
-                                SpriteProvider spriteSet, double dx, double dy, double dz) {
-        super(world, x, y, z, dx, dy, dz);
+                                SpriteProvider spriteSet, double velocityX, double velocityY, double velocityZ) {
+        super(world, x, y, z, 0.0, 0.0, 0.0);
 
-        this.velocityMultiplier = 0.6f;
+        this.velocityMultiplier = 0.96f;
         this.sprites = spriteSet;
-        this.x = dx;
-        this.y = dy;
-        this.z = dz;
+        this.velocityX *= (double)0.1f;
+        this.velocityY *= (double)0.1f;
+        this.velocityZ *= (double)0.1f;
+        this.velocityX += velocityX;
+        this.velocityY += velocityY;
+        this.velocityZ += velocityZ;
         this.scale = 0.25f;
         int i = (int)(8.0 / (Math.random() * 0.8 + 0.3));
         this.maxAge = (int)Math.max((float)i * 1.0f, 1.0f);
