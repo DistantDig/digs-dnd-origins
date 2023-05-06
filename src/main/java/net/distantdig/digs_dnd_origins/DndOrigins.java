@@ -2,6 +2,7 @@ package net.distantdig.digs_dnd_origins;
 
 import net.distantdig.digs_dnd_origins.entity.ModEntities;
 import net.distantdig.digs_dnd_origins.entity.custom.ToyFrogEntity;
+import net.distantdig.digs_dnd_origins.entity.projectiles.BlueBreathEntity;
 import net.distantdig.digs_dnd_origins.entity.projectiles.GreenBreathEntity;
 import net.distantdig.digs_dnd_origins.entity.projectiles.RedBreathEntity;
 import net.distantdig.digs_dnd_origins.entity.projectiles.WhiteBreathEntity;
@@ -50,6 +51,13 @@ public class DndOrigins implements ModInitializer {
                     .dimensions(EntityDimensions.fixed(0.25F, 0.25F))
                     .trackRangeBlocks(4).trackedUpdateRate(10).build()
     );
+    public static final EntityType<BlueBreathEntity> BlueBreathEntityType = Registry.register(
+            Registries.ENTITY_TYPE,
+            new Identifier(MOD_ID, "blue_breath"),
+            FabricEntityTypeBuilder.<BlueBreathEntity>create(SpawnGroup.MISC, BlueBreathEntity::new)
+                    .dimensions(EntityDimensions.fixed(0.25F, 0.25F))
+                    .trackRangeBlocks(4).trackedUpdateRate(10).build()
+    );
     @Override
     public void onInitialize() {
         // This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -59,6 +67,7 @@ public class DndOrigins implements ModInitializer {
         ModItems.registerModItems();
         ModParticles.registerGreenParticles();
         ModParticles.registerRedParticles();
+        ModParticles.registerBlueParticles();
         FabricDefaultAttributeRegistry.register(ModEntities.TOY_FROG, ToyFrogEntity.setAttributes());
 
 

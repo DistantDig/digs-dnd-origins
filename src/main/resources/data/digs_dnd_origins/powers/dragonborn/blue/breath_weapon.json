@@ -1,17 +1,30 @@
 {
     "name": "Breath Weapon",
-    "description": "You can breath out a line of lightning before you, stunning your enemies.",
+    "description": "You can breath out lightning before you in a line, slowing your enemies.",
     "type": "origins:multiple",
 
-    "sound":{
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:play_sound",
-            "sound": "create:steam"
+    "sparks": {
+        "type": "origins:fire_projectile",
+        "entity_type": "digs_dnd_origins:blue_breath",
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
         },
+        "count": 10,
+        "interval": 0,
+        "start_delay": 0,
+        "speed": 0.5,
+        "divergence": 10.0,
+        "tag": "{Silent:1b}}",
         "key": {
             "key": "key.origins.primary_active",
             "continuous": true
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_fuel",
+            "comparison": ">",
+            "compare_to": 0
         }
     },
     "fuel": {
@@ -40,43 +53,69 @@
             }
         }
     },
-    "sparks": {
+    "consume": {
         "type": "origins:active_self",
         "entity_action": {
             "type": "origins:raycast",
-            "distance": 10,
+            "distance": 5,
             "block": true,
             "entity": true,
             "shape_type": "visual",
             "fluid_handling": "any",
-            "command_along_ray": "particle minecraft:electric_spark ~ ~ ~ .05 .05 .05 1 5",
             "bientity_action": {
-            "type": "origins:target_action",
-            "action": {
-                "type": "origins:apply_effect",
-                "effect": {
-                    "effect": "minecraft:slowness",
-                    "duration": 60,
-                    "amplifier": 4,
-                    "show_particles": false
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:extinguish"
                 }
-            }
-        },
+            },
             "before_action": {
-                "type": "origins:change_resource",
-                "resource": "*:*_fuel",
-                "change": -1
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_fuel",
+                        "change": -1
+                    },
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:entity.horse.breathe",
+                        "volume": 1.2,
+                        "pitch": 1.3
+                    },
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:entity.player.hurt_on_fire",
+                        "volume": 0.6,
+                        "pitch": 1.9
+                    },
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:entity.player.hurt_on_fire",
+                        "volume": 0.7,
+                        "pitch": 1.7
+                    }
+                ]
             }
         },
         "key": {
             "key": "key.origins.primary_active",
             "continuous": true
+        }
+    },
+    "freeze": {
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:slowness",
+                "duration": 100,
+                "amplifier": 1,
+                "show_particles": false
+            }
         },
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_fuel",
-            "comparison": ">",
-            "compare_to": 0
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "digs_dnd_origins:blue_breath"
         }
     }
 }
