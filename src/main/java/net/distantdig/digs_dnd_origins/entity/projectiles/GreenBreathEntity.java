@@ -109,7 +109,7 @@ public class GreenBreathEntity extends ThrownItemEntity implements GeoEntity {
         }
     }
     protected float getGravity() {
-        return 0.03f;
+        return 0.0f;
     }
     protected ParticleEffect getParticleType() {
         return ModParticles.GREEN_BREATH_PARTICLE; //particle type

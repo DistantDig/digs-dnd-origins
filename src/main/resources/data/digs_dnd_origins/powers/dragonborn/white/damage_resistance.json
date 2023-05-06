@@ -3,10 +3,23 @@
 	"description": "You take half damage from freezing and slowness effects last half as long on you.",
 	"type": "origins:multiple",
 	"freeze": {
-		"type": "origins:invulnerability",
+		"type": "origins:modify_damage_taken",
 		"damage_condition": {
-			"type": "origins:name",
-			"name": "freeze"
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:name",
+					"name": "freeze"
+				},
+				{
+					"type": "origins:name",
+					"name": "freeze.player"
+				}
+			]
+		},
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -0.5
 		}
 	},
 	"slow": {

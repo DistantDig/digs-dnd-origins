@@ -1,6 +1,6 @@
 {
     "name": "Breath Weapon",
-    "description": "You can breath out flames before you in a small cone, burning your enemies.",
+    "description": "You can breath out flames before you in a small cone, burning your enemies. You regain the ability to do so after a short or long rest.",
     "type": "origins:multiple",
     
     "flames": {
@@ -16,77 +16,84 @@
         "speed": 0.25,
         "divergence": 30.0,
         "sound": "minecraft:entity.horse.breathe",
-        "tag": "{Silent:1b,}",
         "key": {
             "key": "key.origins.primary_active",
             "continuous": true
         },
         "condition": {
             "type": "origins:resource",
-            "resource": "*:*_fuel",
+            "resource": "digs_dnd_origins:dragonborn/red/breath_weapon_breath",
             "comparison": ">",
             "compare_to": 0
         }
     },
-    "fuel": {
+    "breath": {
         "type": "origins:resource",
         "min": 0,
-        "max": 15,
+        "max": 80,
         "hud_render": {
             "sprite_location": "origins:textures/gui/resource_bar.png",
             "bar_index": 7,
             "should_render": true
         }
     },
-    "regen": {
+    "short_rest": {
         "type": "origins:action_over_time",
+        "interval": 15,
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "*:*_fuel",
+            "resource": "digs_dnd_origins:dragonborn/red/breath_weapon_breath",
             "change": 1
         },
-        "interval": 40,
         "condition": {
-            "type": "origins:biome",
-            "condition": {
-            "type": "origins:temperature",
-            "comparison": ">=",
-            "compare_to": 0.0
-            }
+            "type": "origins:sprinting",
+            "inverted": true
         }
     },
-    "consume": {
+    "long_rest": {
+        "type": "origins:action_on_wake_up",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:dragonborn/red/breath_weapon_breath",
+            "change": 80,
+            "operation": "set"
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "digs_dnd_origins:long_rest_blocks"
+        }
+    },
+    "breath_out": {
         "type": "origins:active_self",
         "entity_action": {
-            "type": "origins:raycast",
-            "distance": 0,
-            "block": true,
-            "entity": true,
-            "shape_type": "visual",
-            "fluid_handling": "any",
-            "bientity_action": {
-            "type": "origins:target_action",
-            "action": {
-                "type": "origins:set_on_fire",
-                "duration": 4
-            }
-        },
-            "before_action": {
-                "type": "origins:change_resource",
-                "resource": "*:*_fuel",
-                "change": -1
-            }
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:dragonborn/red/breath_weapon_breath",
+            "change": -1
         },
         "key": {
             "key": "key.origins.primary_active",
             "continuous": true
         }
     },
-    "ignite": {
+    "damage": {
         "type": "origins:target_action_on_hit",
         "entity_action": {
-            "type": "origins:set_on_fire",
-            "duration": 5
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:damage",
+                    "amount": 1,
+                    "source": {
+                        "name": "onFire",
+                        "fire": true,
+                        "bypasses_armor": false
+                    }
+                },
+                {
+                    "type": "origins:set_on_fire",
+                    "duration": 3
+                }
+            ]
         },
         "damage_condition": {
             "type": "origins:projectile",
