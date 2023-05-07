@@ -65,9 +65,32 @@
     "breath_out": {
         "type": "origins:active_self",
         "entity_action": {
-            "type": "origins:change_resource",
-            "resource": "digs_dnd_origins:dragonborn/blue/breath_weapon_breath",
-            "change": -1
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "digs_dnd_origins:dragonborn/blue/breath_weapon_breath",
+                    "change": -1
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.horse.breathe",
+                    "pitch": 1.3,
+                    "volume": 1.2
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.hurt_on_fire",
+                    "pitch": 1.9,
+                    "volume": 0.6
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.hurt_on_fire",
+                    "pitch": 1.7,
+                    "volume": 0.7
+                }
+            ]
         },
         "key": {
             "key": "key.origins.primary_active",
@@ -90,10 +113,11 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:slowness",
-                        "duration": 100,
+                        "effect": "digs_dnd_origins:stun",
+                        "duration": 30,
                         "amplifier": 1,
-                        "show_particles": false
+                        "show_particles": false,
+                        "show_icon": false
                     }
                 }
             ]

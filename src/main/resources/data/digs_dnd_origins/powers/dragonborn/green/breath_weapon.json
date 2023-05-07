@@ -109,7 +109,7 @@
                     "type": "origins:apply_effect",
                     "effect": {
                         "effect": "minecraft:poison",
-                        "duration": 100,
+                        "duration": 140,
                         "amplifier": 0,
                         "show_particles": false
                     }

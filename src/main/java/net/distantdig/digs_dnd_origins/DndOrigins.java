@@ -1,5 +1,6 @@
 package net.distantdig.digs_dnd_origins;
 
+import net.distantdig.digs_dnd_origins.effect.ModEffects;
 import net.distantdig.digs_dnd_origins.entity.ModEntities;
 import net.distantdig.digs_dnd_origins.entity.custom.ToyFrogEntity;
 import net.distantdig.digs_dnd_origins.entity.projectiles.BlueBreathEntity;
@@ -68,6 +69,7 @@ public class DndOrigins implements ModInitializer {
         ModParticles.registerGreenParticles();
         ModParticles.registerRedParticles();
         ModParticles.registerBlueParticles();
+        ModEffects.registerEffects();
         FabricDefaultAttributeRegistry.register(ModEntities.TOY_FROG, ToyFrogEntity.setAttributes());
 
 

@@ -101,9 +101,9 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:slowness",
-                        "duration": 100,
-                        "amplifier": 1,
+                        "effect": "digs_dnd_origins:freeze",
+                        "duration": 120,
+                        "amplifier": 0,
                         "show_particles": false
                     }
                 }

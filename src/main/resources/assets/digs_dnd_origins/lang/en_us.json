@@ -5,5 +5,7 @@
   "item.digs_dnd_origins.white_scale": "White Scale",
   "item.digs_dnd_origins.black_scale": "Black Scale",
   "item.digs_dnd_origins.horns": "Horns",
-  "item.digs_dnd_origins.toy_frog_spawn_egg": "Toy Frog"
+  "item.digs_dnd_origins.toy_frog_spawn_egg": "Toy Frog",
+  "affect.digs_dnd_origins.freeze": "Freezing",
+  "affect.digs_dnd_origins.stun": "Stunned"
 }

@@ -1,6 +1,6 @@
 {
 	"name": "Damage Resistance",
-	"description": "You take half as much damage from lightning strikes and slowness effects last half as long on you.",
+	"description": "You take half damage from lightning and slowness lasts half as long on you.",
 	"type": "origins:multiple",
 	"lightning": {
 		"type": "origins:modify_damage_taken",
@@ -24,7 +24,10 @@
 	},
 	"stun": {
 		"type": "origins:modify_status_effect_duration",
-		"status_effect": "minecraft:slowness",
+		"status_effects":[
+			"minecraft:slowness",
+			"digs_dnd_origins:stun"
+		],
 		"modifier": {
 			"operation": "multiply_base_multiplicative",
 			"value": -0.5

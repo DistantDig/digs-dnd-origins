@@ -91,7 +91,7 @@
                 },
                 {
                     "type": "origins:set_on_fire",
-                    "duration": 3
+                    "duration": 5
                 }
             ]
         },
