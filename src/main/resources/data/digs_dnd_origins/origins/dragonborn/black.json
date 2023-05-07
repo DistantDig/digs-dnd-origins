@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "digs_dnd_origins:dragonborn/black/ability_score_increase",
+    "digs_dnd_origins:dragonborn/black/size",
+    "digs_dnd_origins:dragonborn/black/breath_weapon",
+    "digs_dnd_origins:dragonborn/black/damage_resistance",
+    "digs_dnd_origins:dragonborn/black/humid_habitat",
+    "origins:more_exhaustion"
+  ],
+  "icon": "digs_dnd_origins:black_scale",
+  "order": 1,
+  "impact": 0,
+  "name": "Black",
+  "description": "Black dragonborns are descendants of the ancient black dragons, and as such some of their ancestor's abilities manifest in them."
+}

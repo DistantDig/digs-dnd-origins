@@ -1,5 +1,5 @@
 {
 	"name": "White Dragonborn",
-	"description": "White dragonborns are descended from white dragons, and like their ancestors they can spew out frost, are immune to freezing effects, and are most comfortable in colder biomes.",
+	"description": "White dragonborns are descended from white dragons, and like their ancestors they can spew out frost, are resistant to freezing effects, and are most comfortable in colder biomes.",
 	"type": "origins:simple"
 }

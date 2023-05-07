@@ -7,9 +7,11 @@
 				"origin": "digs_dnd_origins:dragonborn"
 			},
 			"origins": [
-				"digs_dnd_origins:dragonborn/red",
-				"digs_dnd_origins:dragonborn/green",
+				"digs_dnd_origins:dragonborn/black",
 				"digs_dnd_origins:dragonborn/blue",
+				"digs_dnd_origins:dragonborn/brass",
+				"digs_dnd_origins:dragonborn/green",
+				"digs_dnd_origins:dragonborn/red",
 				"digs_dnd_origins:dragonborn/white"
 			]
 		}

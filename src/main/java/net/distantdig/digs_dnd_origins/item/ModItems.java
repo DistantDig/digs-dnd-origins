@@ -22,6 +22,7 @@ public class ModItems {
     public static final Item GREEN_SCALE = registerItem("green_scale", new Item((new FabricItemSettings())));
     public static final Item WHITE_SCALE = registerItem("white_scale", new Item((new FabricItemSettings())));
     public static final Item BLACK_SCALE = registerItem("black_scale", new Item((new FabricItemSettings())));
+    public static final Item BRASS_SCALE = registerItem("brass_scale", new Item((new FabricItemSettings())));
     public static final Item HORNS = registerItem("horns", new HornsItem((new FabricItemSettings().maxCount(1))));
     public static final Item TOY_FROG_SPAWN_EGG = registerItem("toy_frog_spawn_egg",
             new SpawnEggItem(ModEntities.TOY_FROG, 0xD57E36, 0x1D0D00, new  FabricItemSettings()));
