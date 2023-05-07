@@ -4,7 +4,7 @@
 		"digs_dnd_origins:elf/description_wood",
 		"digs_dnd_origins:elf/description_dark"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:bow",
 	"order": 1,
 	"impact": 0,
 	"name": "Elf",

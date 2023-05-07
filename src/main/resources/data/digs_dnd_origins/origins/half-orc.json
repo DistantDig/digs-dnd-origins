@@ -6,7 +6,7 @@
         "digs_dnd_origins:half-orc/relentless_endurance",
         "digs_dnd_origins:half-orc/savage_attacks"
     ],
-    "icon": "minecraft:air",
+    "icon": "minecraft:goat_horn",
     "order": 2,
     "impact": 0,
     "name": "Half-Orc",

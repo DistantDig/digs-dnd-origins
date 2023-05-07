@@ -5,7 +5,7 @@
 		"digs_dnd_origins:gnome/deep/superior_darkvision",
 		"digs_dnd_origins:gnome/deep/stone_camoflage"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:recovery_compass",
 	"order": 1,
 	"impact": 0,
 	"name": "Deep Gnome",

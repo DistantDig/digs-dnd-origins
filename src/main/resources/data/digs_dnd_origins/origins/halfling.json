@@ -3,7 +3,7 @@
 		"digs_dnd_origins:halfling/description_lightfoot",
 		"digs_dnd_origins:halfling/description_stout"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:pumpkin_pie",
 	"order": 1,
 	"impact": 0,
 	"name": "Halfling",

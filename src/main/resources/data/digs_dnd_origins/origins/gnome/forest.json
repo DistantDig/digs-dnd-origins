@@ -5,7 +5,7 @@
 	    "digs_dnd_origins:gnome/forest/darkvision",
 		"digs_dnd_origins:gnome/forest/speak_with_small_beasts"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:dark_oak_sapling",
 	"order": 1,
 	"impact": 0,
 	"name": "Forest Gnome",

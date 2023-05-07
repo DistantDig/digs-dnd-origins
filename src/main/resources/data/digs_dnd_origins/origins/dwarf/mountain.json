@@ -7,7 +7,7 @@
 		"digs_dnd_origins:dwarf/mountain/dwarven_combat_training",
 		"digs_dnd_origins:dwarf/mountain/dwarven_armor_training"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:iron_pickaxe",
 	"order": 2,
 	"impact": 0,
 	"name": "Mountain Dwarf",

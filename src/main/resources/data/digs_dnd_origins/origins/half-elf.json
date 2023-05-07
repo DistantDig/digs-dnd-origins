@@ -3,7 +3,7 @@
     "digs_dnd_origins:half-elf/ability_score_increase",
     "digs_dnd_origins:half-elf/darkvision"
   ],
-  "icon": "minecraft:air",
+  "icon": "minecraft:globe_banner_pattern",
   "order": 2,
   "impact": 0,
   "name": "Half-Elf",

@@ -6,7 +6,7 @@
 		"digs_dnd_origins:halfling/stout/halfling_nimbleness",
 		"digs_dnd_origins:halfling/stout/stout_resilience"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:cooked_mutton",
 	"order": 1,
 	"impact": 0,
 	"name": "Stout Halfling",

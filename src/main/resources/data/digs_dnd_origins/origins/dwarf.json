@@ -3,7 +3,7 @@
 		"digs_dnd_origins:dwarf/description_hill",
 		"digs_dnd_origins:dwarf/description_mountain"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:iron_pickaxe",
 	"order": 1,
 	"impact": 0,
 	"name": "Dwarf",

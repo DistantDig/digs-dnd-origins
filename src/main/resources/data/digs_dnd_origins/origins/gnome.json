@@ -4,7 +4,7 @@
 		"digs_dnd_origins:gnome/description_forest",
 		"digs_dnd_origins:gnome/description_rock"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:spyglass",
 	"order": 1,
 	"impact": 0,
 	"name": "Gnome",

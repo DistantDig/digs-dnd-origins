@@ -7,7 +7,7 @@
 		"digs_dnd_origins:dwarf/hill/dwarven_combat_training",
 		"digs_dnd_origins:dwarf/hill/dwarven_toughness"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:iron_shovel",
 	"order": 1,
 	"impact": 0,
 	"name": "Hill Dwarf",

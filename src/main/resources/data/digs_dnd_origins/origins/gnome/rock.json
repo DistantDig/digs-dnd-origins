@@ -5,7 +5,7 @@
 	    "digs_dnd_origins:gnome/rock/darkvision",
 		"digs_dnd_origins:gnome/rock/tinker"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:spyglass",
 	"order": 1,
 	"impact": 0,
 	"name": "Rock Gnome",

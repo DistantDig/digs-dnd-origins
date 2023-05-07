@@ -8,7 +8,7 @@
     "digs_dnd_origins:tiefling/darkness",
     "digs_dnd_origins:tiefling/horns"
   ],
-  "icon": "minecraft:air",
+  "icon": "minecraft:fire_charge",
   "order": 2,
   "impact": 0,
   "name": "Tiefling",
