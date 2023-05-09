@@ -45,7 +45,6 @@ public class RedBreathEntity extends ThrownItemEntity {
 
     int t = 0;
     @Override
-    @Environment(EnvType.CLIENT)
     public void tick(){
         float h;
         super.tick();
@@ -96,7 +95,7 @@ public class RedBreathEntity extends ThrownItemEntity {
         if (t >= 20) { //the amount of ticks the projectile will stay alive
             if (!this.world.isClient) { // checks if the world is client
                 this.world.sendEntityStatus(this, (byte)3); // particle?
-                this.kill(); // kills the projectile
+                this.discard(); // kills the projectile
             }
         } else {
             t++;
