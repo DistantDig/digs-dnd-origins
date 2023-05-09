@@ -12,6 +12,6 @@ public class ModItemGroup {
     public static void registerItemGroups() {
         DND_ITEM_GROUP = FabricItemGroup.builder(new Identifier(DndOrigins.MOD_ID, "dnd_item_group"))
                 .displayName(Text.translatable("itemGroup.dndOrigins"))
-                .icon(() -> new ItemStack(ModItems.RED_SCALE)).build();
+                .icon(() -> new ItemStack(ModItems.BLACK_SCALE)).build();
     }
 }
