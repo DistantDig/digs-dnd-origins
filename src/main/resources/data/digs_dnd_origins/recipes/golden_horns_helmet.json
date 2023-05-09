@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_helmet"
+  },
+  "addition": {
+    "item": "digs_dnd_origins:horns"
+  },
+  "result": {
+    "item": "digs_dnd_origins:golden_horns_helmet"
+  }
+}

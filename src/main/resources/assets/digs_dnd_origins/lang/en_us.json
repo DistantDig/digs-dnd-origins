@@ -4,8 +4,19 @@
   "item.digs_dnd_origins.green_scale": "Green Scale",
   "item.digs_dnd_origins.white_scale": "White Scale",
   "item.digs_dnd_origins.black_scale": "Black Scale",
+  "item.digs_dnd_origins.brass_scale": "Brass Scale",
+
   "item.digs_dnd_origins.horns": "Horns",
+  "item.digs_dnd_origins.leather_horns_helmet": "Leather Horns Helmet",
+  "item.digs_dnd_origins.iron_horns_helmet": "Iron Horns Helmet",
+  "item.digs_dnd_origins.golden_horns_helmet": "Golden Horns Helmet",
+  "item.digs_dnd_origins.diamond_horns_helmet": "Diamond Horns Helmet",
+  "item.digs_dnd_origins.netherite_horns_helmet": "Netherite Horns Helmet",
+
   "item.digs_dnd_origins.toy_frog_spawn_egg": "Toy Frog",
+
+  "itemGroup.dndOrigins": "Dig's DnD Origins",
+
   "affect.digs_dnd_origins.freeze": "Freezing",
   "affect.digs_dnd_origins.stun": "Stunned"
 }

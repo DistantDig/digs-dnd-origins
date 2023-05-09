@@ -7,6 +7,7 @@ import net.distantdig.digs_dnd_origins.entity.projectiles.BlueBreathEntity;
 import net.distantdig.digs_dnd_origins.entity.projectiles.GreenBreathEntity;
 import net.distantdig.digs_dnd_origins.entity.projectiles.RedBreathEntity;
 import net.distantdig.digs_dnd_origins.entity.projectiles.WhiteBreathEntity;
+import net.distantdig.digs_dnd_origins.item.ModItemGroup;
 import net.distantdig.digs_dnd_origins.item.ModItems;
 import net.distantdig.digs_dnd_origins.particle.ModParticles;
 import net.fabricmc.api.ModInitializer;
@@ -30,7 +31,6 @@ public class DndOrigins implements ModInitializer {
     // That way, it's clear which mod wrote info, warnings, and errors.
     public static final String MOD_ID = "digs_dnd_origins";
     public static final Logger LOGGER = LoggerFactory.getLogger("digs_dnd_origins");
-    public static final DefaultParticleType FALLING_GREEN_WATER = FabricParticleTypes.simple();
     public static final EntityType<RedBreathEntity> RedBreathEntityType = Registry.register(
             Registries.ENTITY_TYPE,
             new Identifier(MOD_ID, "red_breath"),
@@ -65,11 +65,16 @@ public class DndOrigins implements ModInitializer {
         // However, some things (like resources) may still be uninitialized.
         // Proceed with mild caution.
 
+        ModItemGroup.registerItemGroups();
         ModItems.registerModItems();
+        ModItems.addItemsToItemGroup();
+
         ModParticles.registerGreenParticles();
         ModParticles.registerRedParticles();
         ModParticles.registerBlueParticles();
+
         ModEffects.registerEffects();
+
         FabricDefaultAttributeRegistry.register(ModEntities.TOY_FROG, ToyFrogEntity.setAttributes());
 
 
