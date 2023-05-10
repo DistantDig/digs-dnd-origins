@@ -1,0 +1,29 @@
+{
+  "hidden": true,
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "digs_dnd_origins:green_scale",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 2,
+        "action": {
+          "type": "origins:drop_inventory"
+        }
+      }
+    ]
+  },
+  "cooldown": 20,
+  "condition": {
+    "type": "origins:health",
+    "comparison": "<=",
+    "compare_to": 0
+  }
+}

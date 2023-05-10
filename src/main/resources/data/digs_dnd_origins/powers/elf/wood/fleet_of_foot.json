@@ -1,6 +1,6 @@
 {
 	"name": "Fleet of Foot",
-	"description": "You are 10% faster than a human.",
+	"description": "Your base walking speed is 10% faster.",
 	"type": "origins:attribute",
 	"modifier": {
 		"attribute": "minecraft:generic.movement_speed",

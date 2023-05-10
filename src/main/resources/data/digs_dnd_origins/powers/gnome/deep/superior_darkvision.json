@@ -1,6 +1,6 @@
 {
     "name": "Superior Darkvision",
-	"description": "You can see in the dark.",
+	"description": "Accustomed to the Underdark, your vision is superior even to those with normal darkvision.",
 	"type": "origins:night_vision",
 	"strength": 1.0
 }

@@ -1,5 +1,5 @@
 {
   "name": "Drow Magic",
-  "description": "You can cast the faerie fire and darkness spells once each with this ability. You regain the ability to do so once you take a long rest in a bed. These spells both require concentration and cannot be active at the same time.",
+  "description": "You can cast the faerie fire and darkness spells each once a day with this ability. You regain the ability to do so once you take a long rest. These spells both require concentration and cannot be active at the same time.",
   "type": "origins:simple"
 }

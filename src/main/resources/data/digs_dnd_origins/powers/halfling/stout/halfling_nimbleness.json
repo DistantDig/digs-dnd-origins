@@ -1,6 +1,6 @@
 {
 	"name": "Halfling Nimbleness",
-	"description": "You don't have entity collision with entities larger than you.",
+	"description": "You can move through the space of any creature that is a size larger than you without being slowed down.",
 	"type": "origins:multiple",
 	
 	"toggle": {
