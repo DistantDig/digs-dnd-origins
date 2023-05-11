@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:elf/high/cantrips/lightning_lure"
+	],
+	"icon": "minecraft:enchanted_book",
+	"order": 1,
+	"impact": 0,
+	"name": "Lightning Lure",
+	"description": "You create a lash of lightning energy that strikes at one creature you're aiming at."
+}

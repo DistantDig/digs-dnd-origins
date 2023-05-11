@@ -1,0 +1,19 @@
+{
+	"origins": [
+		{
+			"condition": {
+				"type": "origins:origin",
+				"layer": "origins:elf",
+				"origin": "digs_dnd_origins:elf/high"
+			},
+			"origins": [
+				"digs_dnd_origins:elf/cantrips/firebolt",
+				"digs_dnd_origins:elf/cantrips/poison_spray",
+				"digs_dnd_origins:elf/cantrips/ray_of_frost",
+				"digs_dnd_origins:elf/cantrips/lightning_lure"
+			]
+		}
+	],
+	"order": 2,
+	"name": "Cantrip"
+}

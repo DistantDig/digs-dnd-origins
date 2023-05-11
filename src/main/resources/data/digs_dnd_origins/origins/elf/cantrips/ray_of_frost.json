@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:elf/high/cantrips/ray_of_frost"
+	],
+	"icon": "minecraft:enchanted_book",
+	"order": 1,
+	"impact": 0,
+	"name": "Ray of Frost",
+	"description": "A frigid beam of blue-white light streaks toward a creature within range."
+}
