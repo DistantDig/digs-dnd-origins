@@ -1,0 +1,15 @@
+{
+  "hidden": true,
+  "type": "origins:modify_food",
+  "item_condition": {
+    "type": "origins:food"
+  },
+  "food_modifier": {
+    "operation": "addition",
+    "value": 2.0
+  },
+  "saturation_modifier": {
+    "operation": "addition",
+    "value": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/animal_handling"
+	],
+	"icon": "minecraft:carrot",
+	"order": 1,
+	"impact": 0,
+	"name": "Animal Handling",
+	"description": "You deal no damage to animals tamed by you."
+}

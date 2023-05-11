@@ -1,0 +1,5 @@
+{
+  "hidden": true,
+  "type": "origins:prevent_game_event",
+  "tag": "digs_dnd_origins:stealth_skill"
+}

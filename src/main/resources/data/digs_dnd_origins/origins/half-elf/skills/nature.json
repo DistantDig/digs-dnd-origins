@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/nature"
+	],
+	"icon": "minecraft:wheat",
+	"order": 1,
+	"impact": 0,
+	"name": "Nature",
+	"description": "When using bonemeal on crops, the bonemeal affect is applied twice."
+}

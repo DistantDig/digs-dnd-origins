@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/slight_of_hand"
+	],
+	"icon": "minecraft:gray_dye",
+	"order": 1,
+	"impact": 0,
+	"name": "Slight of Hand",
+	"description": "Most of your actions do not trigger sculk sensors."
+}

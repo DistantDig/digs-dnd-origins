@@ -1,0 +1,8 @@
+{
+  "hidden": true,
+  "type": "origins:modify_healing",
+  "modifier": {
+    "operation": "multiply_total",
+    "value": 0.5
+  }
+}

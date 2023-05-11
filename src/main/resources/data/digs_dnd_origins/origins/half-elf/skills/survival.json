@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "digs_dnd_origins:half-elf/skills/survival"
+  ],
+  "icon": "minecraft:poisonous_potato",
+  "order": 1,
+  "impact": 0,
+  "name": "Survival",
+  "description": "You gain an additional hunger bar for each item you eat."
+}
