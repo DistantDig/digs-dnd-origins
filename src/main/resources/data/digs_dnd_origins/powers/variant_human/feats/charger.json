@@ -1,0 +1,66 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+
+  "knockback": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:add_velocity",
+      "z": 1.75
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sprinting"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:empty"
+          }
+        }
+      ]
+    },
+    "cooldown": 120,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+      "bar_index": 9
+    }
+  },
+  "damage": {
+    "type": "origins:modify_damage_dealt",
+    "self_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "digs_dnd_origins:variant_human/feats/charger_knockback"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sprinting"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:empty",
+            "inverted": true
+          }
+        },
+        {
+          "type": "origins:resource",
+          "resource": "digs_dnd_origins:variant_human/feats/charger_knockback",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 4.0
+    }
+  }
+}

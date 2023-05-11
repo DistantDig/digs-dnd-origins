@@ -1,0 +1,16 @@
+{
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "layer": "origins:origin",
+        "origin": "digs_dnd_origins:variant_human"
+      },
+      "origins": [
+        "digs_dnd_origins:variant_human/feats/charger"
+      ]
+    }
+  ],
+  "order": 3,
+  "name": "Skills"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Skills",
+  "description": "You gain proficiency in one skill of your choice. You will select your skill upon selecting this race.",
+  "type": "origins:simple"
+}

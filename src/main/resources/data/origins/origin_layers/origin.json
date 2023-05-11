@@ -4,6 +4,7 @@
 	"origins": [
 		"origins:human",
 
+		"digs_dnd_origins:variant_human",
 		"digs_dnd_origins:dragonborn",
 		"digs_dnd_origins:dwarf",
 		"digs_dnd_origins:elf",

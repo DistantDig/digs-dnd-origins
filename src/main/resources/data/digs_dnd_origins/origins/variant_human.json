@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "digs_dnd_origins:variant_human/feat",
+    "digs_dnd_origins:variant_human/skills"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 0,
+  "name": "Variant Human",
+  "description": ""
+}

@@ -12,7 +12,7 @@
 					{
 						"type": "origins:origin",
 						"layer": "origins:origin",
-						"origin": "origins:human"
+						"origin": "digs_dnd_origins:variant_human"
 					}
 				]
 			},
