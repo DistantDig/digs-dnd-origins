@@ -5,7 +5,8 @@
 		"digs_dnd_origins:dwarf/mountain/darkvision",
 		"digs_dnd_origins:dwarf/mountain/dwarven_resilience",
 		"digs_dnd_origins:dwarf/mountain/dwarven_combat_training",
-		"digs_dnd_origins:dwarf/mountain/dwarven_armor_training"
+		"digs_dnd_origins:dwarf/mountain/dwarven_armor_training",
+		"digs_dnd_origins:dwarf/hill/tool_proficiency"
 	],
 	"icon": "minecraft:iron_pickaxe",
 	"order": 2,

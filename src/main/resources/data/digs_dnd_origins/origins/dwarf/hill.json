@@ -5,7 +5,8 @@
 		"digs_dnd_origins:dwarf/hill/darkvision",
 		"digs_dnd_origins:dwarf/hill/dwarven_resilience",
 		"digs_dnd_origins:dwarf/hill/dwarven_combat_training",
-		"digs_dnd_origins:dwarf/hill/dwarven_toughness"
+		"digs_dnd_origins:dwarf/hill/dwarven_toughness",
+		"digs_dnd_origins:dwarf/hill/tool_proficiency"
 	],
 	"icon": "minecraft:iron_shovel",
 	"order": 1,

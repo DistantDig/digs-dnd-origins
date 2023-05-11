@@ -1,0 +1,26 @@
+{
+  "name": "Tool Proficiency",
+  "description": "You gain proficiency with mason's tools, you can mine any ore with a stone pickaxe or greater.",
+  "type": "origins:multiple",
+
+  "wood_pick": {
+    "type": "origins:modify_harvest",
+    "block_condition": {
+      "type": "origins:material",
+      "materials": [
+        "stone",
+        "metal"
+      ]
+    },
+    "allow": true,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:harvest_level",
+        "comparison": ">=",
+        "compare_to": 1
+      }
+    }
+  }
+}
