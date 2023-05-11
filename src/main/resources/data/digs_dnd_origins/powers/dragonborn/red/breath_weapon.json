@@ -46,8 +46,16 @@
             "change": 1
         },
         "condition": {
-            "type": "origins:sprinting",
-            "inverted": true
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sprinting",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:on_block"
+                }
+            ]
         }
     },
     "long_rest": {
