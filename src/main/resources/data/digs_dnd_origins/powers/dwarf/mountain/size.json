@@ -1,6 +1,6 @@
 {
 	"name": "Size",
-	"description": "You are half as tall as a human. You also 40% less health and deal 0.5 less damage. Your size is medium.",
+	"description": "You are half as tall as a human. You also 40% less health points and deal 0.5 less damage. Your size is medium.",
 	"type": "origins:multiple",
 	"size": {
 		"type": "origins:action_on_callback",
