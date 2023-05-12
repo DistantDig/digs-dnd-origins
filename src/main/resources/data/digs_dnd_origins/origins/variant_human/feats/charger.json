@@ -2,7 +2,7 @@
 	"powers": [
 		"digs_dnd_origins:variant_human/feats/charger"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:goat_horn",
 	"order": 1,
 	"impact": 0,
 	"name": "Charger",

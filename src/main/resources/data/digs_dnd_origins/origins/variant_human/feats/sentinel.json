@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/sentinel"
+	],
+	"icon": "minecraft:shield",
+	"order": 1,
+	"impact": 0,
+	"name": "Sentinel",
+	"description": "When you hit a creature who is facing away from you, either for running away or attacking and ally, the target will be stunned for 6 seconds. This ability has a 6 second cooldown and does not work on other sentinels."
+}

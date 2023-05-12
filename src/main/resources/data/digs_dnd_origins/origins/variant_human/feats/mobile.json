@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/mobile"
+	],
+	"icon": "minecraft:golden_boots",
+	"order": 1,
+	"impact": 0,
+	"name": "Mobile",
+	"description": "Your speed increases by 20%."
+}

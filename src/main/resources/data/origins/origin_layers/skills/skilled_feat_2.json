@@ -11,8 +11,8 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:origin",
-            "origin": "digs_dnd_origins:half-elf"
+            "layer": "origins:feats/variant_human_feats",
+            "origin": "digs_dnd_origins:variant_human/feats/skilled"
           }
         ]
       },
@@ -31,8 +31,7 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:origin",
-            "origin": "digs_dnd_origins:half-elf"
+            "origin": "digs_dnd_origins:variant_human/feats/skilled"
           }
         ]
       },
@@ -51,8 +50,8 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:origin",
-            "origin": "digs_dnd_origins:half-elf"
+            "layer": "origins:feats/variant_human_feats",
+            "origin": "digs_dnd_origins:variant_human/feats/skilled"
           }
         ]
       },
@@ -71,8 +70,8 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:origin",
-            "origin": "digs_dnd_origins:half-elf"
+            "layer": "origins:feats/variant_human_feats",
+            "origin": "digs_dnd_origins:variant_human/feats/skilled"
           }
         ]
       },
@@ -91,8 +90,8 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:origin",
-            "origin": "digs_dnd_origins:half-elf"
+            "layer": "origins:feats/variant_human_feats",
+            "origin": "digs_dnd_origins:variant_human/feats/skilled"
           }
         ]
       },
@@ -111,8 +110,8 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:origin",
-            "origin": "digs_dnd_origins:half-elf"
+            "layer": "origins:feats/variant_human_feats",
+            "origin": "digs_dnd_origins:variant_human/feats/skilled"
           }
         ]
       },
@@ -131,8 +130,8 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:origin",
-            "origin": "digs_dnd_origins:half-elf"
+            "layer": "origins:feats/variant_human_feats",
+            "origin": "digs_dnd_origins:variant_human/feats/skilled"
           }
         ]
       },
@@ -151,8 +150,8 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:origin",
-            "origin": "digs_dnd_origins:half-elf"
+            "layer": "origins:feats/variant_human_feats",
+            "origin": "digs_dnd_origins:variant_human/feats/skilled"
           }
         ]
       },
@@ -161,6 +160,6 @@
       ]
     }
   ],
-  "order": 3,
-  "name": "Skill Versatility"
+  "order": 4,
+  "name": "Skilled"
 }

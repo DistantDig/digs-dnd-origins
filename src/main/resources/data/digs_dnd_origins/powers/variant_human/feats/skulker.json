@@ -1,0 +1,18 @@
+{
+  "hidden": true,
+  "type": "origins:invisibility",
+  "render_armor": true,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:brightness",
+        "comparison": "<=",
+        "compare_to": 0.2
+      },
+      {
+        "type": "origins:sneaking"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "hidden": true,
+  "type": "origins:action_on_hit",
+  "bientity_action": {
+    "type": "origins:target_action",
+    "action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "digs_dnd_origins:stun",
+        "duration": 120,
+        "amplifier": 0
+      }
+    }
+  },
+  "bientity_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:relative_rotation",
+        "actor_rotation": "head",
+        "target_rotation": "body",
+        "comparison": ">=",
+        "compare_to": 0.0
+      },
+      {
+        "type": "origins:target_condition",
+        "condition": {
+          "type": "origins:origin",
+          "layer": "origins:feats/variant_human_feats",
+          "origin": "digs_dnd_origins:variant_human/feats/sentinel",
+          "inverted": true
+        }
+      }
+    ]
+  },
+  "cooldown": 120,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 9
+  }
+}

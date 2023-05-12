@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/heavily_armored"
+	],
+	"icon": "minecraft:netherite_chestplate",
+	"order": 1,
+	"impact": 0,
+	"name": "Heavily Armored",
+	"description": "You have trained to master the use of heavy armor. You gain proficiency with heavy armor, giving you +2 to your armor toughness while a full set of diamond or stronger is equipped."
+}

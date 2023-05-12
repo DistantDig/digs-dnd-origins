@@ -2,7 +2,7 @@
 	"powers": [
 		"digs_dnd_origins:half-elf/skills/athletics"
 	],
-	"icon": "minecraft:sword",
+	"icon": "minecraft:iron_sword",
 	"order": 1,
 	"impact": 0,
 	"name": "Athletics",

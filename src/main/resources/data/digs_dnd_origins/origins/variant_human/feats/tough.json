@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/tough"
+	],
+	"icon": "minecraft:netherite_ingot",
+	"order": 1,
+	"impact": 0,
+	"name": "Tough",
+	"description": "Your hit point maximum increases by 20%."
+}
