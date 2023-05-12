@@ -34,15 +34,7 @@ public class RedBreathParticle extends SpriteBillboardParticle {
     }
     @Override
     public int getBrightness(float tint) {
-        float f = ((float)this.age + tint) / (float)this.maxAge;
-        f = MathHelper.clamp(f, 0.0f, 1.0f);
-        int i = super.getBrightness(tint);
-        int j = i & 0xFF;
-        int k = i >> 16 & 0xFF;
-        if ((j += (int)(f * 15.0f * 16.0f)) > 240) {
-            j = 240;
-        }
-        return j | k << 16;
+        return 240;
     }
 
     @Override
@@ -56,6 +48,7 @@ public class RedBreathParticle extends SpriteBillboardParticle {
     @Override
     public void tick() {
         super.tick();
+        this.green = (float)(1 - (this.age * 0.025 + 0.35));
         if (!this.dead) {
             double d;
             this.setSpriteForAge(this.sprites);
