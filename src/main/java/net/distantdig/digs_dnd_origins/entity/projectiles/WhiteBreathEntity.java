@@ -44,7 +44,6 @@ public class WhiteBreathEntity extends ThrownItemEntity {
 
     int t = 0;
     @Override
-    @Environment(EnvType.CLIENT)
     public void tick(){
         float h;
         super.tick();
