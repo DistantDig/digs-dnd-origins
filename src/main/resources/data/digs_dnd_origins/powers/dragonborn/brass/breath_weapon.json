@@ -1,6 +1,6 @@
 {
     "name": "Breath Weapon",
-    "description": "You can breath out flames before you in a line, burning your enemies. You regain the ability to do so after a short or long rest.",
+    "description": "You can breathe out flames before you in a line, burning your enemies. You regain the ability to do so after a short or long rest.",
     "type": "origins:multiple",
     
     "flames": {

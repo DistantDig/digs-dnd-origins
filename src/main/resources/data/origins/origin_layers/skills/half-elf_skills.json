@@ -106,7 +106,7 @@
         "conditions": [
           {
             "type": "origins:origin",
-            "origin": "digs_dnd_origins:half-elf/skills/slight_of_hand",
+            "origin": "digs_dnd_origins:half-elf/skills/sleight_of_hand",
             "inverted": true
           },
           {
@@ -117,7 +117,7 @@
         ]
       },
       "origins": [
-        "digs_dnd_origins:half-elf/skills/slight_of_hand"
+        "digs_dnd_origins:half-elf/skills/sleight_of_hand"
       ]
     },
     {
