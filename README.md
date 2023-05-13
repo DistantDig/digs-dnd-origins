@@ -1,2 +1,2 @@
-# digs-dnd-origins-1.19.3
+# digs-dnd-origins
 Races inspired by the popular tabletop game of Dungeons and Dragons!
