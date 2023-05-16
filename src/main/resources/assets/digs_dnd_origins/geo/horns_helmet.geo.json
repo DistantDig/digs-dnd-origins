@@ -16,6 +16,11 @@
 					"pivot": [0, 24, 0]
 				},
 				{
+					"name": "unused",
+					"parent": "bipedHead",
+					"pivot": [0, 0, 0]
+				},
+				{
 					"name": "armorHead",
 					"parent": "bipedHead",
 					"pivot": [0, 24, 0],

@@ -3,9 +3,9 @@ package net.distantdig.digs_dnd_origins.client;
 import net.distantdig.digs_dnd_origins.DndOrigins;
 import net.distantdig.digs_dnd_origins.entity.custom.ToyFrogEntity;
 import net.minecraft.util.Identifier;
-import software.bernie.geckolib.model.GeoModel;
+import software.bernie.geckolib3.model.AnimatedGeoModel;
 
-public class ToyFrogModel extends GeoModel<ToyFrogEntity> {
+public class ToyFrogModel extends AnimatedGeoModel<ToyFrogEntity> {
     @Override
     public Identifier getModelResource(ToyFrogEntity animatable) {
         return new Identifier(DndOrigins.MOD_ID, "geo/toy_frog.geo.json");

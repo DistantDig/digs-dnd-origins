@@ -15,7 +15,7 @@
 
   "item.digs_dnd_origins.toy_frog_spawn_egg": "Toy Frog",
 
-  "itemGroup.dndOrigins": "Dig's DnD Origins",
+  "itemGroup.digs_dnd_origins:dnd_item_group": "Dig's DnD Origins",
 
   "affect.digs_dnd_origins.freeze": "Freezing",
   "affect.digs_dnd_origins.stun": "Stunned"
