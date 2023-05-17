@@ -22,7 +22,7 @@
 			"net.distantdig.digs_dnd_origins.DndOriginsClient"
 		],
 		"fabric-datagen": [
-			"net.distantdig.digs_dnd_origins.DndOriginsDataGenerator"
+			"net.distantdig.digs_dnd_origins.datagen.ModDataGeneration"
 		]
 	},
 	"mixins": [
