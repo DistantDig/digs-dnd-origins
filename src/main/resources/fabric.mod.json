@@ -38,6 +38,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"geckolib": "4.0.6"
 	}
 }
