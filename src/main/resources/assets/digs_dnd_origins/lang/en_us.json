@@ -22,6 +22,6 @@
   "entity.digs_dnd_origins.red_breath": "Fire Breath",
   "entity.digs_dnd_origins.white_breath": "Ice Breath",
 
-  "affect.digs_dnd_origins.freeze": "Freezing",
-  "affect.digs_dnd_origins.stun": "Stunned"
+  "effect.digs_dnd_origins.freeze": "Freezing",
+  "effect.digs_dnd_origins.stun": "Stunned"
 }
