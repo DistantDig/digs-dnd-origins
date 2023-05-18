@@ -24,7 +24,7 @@
             "type": "origins:resource",
             "resource": "digs_dnd_origins:dragonborn/brass/breath_weapon_breath",
             "comparison": ">",
-            "compare_to": 0
+            "compare_to": 1
         }
     },
     "breath": {

@@ -9,8 +9,8 @@
     "digs_dnd_origins:tiefling/horns"
   ],
   "icon": "minecraft:fire_charge",
-  "order": 2,
-  "impact": 0,
+  "order": 0,
+  "impact": 1,
   "name": "Tiefling",
   "description": "Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance."
 }

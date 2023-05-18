@@ -7,7 +7,7 @@
 	],
 	"icon": "minecraft:spyglass",
 	"order": 1,
-	"impact": 0,
+	"impact": 2,
 	"name": "Rock Gnome",
 	"description": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes."
 }

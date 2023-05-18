@@ -7,8 +7,8 @@
         "digs_dnd_origins:half-orc/savage_attacks"
     ],
     "icon": "minecraft:goat_horn",
-    "order": 2,
-    "impact": 0,
+    "order": 0,
+    "impact": 1,
     "name": "Half-Orc",
     "description": "Half-orcs’ grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see."
 }
