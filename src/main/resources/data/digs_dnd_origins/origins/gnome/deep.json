@@ -7,7 +7,7 @@
 	],
 	"icon": "minecraft:recovery_compass",
 	"order": 1,
-	"impact": 0,
+	"impact": 2,
 	"name": "Deep Gnome",
 	"description": "Guarded, and suspicious of outsiders, svirfneblin are cunning and taciturn, but can be just as kind-hearted, loyal, and compassionate as their surface cousins."
 }

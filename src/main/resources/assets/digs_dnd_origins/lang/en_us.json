@@ -17,6 +17,11 @@
 
   "itemGroup.digs_dnd_origins.dnd_item_group": "Dig's DnD Origins",
 
+  "entity.digs_dnd_origins.blue_breath": "Lightning Breath",
+  "entity.digs_dnd_origins.green_breath": "Poison Breath",
+  "entity.digs_dnd_origins.red_breath": "Fire Breath",
+  "entity.digs_dnd_origins.white_breath": "Ice Breath",
+
   "affect.digs_dnd_origins.freeze": "Freezing",
   "affect.digs_dnd_origins.stun": "Stunned"
 }

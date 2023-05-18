@@ -4,8 +4,8 @@
     "digs_dnd_origins:half-elf/darkvision"
   ],
   "icon": "minecraft:globe_banner_pattern",
-  "order": 2,
-  "impact": 0,
+  "order": 0,
+  "impact": 1,
   "name": "Half-Elf",
   "description": "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf an human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves."
 }

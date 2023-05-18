@@ -5,8 +5,8 @@
 		"digs_dnd_origins:elf/description_dark"
 	],
 	"icon": "minecraft:bow",
-	"order": 1,
-	"impact": 0,
+	"order": 0,
+	"impact": 1,
 	"name": "Elf",
 	"description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. You will pick a sub race if you pick this race."
 }
