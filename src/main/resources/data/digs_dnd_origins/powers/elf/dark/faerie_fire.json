@@ -203,10 +203,6 @@
           "operation": "set"
         }
       ]
-    },
-    "block_condition": {
-      "type": "origins:in_tag",
-      "tag": "digs_dnd_origins:long_rest_blocks"
     }
   }
 }

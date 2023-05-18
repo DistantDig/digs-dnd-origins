@@ -65,10 +65,6 @@
             "resource": "digs_dnd_origins:dragonborn/white/breath_weapon_breath",
             "change": 80,
             "operation": "set"
-        },
-        "block_condition": {
-            "type": "origins:in_tag",
-            "tag": "digs_dnd_origins:long_rest_blocks"
         }
     },
     "breath_out": {

@@ -4,7 +4,8 @@
         "digs_dnd_origins:half-orc/darkvision",
         "digs_dnd_origins:half-orc/menacing",
         "digs_dnd_origins:half-orc/relentless_endurance",
-        "digs_dnd_origins:half-orc/savage_attacks"
+        "digs_dnd_origins:half-orc/savage_attacks",
+        "origins:more_exhaustion"
     ],
     "icon": "minecraft:goat_horn",
     "order": 0,

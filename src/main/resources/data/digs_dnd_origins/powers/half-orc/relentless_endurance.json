@@ -42,16 +42,12 @@
         },
         "start_value": 1
     },
-    "sleep_to_rest": {
+    "long_rest": {
         "type": "origins:action_on_wake_up",
         "entity_action": {
             "type": "origins:change_resource",
             "resource": "digs_dnd_origins:half-orc/relentless_endurance_rested",
             "change": 1
-        },
-        "block_condition": {
-            "type": "origins:in_tag",
-            "tag": "digs_dnd_origins:long_rest_blocks"
         }
     }
 }

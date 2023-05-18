@@ -22,24 +22,6 @@ public class BlockTagGenerator extends FabricTagProvider {
     private static final TagKey<Block> STONE_CAMOUFLAGE_BLOCKS = TagKey.of(Registries.BLOCK.getKey(), new Identifier("digs_dnd_origins", "stone_camouflage_blocks"));
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        getOrCreateTagBuilder(LONG_REST_BLOCKS)
-                .add(Blocks.BLACK_BED)
-                .add(Blocks.WHITE_BED)
-                .add(Blocks.RED_BED)
-                .add(Blocks.BLUE_BED)
-                .add(Blocks.GREEN_BED)
-                .add(Blocks.LIGHT_BLUE_BED)
-                .add(Blocks.LIME_BED)
-                .add(Blocks.GRAY_BED)
-                .add(Blocks.LIGHT_GRAY_BED)
-                .add(Blocks.CYAN_BED)
-                .add(Blocks.ORANGE_BED)
-                .add(Blocks.YELLOW_BED)
-                .add(Blocks.MAGENTA_BED)
-                .add(Blocks.PURPLE_BED)
-                .add(Blocks.PINK_BED)
-                .add(Blocks.BROWN_BED);
-
         getOrCreateTagBuilder(MASK_OF_THE_WILD_BLOCKS)
                 .add(Blocks.ACACIA_LEAVES)
                 .add(Blocks.AZALEA_LEAVES)
