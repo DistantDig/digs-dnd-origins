@@ -15,7 +15,14 @@
         "type": "origins:delay",
         "ticks": 2,
         "action": {
-          "type": "origins:drop_inventory"
+          "type": "origins:drop_inventory",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "digs_dnd_origins:brass_scale"
+            },
+            "throw_randomly": true
+          }
         }
       }
     ]
