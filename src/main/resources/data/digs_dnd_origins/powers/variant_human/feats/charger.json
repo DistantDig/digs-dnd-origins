@@ -6,7 +6,7 @@
     "type": "origins:action_on_hit",
     "bientity_action": {
       "type": "origins:add_velocity",
-      "z": 1.75
+      "z": 1.4
     },
     "condition": {
       "type": "origins:and",
@@ -61,6 +61,15 @@
     "modifier": {
       "operation": "addition",
       "value": 4.0
+    }
+  },
+  "no_sprint": {
+    "type": "origins:prevent_sprinting",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "digs_dnd_origins:variant_human/feats/charger_knockback",
+      "comparison": ">",
+      "compare_to": 0
     }
   }
 }

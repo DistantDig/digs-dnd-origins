@@ -1,7 +1,9 @@
 {
   "powers": [
     "digs_dnd_origins:half-elf/ability_score_increase",
-    "digs_dnd_origins:half-elf/darkvision"
+    "digs_dnd_origins:half-elf/size",
+    "digs_dnd_origins:half-elf/darkvision",
+    "digs_dnd_origins:half-elf/skill_versatility"
   ],
   "icon": "minecraft:globe_banner_pattern",
   "order": 0,

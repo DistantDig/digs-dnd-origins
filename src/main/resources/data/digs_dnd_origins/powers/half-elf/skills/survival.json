@@ -1,15 +1,42 @@
 {
   "hidden": true,
-  "type": "origins:modify_food",
-  "item_condition": {
-    "type": "origins:food"
+  "type": "origins:multiple",
+
+  "no_skilled_feat": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:food"
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": 2.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": 1
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled",
+      "inverted": true
+    }
   },
-  "food_modifier": {
-    "operation": "addition",
-    "value": 2.0
-  },
-  "saturation_modifier": {
-    "operation": "addition",
-    "value": 1
+  "skilled_feat": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:food"
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": 1.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": 0.5
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled"
+    }
   }
 }

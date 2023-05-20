@@ -1,20 +1,56 @@
 {
   "hidden": true,
-  "type": "origins:action_on_block_use",
-  "block_action": {
-    "type": "origins:bonemeal"
+  "type": "origins:multiple",
+
+  "no_skilled_feat": {
+    "type": "origins:action_on_block_use",
+    "block_action": {
+      "type": "origins:bonemeal"
+    },
+    "block_condition": {
+      "type": "origins:block_state",
+      "property": "age"
+    },
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:bone_meal",
+        "hands": [
+          "main_hand"
+        ]
+      }
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled",
+      "inverted": true
+    }
   },
-  "block_condition": {
-    "type": "origins:block_state",
-    "property": "age"
-  },
-  "item_condition": {
-    "type": "origins:ingredient",
-    "ingredient": {
-      "item": "minecraft:bone_meal",
-      "hands": [
-        "main_hand"
-      ]
+  "skilled_feat": {
+    "type": "origins:action_on_block_use",
+    "block_action": {
+      "type": "origins:chance",
+      "action": {
+        "type": "origins:bonemeal"
+      },
+      "chance": 0.5
+    },
+    "block_condition": {
+      "type": "origins:block_state",
+      "property": "age"
+    },
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:bone_meal",
+        "hands": [
+          "main_hand"
+        ]
+      }
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled"
     }
   }
 }

@@ -1,11 +1,18 @@
 {
   "hidden": true,
   "type": "origins:conditioned_attribute",
-  "modifier": {
-    "attribute": "minecraft:generic.armor_toughness",
-    "operation": "addition",
-    "value": 2.0
-  },
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "operation": "addition",
+      "value": 2.0
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "value": -0.07
+    }
+  ],
   "tick_rate": 20,
   "condition": {
     "type": "origins:and",
