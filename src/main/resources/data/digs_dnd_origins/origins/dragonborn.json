@@ -1,6 +1,8 @@
 {
 	"powers": [
+		"digs_dnd_origins:dragonborn/description_black",
 		"digs_dnd_origins:dragonborn/description_blue",
+		"digs_dnd_origins:dragonborn/description_brass",
 		"digs_dnd_origins:dragonborn/description_green",
 		"digs_dnd_origins:dragonborn/description_red",
 		"digs_dnd_origins:dragonborn/description_white"

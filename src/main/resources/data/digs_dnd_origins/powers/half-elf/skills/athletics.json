@@ -2,20 +2,52 @@
   "hidden": true,
   "type": "origins:multiple",
 
-  "resist": {
+  "no_skilled_feat_resist": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "addition",
+      "value": 0.2
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled",
+      "inverted": true
+    }
+  },
+  "no_skilled_feat_inflict": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:add_velocity",
+      "z": 0.5
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled",
+      "inverted": true
+    }
+  },
+  "skilled_feat_resist": {
     "type": "origins:attribute",
     "modifier": {
       "attribute": "minecraft:generic.knockback_resistance",
       "operation": "addition",
       "value": 0.1
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled"
     }
   },
-  "inflict": {
-    "type": "origins:attribute",
-    "modifier": {
-      "attribute": "minecraft:generic.attack_knockback",
-      "operation": "addition",
-      "value": 0.1
+  "skilled_feat_inflict": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:add_velocity",
+      "z": 0.25
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled"
     }
   }
 }

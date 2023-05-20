@@ -1,10 +1,21 @@
 {
 	"hidden": true,
-	"type": "origins:attribute",
-	"modifier": {
-		"attribute": "minecraft:generic.max_health",
-		"value": 0.2,
-		"operation": "multiply_base",
-		"update_health": true
+	"type": "origins:multiple",
+
+	"health": {
+		"type": "origins:attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.max_health",
+			"value": 0.2,
+			"operation": "multiply_base",
+			"update_health": true
+		}
+	},
+	"damage_dealt": {
+		"type": "origins:modify_projectile_damage",
+		"modifier": {
+			"operation": "multiply_base_additive",
+			"value": -0.3
+		}
 	}
 }

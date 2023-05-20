@@ -1,0 +1,12 @@
+{
+    "name": "Feared",
+    "description": "Your infernal ancestry is feared by most. Villagers are too afraid of you to trade.",
+    "type": "origins:prevent_entity_use",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:villager"
+        }
+    }
+}

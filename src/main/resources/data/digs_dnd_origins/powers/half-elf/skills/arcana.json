@@ -1,8 +1,28 @@
 {
   "hidden": true,
-  "type": "origins:modify_xp_gain",
-  "modifier": {
-    "operation": "multiply_base",
-    "value": 0.2
+  "type": "origins:multiple",
+
+  "no_skilled_feat": {
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.2
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled",
+      "inverted": true
+    }
+  },
+  "skilled_feat": {
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.2
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled"
+    }
   }
 }

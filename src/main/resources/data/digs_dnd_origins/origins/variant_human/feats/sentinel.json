@@ -6,5 +6,5 @@
 	"order": 1,
 	"impact": 0,
 	"name": "Sentinel",
-	"description": "When you hit a creature who is facing away from you, either for running away or attacking and ally, the target will be stunned for 6 seconds. This ability has a 6 second cooldown and does not work on other sentinels."
+	"description": "When you hit a creature who is facing away from you, either for running away or attacking and ally, the target will be stunned for 6 seconds. This ability has a 6 second cooldown and does not work on other sentinels. You take 50% increased damage from projectiles."
 }

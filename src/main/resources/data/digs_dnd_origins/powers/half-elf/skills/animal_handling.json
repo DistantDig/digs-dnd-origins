@@ -1,11 +1,34 @@
 {
   "hidden": true,
-  "type": "origins:modify_damage_dealt",
-  "bientity_condition": {
-    "type": "origins:owner"
+  "type": "origins:multiple",
+
+  "no_skilled_feat": {
+    "type": "origins:modify_damage_dealt",
+    "bientity_condition": {
+      "type": "origins:owner"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled",
+      "inverted": true
+    }
   },
-  "modifier": {
-    "operation": "multiply_total",
-    "value": -1
+  "skilled_feat": {
+    "type": "origins:modify_damage_dealt",
+    "bientity_condition": {
+      "type": "origins:owner"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "digs_dnd_origins:variant_human/feats/skilled"
+    }
   }
 }
