@@ -1,8 +1,6 @@
 package net.distantdig.digs_dnd_origins.entity.projectiles;
 
 import net.distantdig.digs_dnd_origins.DndOrigins;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.entity.BlockEntity;
@@ -10,7 +8,6 @@ import net.minecraft.block.entity.EndGatewayBlockEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.projectile.ProjectileUtil;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.item.Item;
@@ -110,7 +107,7 @@ public class WhiteBreathEntity extends ThrownItemEntity {
         super.onEntityHit(entityHitResult);
         Entity entity = entityHitResult.getEntity(); // sets a new Entity instance as the EntityHitResult (victim)
         int i = 0; // the amount of damage to deal
-        entity.damage(DamageSource.thrownProjectile(this, this.getOwner()), (float)i); // deals damage
+        entity.damage(world.getDamageSources().thrown(this, this.getOwner()), (float)i); // deals damage
 
         if (entity instanceof LivingEntity livingEntity) { // checks if entity is an instance of LivingEntity (meaning it is not a boat or minecart)
             livingEntity.playSound(SoundEvents.ENTITY_PLAYER_HURT_FREEZE, 2F, 1F); // plays a sound for the entity hit only

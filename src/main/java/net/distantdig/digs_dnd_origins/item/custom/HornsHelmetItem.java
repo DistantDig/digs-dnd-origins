@@ -1,5 +1,6 @@
 package net.distantdig.digs_dnd_origins.item.custom;
 
+import blue.endless.jankson.annotation.Nullable;
 import net.distantdig.digs_dnd_origins.client.HornsHelmetRenderer;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.client.render.entity.model.BipedEntityModel;
@@ -11,7 +12,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
-import org.jetbrains.annotations.Nullable;
 import software.bernie.geckolib.animatable.GeoItem;
 import software.bernie.geckolib.animatable.client.RenderProvider;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
@@ -19,14 +19,17 @@ import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInst
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
 
+
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 public class HornsHelmetItem extends ArmorItem implements GeoItem {
-    public HornsHelmetItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
-        super(material, slot, settings);
+
+    public HornsHelmetItem(ArmorMaterial material, Type type, Settings settings) {
+        super(material, type, settings);
     }
+
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.literal("...I mean unless you make them a helmet").formatted(Formatting.DARK_AQUA));
