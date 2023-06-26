@@ -94,8 +94,8 @@
 		"modifiers": [
 		{
 			"attribute": "minecraft:generic.max_health",
-			"operation": "multiply_base",
-			"value": -0.3
+			"operation": "multiply_total",
+			"value": -0.1
 		},
 		{
 			"attribute": "generic.attack_damage",
