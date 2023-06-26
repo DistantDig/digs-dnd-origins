@@ -49,14 +49,14 @@ public class BlueBreathEntity extends ThrownItemEntity {
         boolean bl = false;
         if (hitResult.getType() == HitResult.Type.BLOCK) {
             BlockPos blockPos = ((BlockHitResult)hitResult).getBlockPos();
-            BlockState blockState = this.world.getBlockState(blockPos);
+            BlockState blockState = this.getWorld().getBlockState(blockPos);
             if (blockState.isOf(Blocks.NETHER_PORTAL)) {
                 this.setInNetherPortal(blockPos);
                 bl = true;
             } else if (blockState.isOf(Blocks.END_GATEWAY)) {
-                BlockEntity blockEntity = this.world.getBlockEntity(blockPos);
+                BlockEntity blockEntity = this.getWorld().getBlockEntity(blockPos);
                 if (blockEntity instanceof EndGatewayBlockEntity && EndGatewayBlockEntity.canTeleport(this)) {
-                    EndGatewayBlockEntity.tryTeleportingEntity(this.world, blockPos, blockState, this, (EndGatewayBlockEntity)blockEntity);
+                    EndGatewayBlockEntity.tryTeleportingEntity(this.getWorld(), blockPos, blockState, this, (EndGatewayBlockEntity)blockEntity);
                 }
                 bl = true;
             }
@@ -73,7 +73,7 @@ public class BlueBreathEntity extends ThrownItemEntity {
         if (this.isTouchingWater()) {
             for (int i = 0; i < 4; ++i) {
                 float g = 0.25f;
-                this.world.addParticle(ParticleTypes.BUBBLE, d - vec3d.x * 0.25, e - vec3d.y * 0.25, f - vec3d.z * 0.25, vec3d.x, vec3d.y, vec3d.z);
+                this.getWorld().addParticle(ParticleTypes.BUBBLE, d - vec3d.x * 0.25, e - vec3d.y * 0.25, f - vec3d.z * 0.25, vec3d.x, vec3d.y, vec3d.z);
             }
             h = 0.8f;
         } else {
@@ -86,12 +86,12 @@ public class BlueBreathEntity extends ThrownItemEntity {
         }
         this.setPosition(d, e, f);
 
-        this.world.addParticle(this.getParticleType(), d, e + 0.5, f,
+        this.getWorld().addParticle(this.getParticleType(), d, e + 0.5, f,
                 (Math.random() - 0.5) * 0.2, (Math.random() - 0.5) * 0.2, (Math.random() - 0.5) * 0.2); //movement of the particle from projectile
 
         if (t >= 20) { //the amount of ticks the projectile will stay alive
-            if (!this.world.isClient) { // checks if the world is client
-                this.world.sendEntityStatus(this, (byte)3); // particle?
+            if (!this.getWorld().isClient) { // checks if the world is client
+                this.getWorld().sendEntityStatus(this, (byte)3); // particle?
                 this.kill(); // kills the projectile
             }
         } else {
@@ -108,7 +108,7 @@ public class BlueBreathEntity extends ThrownItemEntity {
         super.onEntityHit(entityHitResult);
         Entity entity = entityHitResult.getEntity(); // sets a new Entity instance as the EntityHitResult (victim)
         int i = 0; // the amount of damage to deal
-        entity.damage(world.getDamageSources().thrown(this, this.getOwner()), (float)i); // deals damage
+        entity.damage(getWorld().getDamageSources().thrown(this, this.getOwner()), (float)i); // deals damage
 
         if (entity instanceof LivingEntity livingEntity) { // checks if entity is an instance of LivingEntity (meaning it is not a boat or minecart)
             livingEntity.playSound(SoundEvents.ENTITY_PLAYER_HURT_ON_FIRE, 2F, 1.9F); // plays a sound for the entity hit only
@@ -116,8 +116,8 @@ public class BlueBreathEntity extends ThrownItemEntity {
     }
     protected void onCollision(HitResult hitResult) { // called on collision with a block
         super.onCollision(hitResult);
-        if (!this.world.isClient) { // checks if the world is client
-            this.world.sendEntityStatus(this, (byte)3); // particle?
+        if (!this.getWorld().isClient) { // checks if the world is client
+            this.getWorld().sendEntityStatus(this, (byte)3); // particle?
             this.kill(); // kills the projectile
         }
 

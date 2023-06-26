@@ -1,6 +1,5 @@
 package net.distantdig.digs_dnd_origins.item.custom;
 
-import blue.endless.jankson.annotation.Nullable;
 import net.distantdig.digs_dnd_origins.client.HornsHelmetRenderer;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.client.render.entity.model.BipedEntityModel;
@@ -31,7 +30,7 @@ public class HornsHelmetItem extends ArmorItem implements GeoItem {
     }
 
     @Override
-    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+    public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.literal("...I mean unless you make them a helmet").formatted(Formatting.DARK_AQUA));
         super.appendTooltip(stack, world, tooltip, context);
     }

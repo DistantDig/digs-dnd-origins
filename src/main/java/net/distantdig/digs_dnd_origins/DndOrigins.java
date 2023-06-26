@@ -67,7 +67,6 @@ public class DndOrigins implements ModInitializer {
 
         ModItemGroup.registerItemGroups();
         ModItems.registerModItems();
-        ModItems.addItemsToItemGroup();
 
         ModParticles.registerGreenParticles();
         ModParticles.registerRedParticles();

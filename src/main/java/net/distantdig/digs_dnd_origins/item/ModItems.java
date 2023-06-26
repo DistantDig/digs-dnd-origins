@@ -39,26 +39,6 @@ public class ModItems {
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(DndOrigins.MOD_ID, name), item);
     }
-    public static void addItemsToItemGroup() {
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, RED_SCALE);
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, BLUE_SCALE);
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, GREEN_SCALE);
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, WHITE_SCALE);
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, BLACK_SCALE);
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, BRASS_SCALE);
-
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, HORNS);
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, LEATHER_HORNS_HELMET);
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, IRON_HORNS_HELMET);
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, GOLDEN_HORNS_HELMET);
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, DIAMOND_HORNS_HELMET);
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, NETHERITE_HORNS_HELMET);
-
-        addToItemGroup(ModItemGroup.DND_ITEM_GROUP, TOY_FROG_SPAWN_EGG);
-    }
-    public static void addToItemGroup(ItemGroup group, Item item) {
-        ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
-    }
     public static void registerModItems() {
         DndOrigins.LOGGER.debug("Registering Mod Items for "+DndOrigins.MOD_ID);
     }
