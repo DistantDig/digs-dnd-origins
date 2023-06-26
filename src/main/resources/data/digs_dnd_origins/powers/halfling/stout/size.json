@@ -94,7 +94,7 @@
 		"modifiers": [
 		{
 			"attribute": "minecraft:generic.max_health",
-			"operation": "multiply_base",
+			"operation": "multiply_total",
 			"value": -0.35
 		},
 		{
