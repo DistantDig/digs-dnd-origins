@@ -30,6 +30,7 @@
         "type": "origins:resource",
         "min": 0,
         "max": 80,
+        "start_value": 80,
         "hud_render": {
             "sprite_location": "origins:textures/gui/resource_bar.png",
             "bar_index": 2,
