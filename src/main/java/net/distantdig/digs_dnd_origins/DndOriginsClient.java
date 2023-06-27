@@ -1,5 +1,6 @@
 package net.distantdig.digs_dnd_origins;
 
+import net.distantdig.digs_dnd_origins.client.BreathEntityRenderer;
 import net.distantdig.digs_dnd_origins.client.ToyFrogRenderer;
 import net.distantdig.digs_dnd_origins.entity.ModEntities;
 import net.distantdig.digs_dnd_origins.particle.ModParticles;
@@ -15,14 +16,13 @@ public class DndOriginsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         EntityRendererRegistry.register(ModEntities.TOY_FROG, ToyFrogRenderer::new);
-        EntityRendererRegistry.register(DndOrigins.BlueBreathEntityType, FlyingItemEntityRenderer::new);
-        EntityRendererRegistry.register(DndOrigins.RedBreathEntityType, FlyingItemEntityRenderer::new);
-        EntityRendererRegistry.register(DndOrigins.GreenBreathEntityType, FlyingItemEntityRenderer::new);
-        EntityRendererRegistry.register(DndOrigins.WhiteBreathEntityType, FlyingItemEntityRenderer::new);
+        EntityRendererRegistry.register(ModEntities.BlueBreathEntityType, BreathEntityRenderer::new);
+        EntityRendererRegistry.register(ModEntities.GreenBreathEntityType, BreathEntityRenderer::new);
+        EntityRendererRegistry.register(ModEntities.RedBreathEntityType, BreathEntityRenderer::new);
+        EntityRendererRegistry.register(ModEntities.WhiteBreathEntityType, BreathEntityRenderer::new);
 
         ParticleFactoryRegistry.getInstance().register(ModParticles.BLUE_BREATH_PARTICLE, BlueBreathParticle.Factory::new);
         ParticleFactoryRegistry.getInstance().register(ModParticles.GREEN_BREATH_PARTICLE, GreenBreathParticle.Factory::new);
         ParticleFactoryRegistry.getInstance().register(ModParticles.RED_BREATH_PARTICLE, RedBreathParticle.Factory::new);
     }
-
 }
