@@ -20,6 +20,7 @@ public class ModItemGroup {
                         entries.add(ModItems.GREEN_SCALE);
                         entries.add(ModItems.RED_SCALE);
                         entries.add(ModItems.WHITE_SCALE);
+                        entries.add(ModItems.HORNS);
                         entries.add(ModItems.TOY_FROG_SPAWN_EGG);
                     }).build());
     public static void registerItemGroups() {
