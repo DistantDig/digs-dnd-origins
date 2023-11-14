@@ -6,6 +6,7 @@ import net.distantdig.digs_dnd_origins.entity.custom.ToyFrogEntity;
 import net.distantdig.digs_dnd_origins.item.ModItemGroup;
 import net.distantdig.digs_dnd_origins.item.ModItems;
 import net.distantdig.digs_dnd_origins.particle.ModParticles;
+import net.distantdig.digs_dnd_origins.power.ModPowers;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
@@ -28,6 +29,8 @@ public class DndOrigins implements ModInitializer {
         ModEffects.registerEffects();
 
         FabricDefaultAttributeRegistry.register(ModEntities.TOY_FROG, ToyFrogEntity.setAttributes());
+
+        ModPowers.registerPowers();
 
 
         LOGGER.info("Roll initiative...");
