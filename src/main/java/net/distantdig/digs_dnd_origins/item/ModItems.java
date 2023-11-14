@@ -5,10 +5,9 @@ import net.distantdig.digs_dnd_origins.entity.ModEntities;
 import net.distantdig.digs_dnd_origins.item.custom.HornsHelmetItem;
 import net.distantdig.digs_dnd_origins.item.custom.HornsItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -22,7 +21,7 @@ public class ModItems {
     public static final Item WHITE_SCALE = registerItem("white_scale", new Item((new FabricItemSettings())));
     public static final Item BLACK_SCALE = registerItem("black_scale", new Item((new FabricItemSettings())));
     public static final Item BRASS_SCALE = registerItem("brass_scale", new Item((new FabricItemSettings())));
-    public static final Item HORNS = registerItem("horns", new HornsItem((new FabricItemSettings().maxCount(1))));
+    public static final Item HORNS = registerItem("horns", new HornsItem(ArmorMaterials.TURTLE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item LEATHER_HORNS_HELMET = registerItem("leather_horns_helmet", new HornsHelmetItem(ModArmorMaterials.LEATHER_HORNS,
             ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item IRON_HORNS_HELMET = registerItem("iron_horns_helmet", new HornsHelmetItem(ModArmorMaterials.IRON_HORNS,
