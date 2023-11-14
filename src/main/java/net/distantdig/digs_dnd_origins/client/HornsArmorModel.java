@@ -18,6 +18,6 @@ public class HornsArmorModel extends GeoModel<HornsItem> {
 
     @Override
     public Identifier getAnimationResource(HornsItem animatable) {
-        return new Identifier(DndOrigins.MOD_ID, "animations/horns_helmet.geo.animation.json");
+        return new Identifier(DndOrigins.MOD_ID, "animations/horns_helmet.animation.json");
     }
 }
