@@ -2,7 +2,6 @@ package net.distantdig.digs_dnd_origins.item;
 
 import net.distantdig.digs_dnd_origins.DndOrigins;
 import net.distantdig.digs_dnd_origins.entity.ModEntities;
-import net.distantdig.digs_dnd_origins.item.custom.HornsHelmetItem;
 import net.distantdig.digs_dnd_origins.item.custom.HornsItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.ArmorItem;
@@ -22,8 +21,6 @@ public class ModItems {
     public static final Item BLACK_SCALE = registerItem("black_scale", new Item((new FabricItemSettings())));
     public static final Item BRASS_SCALE = registerItem("brass_scale", new Item((new FabricItemSettings())));
     public static final Item HORNS = registerItem("horns", new HornsItem(ArmorMaterials.TURTLE, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item LEATHER_HORNS_HELMET = registerItem("leather_horns_helmet", new HornsHelmetItem(ModArmorMaterials.LEATHER_HORNS,
-            ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item TOY_FROG_SPAWN_EGG = registerItem("toy_frog_spawn_egg",
             new SpawnEggItem(ModEntities.TOY_FROG, 0xD57E36, 0x1D0D00, new  FabricItemSettings()));
 
