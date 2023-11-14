@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#%#",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:scute"
+    },
+    "%": {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "result": {
+    "item": "digs_dnd_origins:horns"
+  }
+}
