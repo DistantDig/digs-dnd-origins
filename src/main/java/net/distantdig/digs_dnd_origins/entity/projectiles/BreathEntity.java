@@ -17,7 +17,7 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class BreathEntity extends ProjectileEntity {
+public abstract class BreathEntity extends ProjectileEntity {
 
     public BreathEntity(EntityType<? extends ProjectileEntity> entityType, World world) {
         super(entityType, world);
