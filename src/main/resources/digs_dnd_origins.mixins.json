@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "net.distantdig.digs_dnd_origins.mixin",
+	"package": "net.distantdig.digs_dnd_origins.mixins",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"HornsFeatureRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

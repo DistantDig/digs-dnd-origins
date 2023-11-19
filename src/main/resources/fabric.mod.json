@@ -26,6 +26,7 @@
 		]
 	},
 	"mixins": [
+		"digs_dnd_origins.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.19",

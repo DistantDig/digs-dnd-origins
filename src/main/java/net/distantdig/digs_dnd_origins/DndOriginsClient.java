@@ -10,7 +10,6 @@ import net.distantdig.digs_dnd_origins.particle.breath.RedBreathParticle;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
-import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 
 public class DndOriginsClient implements ClientModInitializer {
     @Override
