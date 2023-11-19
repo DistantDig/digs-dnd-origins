@@ -95,7 +95,7 @@
 		{
 			"attribute": "minecraft:generic.max_health",
 			"operation": "multiply_total",
-			"value": -0.30
+			"value": -0.35
 		},
 		{
 			"attribute": "generic.attack_damage",

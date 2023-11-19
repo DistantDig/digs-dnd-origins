@@ -1,10 +1,6 @@
 {
   "name": "Horns",
   "description": "Your infernal legacy shows.",
-  "type": "origins:starting_equipment",
-  "stack": {
-    "item": "digs_dnd_origins:horns",
-    "slot": "39"
-  },
-  "recurrent": true
+  "type": "origins:horns",
+  "render-horns": true
 }
