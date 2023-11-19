@@ -6,11 +6,8 @@
   "wood_pick": {
     "type": "origins:modify_harvest",
     "block_condition": {
-      "type": "origins:material",
-      "materials": [
-        "stone",
-        "metal"
-      ]
+      "type": "origins:in_tag",
+      "tag": "minecraft:mineable/pickaxe"
     },
     "allow": true,
     "condition": {
