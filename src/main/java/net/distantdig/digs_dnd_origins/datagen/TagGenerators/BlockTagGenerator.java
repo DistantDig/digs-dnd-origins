@@ -23,6 +23,14 @@ public class BlockTagGenerator extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(MASK_OF_THE_WILD_BLOCKS)
 
+                .addOptionalTag(new Identifier("c", "bushes"))
+                .addOptionalTag(new Identifier("c", "crop_like"))
+                .addOptionalTag(new Identifier("c", "flowers"))
+                .addOptionalTag(new Identifier("c", "grass"))
+                .addOptionalTag(new Identifier("c", "grass_like"))
+                .addOptionalTag(new Identifier("c", "leaves"))
+                .addOptionalTag(new Identifier("c", "saplings"))
+
                 .forceAddTag(BlockTags.BEE_GROWABLES)
                 .forceAddTag(BlockTags.CROPS)
                 .forceAddTag(BlockTags.FLOWERS)
