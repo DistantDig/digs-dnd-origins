@@ -4,16 +4,15 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.entity.EntityType;
 import net.minecraft.registry.Registries;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
-public class EntityTagGenerator extends FabricTagProvider {
+public class EntityTagGenerator extends FabricTagProvider.EntityTypeTagProvider {
     public EntityTagGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
-        super(output, RegistryKeys.ENTITY_TYPE, registriesFuture);
+        super(output, registriesFuture);
     }
     private static final TagKey<EntityType<?>> HALFLING_NIMBLENESS_ENTITIES = TagKey.of(Registries.ENTITY_TYPE.getKey(), new Identifier("digs_dnd_origins", "halfling_nimbleness_entities"));
     @Override
