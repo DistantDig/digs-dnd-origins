@@ -5,58 +5,41 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registries;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
-public class BlockTagGenerator extends FabricTagProvider {
+public class BlockTagGenerator extends FabricTagProvider.BlockTagProvider {
     public BlockTagGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
-        super(output, RegistryKeys.BLOCK, registriesFuture);
+        super(output, registriesFuture);
     }
 
-    private static final TagKey<Block> LONG_REST_BLOCKS = TagKey.of(Registries.BLOCK.getKey(), new Identifier("digs_dnd_origins", "long_rest_blocks"));
     private static final TagKey<Block> MASK_OF_THE_WILD_BLOCKS = TagKey.of(Registries.BLOCK.getKey(), new Identifier("digs_dnd_origins", "mask_of_the_wild_blocks"));
     private static final TagKey<Block> STONE_CAMOUFLAGE_BLOCKS = TagKey.of(Registries.BLOCK.getKey(), new Identifier("digs_dnd_origins", "stone_camouflage_blocks"));
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(MASK_OF_THE_WILD_BLOCKS)
-                .add(Blocks.ACACIA_LEAVES)
-                .add(Blocks.AZALEA_LEAVES)
-                .add(Blocks.BIRCH_LEAVES)
-                .add(Blocks.JUNGLE_LEAVES)
-                .add(Blocks.DARK_OAK_LEAVES)
-                .add(Blocks.FLOWERING_AZALEA_LEAVES)
-                .add(Blocks.MANGROVE_LEAVES)
-                .add(Blocks.OAK_LEAVES)
-                .add(Blocks.SPRUCE_LEAVES)
+
+                .forceAddTag(BlockTags.BEE_GROWABLES)
+                .forceAddTag(BlockTags.CROPS)
+                .forceAddTag(BlockTags.FLOWERS)
+                .forceAddTag(BlockTags.LEAVES)
+                .forceAddTag(BlockTags.SAPLINGS)
+
                 .add(Blocks.GRASS)
                 .add(Blocks.TALL_GRASS)
                 .add(Blocks.FERN)
                 .add(Blocks.LARGE_FERN)
                 .add(Blocks.VINE)
-                .add(Blocks.ACACIA_SAPLING)
-                .add(Blocks.BAMBOO_SAPLING)
-                .add(Blocks.BIRCH_SAPLING)
-                .add(Blocks.SPRUCE_SAPLING)
-                .add(Blocks.OAK_SAPLING)
-                .add(Blocks.DARK_OAK_SAPLING)
-                .add(Blocks.JUNGLE_SAPLING)
-                .add(Blocks.MANGROVE_PROPAGULE)
-                .add(Blocks.AZALEA)
-                .add(Blocks.FLOWERING_AZALEA)
+
                 .add(Blocks.SUGAR_CANE)
                 .add(Blocks.SMALL_DRIPLEAF)
                 .add(Blocks.BIG_DRIPLEAF)
                 .add(Blocks.BIG_DRIPLEAF_STEM)
-                .add(Blocks.BAMBOO)
-                .add(Blocks.LILY_PAD)
-                .add(Blocks.SUNFLOWER)
-                .add(Blocks.LILAC)
-                .add(Blocks.ROSE_BUSH)
-                .add(Blocks.PEONY);
+                .add(Blocks.BAMBOO);
 
         getOrCreateTagBuilder(STONE_CAMOUFLAGE_BLOCKS)
                 .add(Blocks.STONE)
