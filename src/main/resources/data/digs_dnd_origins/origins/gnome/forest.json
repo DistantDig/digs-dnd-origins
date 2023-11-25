@@ -1,8 +1,8 @@
 {
 	"powers": [
-	    "digs_dnd_origins:gnome/forest/size",
-	    "digs_dnd_origins:gnome/forest/speed",
-	    "digs_dnd_origins:gnome/forest/darkvision",
+	    "digs_dnd_origins:gnome/size",
+	    "digs_dnd_origins:gnome/speed",
+	    "digs_dnd_origins:gnome/darkvision",
 		"digs_dnd_origins:gnome/forest/speak_with_small_beasts"
 	],
 	"icon": "minecraft:dark_oak_sapling",
