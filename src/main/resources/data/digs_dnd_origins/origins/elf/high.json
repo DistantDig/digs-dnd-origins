@@ -1,10 +1,6 @@
 {
 	"powers": [
 		"digs_dnd_origins:elf/high/ability_score_increase",
-	    "digs_dnd_origins:elf/size",
-		"digs_dnd_origins:elf/darkvision",
-		"digs_dnd_origins:elf/trance",
-	    "digs_dnd_origins:elf/elf_weapon_training",
 		"digs_dnd_origins:elf/high/cantrip"
 	],
 	"icon": "minecraft:amethyst_shard",

@@ -1,18 +1,43 @@
 {
   "name": "Dwarven Toughness",
   "description": "You have 10% less health points rather than the 20% less of other dwarves.",
-  "type": "origins:attribute",
-  "modifiers": [
+  "type": "origins:multiple",
+
+  "attributes": {
+    "type": "origins:attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "multiply_total",
+        "value": -0.1
+      },
+      {
+        "attribute": "generic.attack_damage",
+        "value": -0.5,
+        "operation": "addition"
+      }
+    ]
+  },
+
+  "base_revoke": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen":
     {
-      "attribute": "minecraft:generic.max_health",
-      "operation": "multiply_total",
-      "value": -0.1
+      "type": "origins:revoke_power",
+      "power": "digs_dnd_origins:dwarf/dwarven_toughness",
+      "source": "digs_dnd_origins:dwarf"
     },
+    "entity_action_added":
     {
-      "attribute": "generic.attack_damage",
-      "value": -0.5,
-      "operation": "addition"
+      "type": "origins:revoke_power",
+      "power": "digs_dnd_origins:dwarf/dwarven_toughness",
+      "source": "digs_dnd_origins:dwarf"
+    },
+    "entity_action_respawned":
+    {
+      "type": "origins:revoke_power",
+      "power": "digs_dnd_origins:dwarf/dwarven_toughness",
+      "source": "digs_dnd_origins:dwarf"
     }
-  ],
-  "loading_priority": 1
+  }
 }

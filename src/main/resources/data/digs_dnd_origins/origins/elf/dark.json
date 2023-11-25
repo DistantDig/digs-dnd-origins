@@ -1,9 +1,7 @@
 {
   "powers": [
     "digs_dnd_origins:elf/dark/ability_score_increase",
-    "digs_dnd_origins:elf/size",
     "digs_dnd_origins:elf/dark/superior_darkvision",
-    "digs_dnd_origins:elf/trance",
     "digs_dnd_origins:elf/dark/sunlight_sensitivity",
     "digs_dnd_origins:elf/dark/drow_magic",
     "digs_dnd_origins:elf/dark/faerie_fire",

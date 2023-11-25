@@ -1,9 +1,5 @@
 {
 	"powers": [
-	    "digs_dnd_origins:elf/size",
-		"digs_dnd_origins:elf/darkvision",
-		"digs_dnd_origins:elf/trance",
-		"digs_dnd_origins:elf/elf_weapon_training",
 		"digs_dnd_origins:elf/wood/fleet_of_foot",
 		"digs_dnd_origins:elf/wood/mask_of_the_wild"
 	],

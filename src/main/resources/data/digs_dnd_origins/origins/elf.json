@@ -1,8 +1,9 @@
 {
 	"powers": [
-		"digs_dnd_origins:elf/description_high",
-		"digs_dnd_origins:elf/description_wood",
-		"digs_dnd_origins:elf/description_dark"
+		"digs_dnd_origins:elf/size",
+		"digs_dnd_origins:elf/darkvision",
+		"digs_dnd_origins:elf/trance",
+		"digs_dnd_origins:elf/elf_weapon_training"
 	],
 	"icon": "minecraft:bow",
 	"order": 0,
