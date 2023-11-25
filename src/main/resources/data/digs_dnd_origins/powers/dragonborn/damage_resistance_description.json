@@ -1,0 +1,5 @@
+{
+	"name": "Damage Resistance",
+	"description": "You are resistant to the element of your subrace. The damage taken or effect time is halved, depending on the element.",
+	"type": "origins:simple"
+}

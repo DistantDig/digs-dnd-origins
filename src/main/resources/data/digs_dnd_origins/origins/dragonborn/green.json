@@ -1,12 +1,9 @@
 {
 	"powers": [
-		"digs_dnd_origins:dragonborn/ability_score_increase",
-	    "digs_dnd_origins:dragonborn/size",
 		"digs_dnd_origins:dragonborn/green/breath_weapon",
 		"digs_dnd_origins:dragonborn/green/damage_resistance",
 		"digs_dnd_origins:dragonborn/green/humid_habitat",
-		"digs_dnd_origins:dragonborn/green/scales",
-		"origins:more_exhaustion"
+		"digs_dnd_origins:dragonborn/green/scales"
 	],
 	"icon": "digs_dnd_origins:green_scale",
 	"order": 1,

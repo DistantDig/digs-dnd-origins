@@ -1,0 +1,5 @@
+{
+	"name": "Habitat",
+	"description": "Whenever you are in a biome opposite of your subrace's natural habitat you will be slowed and weakened.",
+	"type": "origins:simple"
+}

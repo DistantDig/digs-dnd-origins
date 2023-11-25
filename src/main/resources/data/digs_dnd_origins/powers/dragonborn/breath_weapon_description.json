@@ -1,0 +1,5 @@
+{
+	"name": "Breath Weapon",
+	"description": "You can breathe out before you in a line or cone depending on your subrace, damaging your enemies. You regain the ability to do so after a short or long rest.",
+	"type": "origins:simple"
+}

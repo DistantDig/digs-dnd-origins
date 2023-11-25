@@ -1,12 +1,9 @@
 {
 	"powers": [
-		"digs_dnd_origins:dragonborn/ability_score_increase",
-	    "digs_dnd_origins:dragonborn/size",
 		"digs_dnd_origins:dragonborn/blue/breath_weapon",
 		"digs_dnd_origins:dragonborn/blue/damage_resistance",
 		"digs_dnd_origins:dragonborn/blue/arid_habitat",
-		"digs_dnd_origins:dragonborn/blue/scales",
-		"origins:more_exhaustion"
+		"digs_dnd_origins:dragonborn/blue/scales"
 	],
 	"icon": "digs_dnd_origins:blue_scale",
 	"order": 1,

@@ -1,11 +1,12 @@
 {
 	"powers": [
-		"digs_dnd_origins:dragonborn/description_black",
-		"digs_dnd_origins:dragonborn/description_blue",
-		"digs_dnd_origins:dragonborn/description_brass",
-		"digs_dnd_origins:dragonborn/description_green",
-		"digs_dnd_origins:dragonborn/description_red",
-		"digs_dnd_origins:dragonborn/description_white"
+		"digs_dnd_origins:dragonborn/ability_score_increase",
+		"digs_dnd_origins:dragonborn/size",
+		"digs_dnd_origins:dragonborn/subrace",
+		"digs_dnd_origins:dragonborn/breath_weapon_description",
+		"digs_dnd_origins:dragonborn/damage_resistance_description",
+		"digs_dnd_origins:dragonborn/habitat_description",
+		"origins:more_exhaustion"
 	],
 	"icon": "digs_dnd_origins:black_scale",
 	"order": 0,

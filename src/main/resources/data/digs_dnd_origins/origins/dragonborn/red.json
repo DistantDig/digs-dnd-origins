@@ -1,12 +1,9 @@
 {
 	"powers": [
-	    "digs_dnd_origins:dragonborn/ability_score_increase",
-	    "digs_dnd_origins:dragonborn/size",
 		"digs_dnd_origins:dragonborn/red/breath_weapon",
 		"digs_dnd_origins:dragonborn/red/damage_resistance",
 		"digs_dnd_origins:dragonborn/red/molten_habitat",
-		"digs_dnd_origins:dragonborn/red/scales",
-		"origins:more_exhaustion"
+		"digs_dnd_origins:dragonborn/red/scales"
 	],
 	"icon": "digs_dnd_origins:red_scale",
 	"order": 1,
