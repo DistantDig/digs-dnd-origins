@@ -1,6 +1,6 @@
 {
 	"name": "Size",
-	"description": "You are a block and a half tall. You also have 10% less health points. Your size is medium.",
+	"description": "You are a block and a half tall. Your size is medium.",
 	"type": "origins:multiple",
 	"size": {
 		"type": "origins:action_on_callback",
@@ -87,19 +87,6 @@
 				"command": "tag @s remove small"
 			}
 			]
-		}
-	},
-	"attribute": {
-		"type": "origins:attribute",
-		"modifier": {
-			"attribute": "minecraft:generic.max_health",
-			"operation": "multiply_total",
-			"value": -0.1
-		},
-		{
-			"attribute": "generic.attack_damage",
-			"value": -0.5,
-			"operation": "addition"
 		}
 	}
 }

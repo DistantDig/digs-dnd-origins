@@ -1,12 +1,12 @@
 {
   "name": "Dwarven Toughness",
-  "description": "You have 10% less health points rather than the 20% less of other dwarves.",
+  "description": "You have 20% less health points rather than the 40% less of other small races.",
   "type": "origins:attribute",
   "modifiers": [
     {
       "attribute": "minecraft:generic.max_health",
       "operation": "multiply_total",
-      "value": -0.1
+      "value": -0.2
     },
     {
       "attribute": "generic.attack_damage",
@@ -14,5 +14,5 @@
       "operation": "addition"
     }
   ],
-  "loading_priority": 1
+  "loading_priority": 0
 }
