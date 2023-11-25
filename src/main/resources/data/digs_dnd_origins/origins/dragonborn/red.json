@@ -1,7 +1,7 @@
 {
 	"powers": [
-	    "digs_dnd_origins:dragonborn/red/ability_score_increase",
-	    "digs_dnd_origins:dragonborn/red/size",
+	    "digs_dnd_origins:dragonborn/ability_score_increase",
+	    "digs_dnd_origins:dragonborn/size",
 		"digs_dnd_origins:dragonborn/red/breath_weapon",
 		"digs_dnd_origins:dragonborn/red/damage_resistance",
 		"digs_dnd_origins:dragonborn/red/molten_habitat",

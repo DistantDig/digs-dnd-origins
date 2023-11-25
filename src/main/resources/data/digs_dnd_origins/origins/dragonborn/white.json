@@ -1,7 +1,7 @@
 {
 	"powers": [
-	    "digs_dnd_origins:dragonborn/white/ability_score_increase",
-	    "digs_dnd_origins:dragonborn/white/size",
+	    "digs_dnd_origins:dragonborn/ability_score_increase",
+	    "digs_dnd_origins:dragonborn/size",
 		"digs_dnd_origins:dragonborn/white/breath_weapon",
 		"digs_dnd_origins:dragonborn/white/damage_resistance",
 		"digs_dnd_origins:dragonborn/white/arctic_habitat",
