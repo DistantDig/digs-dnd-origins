@@ -1,12 +1,12 @@
 {
 	"powers": [
 		"digs_dnd_origins:dwarf/mountain/size",
-		"digs_dnd_origins:dwarf/mountain/speed",
-		"digs_dnd_origins:dwarf/mountain/darkvision",
-		"digs_dnd_origins:dwarf/mountain/dwarven_resilience",
-		"digs_dnd_origins:dwarf/mountain/dwarven_combat_training",
+		"digs_dnd_origins:dwarf/speed",
+		"digs_dnd_origins:dwarf/darkvision",
+		"digs_dnd_origins:dwarf/dwarven_resilience",
+		"digs_dnd_origins:dwarf/dwarven_combat_training",
 		"digs_dnd_origins:dwarf/mountain/dwarven_armor_training",
-		"digs_dnd_origins:dwarf/hill/tool_proficiency"
+		"digs_dnd_origins:dwarf/tool_proficiency"
 	],
 	"icon": "minecraft:iron_pickaxe",
 	"order": 2,
