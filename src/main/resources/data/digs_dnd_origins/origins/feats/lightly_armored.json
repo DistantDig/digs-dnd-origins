@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"digs_dnd_origins:variant_human/feats/lightly_armored"
+		"digs_dnd_origins:feats/lightly_armored"
 	],
 	"icon": "minecraft:leather_chestplate",
 	"order": 1,

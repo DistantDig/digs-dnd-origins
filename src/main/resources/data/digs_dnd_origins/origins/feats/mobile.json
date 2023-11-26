@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"digs_dnd_origins:variant_human/feats/mobile"
+		"digs_dnd_origins:feats/mobile"
 	],
 	"icon": "minecraft:golden_boots",
 	"order": 1,

@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"digs_dnd_origins:half-elf/skills/nature"
+		"digs_dnd_origins:skills/nature"
 	],
 	"icon": "minecraft:wheat",
 	"order": 1,

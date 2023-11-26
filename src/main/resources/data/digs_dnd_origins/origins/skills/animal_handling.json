@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"digs_dnd_origins:half-elf/skills/animal_handling"
+		"digs_dnd_origins:skills/animal_handling"
 	],
 	"icon": "minecraft:carrot",
 	"order": 1,

@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"digs_dnd_origins:variant_human/feats/heavily_armored"
+		"digs_dnd_origins:feats/heavily_armored"
 	],
 	"icon": "minecraft:netherite_chestplate",
 	"order": 1,

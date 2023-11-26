@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"digs_dnd_origins:half-elf/skills/arcana"
+		"digs_dnd_origins:skills/arcana"
 	],
 	"icon": "minecraft:enchanted_book",
 	"order": 1,

@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"digs_dnd_origins:half-elf/skills/sleight_of_hand"
+		"digs_dnd_origins:skills/sleight_of_hand"
 	],
 	"icon": "minecraft:gray_dye",
 	"order": 1,

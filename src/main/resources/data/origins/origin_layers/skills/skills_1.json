@@ -17,14 +17,14 @@
 				]
 			},
 			"origins": [
-				"digs_dnd_origins:half-elf/skills/animal_handling",
-				"digs_dnd_origins:half-elf/skills/arcana",
-				"digs_dnd_origins:half-elf/skills/athletics",
-				"digs_dnd_origins:half-elf/skills/medicine",
-				"digs_dnd_origins:half-elf/skills/nature",
-				"digs_dnd_origins:half-elf/skills/sleight_of_hand",
-				"digs_dnd_origins:half-elf/skills/stealth",
-				"digs_dnd_origins:half-elf/skills/survival"
+				"digs_dnd_origins:skills/animal_handling",
+				"digs_dnd_origins:skills/arcana",
+				"digs_dnd_origins:skills/athletics",
+				"digs_dnd_origins:skills/medicine",
+				"digs_dnd_origins:skills/nature",
+				"digs_dnd_origins:skills/sleight_of_hand",
+				"digs_dnd_origins:skills/stealth",
+				"digs_dnd_origins:skills/survival"
 			]
 		}
 	],

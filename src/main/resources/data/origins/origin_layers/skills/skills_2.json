@@ -1,0 +1,246 @@
+{
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "digs_dnd_origins:skills/animal_handling",
+            "inverted": true
+          },
+          {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "digs_dnd_origins:half-elf"
+              },
+              {
+                "type": "origins:origin",
+                "layer": "origins:feats/variant_human_feats",
+                "origin": "digs_dnd_origins:feats/skilled"
+              }
+            ]
+          }
+        ]
+      },
+      "origins": [
+        "digs_dnd_origins:skills/animal_handling"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "digs_dnd_origins:skills/arcana",
+            "inverted": true
+          },
+          {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "digs_dnd_origins:half-elf"
+              },
+              {
+                "type": "origins:origin",
+                "layer": "origins:feats/variant_human_feats",
+                "origin": "digs_dnd_origins:feats/skilled"
+              }
+            ]
+          }
+        ]
+      },
+      "origins": [
+        "digs_dnd_origins:skills/arcana"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "digs_dnd_origins:skills/athletics",
+            "inverted": true
+          },
+          {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "digs_dnd_origins:half-elf"
+              },
+              {
+                "type": "origins:origin",
+                "layer": "origins:feats/variant_human_feats",
+                "origin": "digs_dnd_origins:feats/skilled"
+              }
+            ]
+          }
+        ]
+      },
+      "origins": [
+        "digs_dnd_origins:skills/athletics"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "digs_dnd_origins:skills/medicine",
+            "inverted": true
+          },
+          {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "digs_dnd_origins:half-elf"
+              },
+              {
+                "type": "origins:origin",
+                "layer": "origins:feats/variant_human_feats",
+                "origin": "digs_dnd_origins:feats/skilled"
+              }
+            ]
+          }
+        ]
+      },
+      "origins": [
+        "digs_dnd_origins:skills/medicine"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "digs_dnd_origins:skills/nature",
+            "inverted": true
+          },
+          {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "digs_dnd_origins:half-elf"
+              },
+              {
+                "type": "origins:origin",
+                "layer": "origins:feats/variant_human_feats",
+                "origin": "digs_dnd_origins:feats/skilled"
+              }
+            ]
+          }
+        ]
+      },
+      "origins": [
+        "digs_dnd_origins:skills/nature"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "digs_dnd_origins:skills/sleight_of_hand",
+            "inverted": true
+          },
+          {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "digs_dnd_origins:half-elf"
+              },
+              {
+                "type": "origins:origin",
+                "layer": "origins:feats/variant_human_feats",
+                "origin": "digs_dnd_origins:feats/skilled"
+              }
+            ]
+          }
+        ]
+      },
+      "origins": [
+        "digs_dnd_origins:skills/sleight_of_hand"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "digs_dnd_origins:skills/stealth",
+            "inverted": true
+          },
+          {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "digs_dnd_origins:half-elf"
+              },
+              {
+                "type": "origins:origin",
+                "layer": "origins:feats/variant_human_feats",
+                "origin": "digs_dnd_origins:feats/skilled"
+              }
+            ]
+          }
+        ]
+      },
+      "origins": [
+        "digs_dnd_origins:skills/stealth"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "digs_dnd_origins:skills/survival",
+            "inverted": true
+          },
+          {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "digs_dnd_origins:half-elf"
+              },
+              {
+                "type": "origins:origin",
+                "layer": "origins:feats/variant_human_feats",
+                "origin": "digs_dnd_origins:feats/skilled"
+              }
+            ]
+          }
+        ]
+      },
+      "origins": [
+        "digs_dnd_origins:skills/survival"
+      ]
+    }
+  ],
+  "order": 4,
+  "name": "Second Skill"
+}

@@ -1,6 +1,6 @@
 {
   "powers": [
-    "digs_dnd_origins:half-elf/skills/survival"
+    "digs_dnd_origins:skills/survival"
   ],
   "icon": "minecraft:poisonous_potato",
   "order": 1,

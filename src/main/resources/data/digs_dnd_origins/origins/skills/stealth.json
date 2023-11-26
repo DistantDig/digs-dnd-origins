@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"digs_dnd_origins:half-elf/skills/stealth"
+		"digs_dnd_origins:skills/stealth"
 	],
 	"icon": "minecraft:black_dye",
 	"order": 1,

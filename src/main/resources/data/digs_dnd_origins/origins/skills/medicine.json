@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"digs_dnd_origins:half-elf/skills/medicine"
+		"digs_dnd_origins:skills/medicine"
 	],
 	"icon": "minecraft:potion",
 	"order": 1,

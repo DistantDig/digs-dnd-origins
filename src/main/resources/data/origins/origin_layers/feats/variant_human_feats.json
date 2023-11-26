@@ -7,15 +7,15 @@
         "origin": "digs_dnd_origins:variant_human"
       },
       "origins": [
-        "digs_dnd_origins:variant_human/feats/charger",
-        "digs_dnd_origins:variant_human/feats/heavily_armored",
-        "digs_dnd_origins:variant_human/feats/lightly_armored",
-        "digs_dnd_origins:variant_human/feats/mobile",
-        "digs_dnd_origins:variant_human/feats/moderately_armored",
-        "digs_dnd_origins:variant_human/feats/sentinel",
-        "digs_dnd_origins:variant_human/feats/skilled",
-        "digs_dnd_origins:variant_human/feats/skulker",
-        "digs_dnd_origins:variant_human/feats/tough"
+        "digs_dnd_origins:feats/charger",
+        "digs_dnd_origins:feats/heavily_armored",
+        "digs_dnd_origins:feats/lightly_armored",
+        "digs_dnd_origins:feats/mobile",
+        "digs_dnd_origins:feats/moderately_armored",
+        "digs_dnd_origins:feats/sentinel",
+        "digs_dnd_origins:feats/skilled",
+        "digs_dnd_origins:feats/skulker",
+        "digs_dnd_origins:feats/tough"
       ]
     }
   ],
