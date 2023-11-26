@@ -1,4 +1,5 @@
 {
+  "hidden": true,
   "name": "Small Size",
   "description": "You have 40% less health points and deal 0.5 less damage.",
   "type": "origins:multiple",
