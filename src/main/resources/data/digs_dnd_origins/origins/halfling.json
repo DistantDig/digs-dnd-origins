@@ -1,7 +1,10 @@
 {
 	"powers": [
-		"digs_dnd_origins:halfling/description_lightfoot",
-		"digs_dnd_origins:halfling/description_stout"
+		"digs_dnd_origins:halfling/size",
+		"digs_dnd_origins:halfling/small_size",
+		"digs_dnd_origins:halfling/speed",
+		"digs_dnd_origins:halfling/lucky",
+		"digs_dnd_origins:halfling/halfling_nimbleness"
 	],
 	"icon": "minecraft:pumpkin_pie",
 	"order": 0,

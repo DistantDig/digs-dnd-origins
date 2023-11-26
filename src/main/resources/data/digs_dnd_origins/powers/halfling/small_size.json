@@ -1,15 +1,15 @@
 {
-  "name": "Dwarven Toughness",
-  "description": "You have 20% less health points rather than the 40% less of other small races. You also deal 0.5 less damage.",
+  "name": "Small Size",
+  "description": "You have 40% less health points and deal 0.5 less damage.",
   "type": "origins:multiple",
 
-  "attribute": {
+  "attributes": {
     "type": "origins:attribute",
     "modifiers": [
       {
         "attribute": "minecraft:generic.max_health",
         "operation": "multiply_total",
-        "value": -0.2
+        "value": -0.4
       },
       {
         "attribute": "generic.attack_damage",
@@ -24,24 +24,24 @@
     "entity_action_chosen":
     {
       "type": "origins:revoke_power",
-      "power": "digs_dnd_origins:dwarf/dwarven_toughness",
-      "source": "digs_dnd_origins:dwarf"
+      "power": "digs_dnd_origins:halfling/small_size",
+      "source": "digs_dnd_origins:halfling"
     },
     "entity_action_added":
     {
       "type": "origins:revoke_power",
-      "power": "digs_dnd_origins:dwarf/dwarven_toughness",
-      "source": "digs_dnd_origins:dwarf"
+      "power": "digs_dnd_origins:halfling/small_size",
+      "source": "digs_dnd_origins:halfling"
     },
     "entity_action_respawned":
     {
       "type": "origins:revoke_power",
-      "power": "digs_dnd_origins:dwarf/dwarven_toughness",
-      "source": "digs_dnd_origins:dwarf"
+      "power": "digs_dnd_origins:halfling/small_size",
+      "source": "digs_dnd_origins:halfling"
     },
     "condition": {
       "type": "origins:power",
-      "power": "digs_dnd_origins:dwarf/hill/dwarven_toughness"
+      "power": "digs_dnd_origins:halfling/stout/ability_score_increase"
     }
   }
 }

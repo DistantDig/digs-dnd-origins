@@ -1,6 +1,6 @@
 {
 	"name": "Naturally Stealthy",
-	"description": "Sneaking while up against an entity larger that you will render you (but not your armor) invisible.",
+	"description": "Sneaking while up against an entity larger than you will render you (but not your armor) invisible.",
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:execute_command",

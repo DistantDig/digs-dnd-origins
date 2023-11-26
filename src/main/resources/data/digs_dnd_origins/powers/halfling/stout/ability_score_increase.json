@@ -1,0 +1,47 @@
+{
+	"name": "Ability Score Increase",
+	"description": "You have increased constitution. You have 35% less health points rather than the 40% less of other small races.",
+	"type": "origins:multiple",
+
+	"attributes": {
+		"type": "origins:attribute",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.max_health",
+				"operation": "multiply_total",
+				"value": -0.35
+			},
+			{
+				"attribute": "generic.attack_damage",
+				"value": -0.5,
+				"operation": "addition"
+			}
+		]
+	},
+
+	"base_revoke": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen":
+		{
+			"type": "origins:revoke_power",
+			"power": "digs_dnd_origins:halfling/small_size",
+			"source": "digs_dnd_origins:halfling"
+		},
+		"entity_action_added":
+		{
+			"type": "origins:revoke_power",
+			"power": "digs_dnd_origins:halfling/small_size",
+			"source": "digs_dnd_origins:halfling"
+		},
+		"entity_action_respawned":
+		{
+			"type": "origins:revoke_power",
+			"power": "digs_dnd_origins:halfling/small_size",
+			"source": "digs_dnd_origins:halfling"
+		},
+		"condition": {
+			"type": "origins:power",
+			"power": "digs_dnd_origins:dwarf/hill/dwarven_toughness"
+		}
+	}
+}

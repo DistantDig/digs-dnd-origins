@@ -1,9 +1,6 @@
 {
 	"powers": [
-		"digs_dnd_origins:halfling/stout/size",
-		"digs_dnd_origins:halfling/speed",
-		"digs_dnd_origins:halfling/stout/lucky",
-		"digs_dnd_origins:halfling/halfling_nimbleness",
+		"digs_dnd_origins:halfling/stout/ability_score_increase",
 		"digs_dnd_origins:halfling/stout/stout_resilience"
 	],
 	"icon": "minecraft:cooked_mutton",
