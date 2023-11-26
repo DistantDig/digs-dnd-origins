@@ -3,7 +3,8 @@
 		"digs_dnd_origins:elf/size",
 		"digs_dnd_origins:elf/darkvision",
 		"digs_dnd_origins:elf/trance",
-		"digs_dnd_origins:elf/elf_weapon_training"
+		"digs_dnd_origins:elf/elf_weapon_training",
+		"digs_dnd_origins:elf/subrace"
 	],
 	"icon": "minecraft:bow",
 	"order": 0,

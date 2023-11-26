@@ -1,7 +1,5 @@
 {
 	"powers": [
-		"digs_dnd_origins:gnome/size",
-		"digs_dnd_origins:gnome/speed",
 		"digs_dnd_origins:gnome/deep/superior_darkvision",
 		"digs_dnd_origins:gnome/deep/stone_camouflage"
 	],

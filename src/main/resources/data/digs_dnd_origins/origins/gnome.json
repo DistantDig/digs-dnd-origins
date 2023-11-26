@@ -1,8 +1,9 @@
 {
 	"powers": [
-		"digs_dnd_origins:gnome/description_deep",
-		"digs_dnd_origins:gnome/description_forest",
-		"digs_dnd_origins:gnome/description_rock"
+		"digs_dnd_origins:gnome/size",
+		"digs_dnd_origins:gnome/speed",
+		"digs_dnd_origins:gnome/darkvision",
+		"digs_dnd_origins:gnome/subrace"
 	],
 	"icon": "minecraft:spyglass",
 	"order": 0,
