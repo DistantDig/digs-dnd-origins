@@ -13,5 +13,6 @@
 		}
 	],
 	"order": 2,
-	"name": "Dwarven Lineage"
+	"name": "Dwarven Lineage",
+	"hidden": true
 }

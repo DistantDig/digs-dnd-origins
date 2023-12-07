@@ -15,5 +15,6 @@
 		}
 	],
 	"order": 2,
-	"name": "Cantrip"
+	"name": "Cantrip",
+	"hidden": true
 }

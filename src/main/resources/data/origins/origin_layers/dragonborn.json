@@ -17,5 +17,6 @@
 		}
 	],
 	"order": 2,
-	"name": "Draconic Ancestry"
+	"name": "Draconic Ancestry",
+	"hidden": true
 }

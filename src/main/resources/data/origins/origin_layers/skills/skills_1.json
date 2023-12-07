@@ -29,5 +29,6 @@
 		}
 	],
 	"order": 2,
-	"name": "Skill"
+	"name": "Skill",
+	"hidden": true
 }

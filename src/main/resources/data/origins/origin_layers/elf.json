@@ -14,5 +14,6 @@
 		}
 	],
 	"order": 2,
-	"name": "Elven Lineage"
+	"name": "Elven Lineage",
+	"hidden": true
 }

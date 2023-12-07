@@ -14,5 +14,6 @@
 		}
 	],
 	"order": 2,
-	"name": "Gnomic Descendance"
+	"name": "Gnomic Descendance",
+	"hidden": true
 }

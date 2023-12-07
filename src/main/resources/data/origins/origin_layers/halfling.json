@@ -13,5 +13,6 @@
 		}
 	],
 	"order": 2,
-	"name": "Halfling Descendance"
+	"name": "Halfling Descendance",
+	"hidden": true
 }

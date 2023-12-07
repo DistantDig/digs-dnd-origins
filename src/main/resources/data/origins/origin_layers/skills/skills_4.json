@@ -161,5 +161,6 @@
     }
   ],
   "order": 6,
-  "name": "Fourth Skill"
+  "name": "Fourth Skill",
+  "hidden": true
 }

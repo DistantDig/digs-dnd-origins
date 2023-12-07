@@ -20,5 +20,6 @@
     }
   ],
   "order": 3,
-  "name": "Feat"
+  "name": "Feat",
+  "hidden": true
 }

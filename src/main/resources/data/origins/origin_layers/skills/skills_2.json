@@ -242,5 +242,6 @@
     }
   ],
   "order": 4,
-  "name": "Second Skill"
+  "name": "Second Skill",
+  "hidden": true
 }
