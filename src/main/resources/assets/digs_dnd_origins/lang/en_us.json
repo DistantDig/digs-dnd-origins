@@ -1,16 +1,6 @@
 {
-  "item.digs_dnd_origins.red_scale": "Red Scale",
-  "item.digs_dnd_origins.blue_scale": "Blue Scale",
-  "item.digs_dnd_origins.green_scale": "Green Scale",
-  "item.digs_dnd_origins.white_scale": "White Scale",
-  "item.digs_dnd_origins.black_scale": "Black Scale",
-  "item.digs_dnd_origins.brass_scale": "Brass Scale",
-
-  "item.digs_dnd_origins.horns": "Horns",
-
-  "item.digs_dnd_origins.toy_frog_spawn_egg": "Toy Frog",
-
-  "itemGroup.dndOrigins": "Dig's DnD Origins",
+  "effect.digs_dnd_origins.freeze": "Freezing",
+  "effect.digs_dnd_origins.stun": "Stunned",
 
   "entity.digs_dnd_origins.blue_breath": "Lightning Breath",
   "entity.digs_dnd_origins.green_breath": "Poison Breath",
@@ -18,8 +8,18 @@
   "entity.digs_dnd_origins.white_breath": "Ice Breath",
   "entity.digs_dnd_origins.toy_frog": "Toy Frog",
 
-  "effect.digs_dnd_origins.freeze": "Freezing",
-  "effect.digs_dnd_origins.stun": "Stunned",
+  "item.digs_dnd_origins.horns": "Horns",
+
+  "item.digs_dnd_origins.red_scale": "Red Scale",
+  "item.digs_dnd_origins.blue_scale": "Blue Scale",
+  "item.digs_dnd_origins.green_scale": "Green Scale",
+  "item.digs_dnd_origins.white_scale": "White Scale",
+  "item.digs_dnd_origins.black_scale": "Black Scale",
+  "item.digs_dnd_origins.brass_scale": "Brass Scale",
+
+  "item.digs_dnd_origins.toy_frog_spawn_egg": "Toy Frog",
+
+  "itemGroup.dndOrigins": "Dig's DnD Origins",
 
   "layer.origins.cantrips/cantrip_1.name": "cantrips",
   "layer.origins.feats/feat_1.name": "Feat",
@@ -136,5 +136,60 @@
   "origin.digs_dnd_origins.skills/stealth.name": "Stealth",
   "origin.digs_dnd_origins.skills/stealth.description": "Most of your movements do not trigger sculk sensors.",
   "origin.digs_dnd_origins.skills/survival.name": "Survival",
-  "origin.digs_dnd_origins.skills/survival.description": "You gain an additional hunger bar for each item you eat."
+  "origin.digs_dnd_origins.skills/survival.description": "You gain an additional hunger bar for each item you eat.",
+
+  "power.digs_dnd_origins.dragonborn/ability_score_increase.name": "Ability Score Increase",
+  "power.digs_dnd_origins.dragonborn/ability_score_increase.description": "Due to your increased strength, you deal 1 extra melee damage.",
+  "power.digs_dnd_origins.dragonborn/breath_weapon_description.name": "Breath Weapon",
+  "power.digs_dnd_origins.dragonborn/breath_weapon_description.description": "You can breathe out before you in a line or cone depending on your subrace, damaging your enemies. You regain the ability to do so after a short or long rest.",
+  "power.digs_dnd_origins.dragonborn/damage_resistance_description.name": "Damage Resistance",
+  "power.digs_dnd_origins.dragonborn/damage_resistance_description.description": "You are resistant to the element of your subrace. The damage taken or effect time is halved, depending on the element.",
+  "power.digs_dnd_origins.dragonborn/habitat_description.name": "Habitat",
+  "power.digs_dnd_origins.dragonborn/habitat_description.description": "Whenever you are in a biome opposite of your subrace's natural habitat you will be slowed and weakened.",
+  "power.digs_dnd_origins.dragonborn/size.name": "Size",
+  "power.digs_dnd_origins.dragonborn/size.description": "You are larger than a human, your size is medium.",
+  "power.digs_dnd_origins.dragonborn/subrace.name": "Draconic Ancestry",
+  "power.digs_dnd_origins.dragonborn/subrace.description": "Once you select this race you will select a subrace. Your subrace will determine your dragonborn color and element.",
+
+  "power.digs_dnd_origins.dragonborn/black/breath_weapon.name": "Breath Weapon",
+  "power.digs_dnd_origins.dragonborn/black/breath_weapon.description": "You can breathe out poison before you in a line, poisoning your enemies. You regain the ability to do so after a short or long rest.",
+  "power.digs_dnd_origins.dragonborn/black/damage_resistance.name": "Damage Resistance",
+  "power.digs_dnd_origins.dragonborn/black/damage_resistance.description": "Poisons last half as long for you.",
+  "power.digs_dnd_origins.dragonborn/black/humid_habitat.name": "Humid Habitat",
+  "power.digs_dnd_origins.dragonborn/black/humid_habitat.description": "Whenever you are in a dry biome you will be slowed and weakened.",
+
+  "power.digs_dnd_origins.dragonborn/blue/arid_habitat.name": "Arid Habitat",
+  "power.digs_dnd_origins.dragonborn/blue/arid_habitat.description": "Whenever you are in a humid biome you will be slowed and weakened.",
+  "power.digs_dnd_origins.dragonborn/blue/breath_weapon.name": "Breath Weapon",
+  "power.digs_dnd_origins.dragonborn/blue/breath_weapon.description": "You can breathe out lightning before you in a line, damaging and slowing your enemies. You regain the ability to do so after a short or long rest.",
+  "power.digs_dnd_origins.dragonborn/blue/damage_resistance.name": "Damage Resistance",
+  "power.digs_dnd_origins.dragonborn/blue/damage_resistance.description": "You take half damage from lightning and slowness lasts half as long on you.",
+
+  "power.digs_dnd_origins.dragonborn/brass/arid_habitat.name": "Arid Habitat",
+  "power.digs_dnd_origins.dragonborn/brass/arid_habitat.description": "Whenever you are in a humid biome you will be slowed and weakened.",
+  "power.digs_dnd_origins.dragonborn/brass/breath_weapon.name": "Breath Weapon",
+  "power.digs_dnd_origins.dragonborn/brass/breath_weapon.description": "You can breathe out flames before you in a line, burning your enemies. You regain the ability to do so after a short or long rest.",
+  "power.digs_dnd_origins.dragonborn/brass/damage_resistance.name": "Damage Resistance",
+  "power.digs_dnd_origins.dragonborn/brass/damage_resistance.description": "You take half damage from fire damage.",
+
+  "power.digs_dnd_origins.dragonborn/green/breath_weapon.name": "Breath Weapon",
+  "power.digs_dnd_origins.dragonborn/green/breath_weapon.description": "You can breathe out poison before you in a small cone, poisoning your enemies. You regain the ability to do so after a short or long rest.",
+  "power.digs_dnd_origins.dragonborn/green/damage_resistance.name": "Damage Resistance",
+  "power.digs_dnd_origins.dragonborn/green/damage_resistance.description": "Poisons last half as long for you.",
+  "power.digs_dnd_origins.dragonborn/green/humid_habitat.name": "Humid Habitat",
+  "power.digs_dnd_origins.dragonborn/green/humid_habitat.description": "Whenever you are in a dry biome you will be slowed and weakened.",
+
+  "power.digs_dnd_origins.dragonborn/red/breath_weapon.name": "Breath Weapon",
+  "power.digs_dnd_origins.dragonborn/red/breath_weapon.description": "You can breathe out flames before you in a small cone, burning your enemies. You regain the ability to do so after a short or long rest.",
+  "power.digs_dnd_origins.dragonborn/red/damage_resistance.name": "Damage Resistance",
+  "power.digs_dnd_origins.dragonborn/red/damage_resistance.description": "You take half damage from fire damage.",
+  "power.digs_dnd_origins.dragonborn/red/molten_habitat.name": "Molten Habitat",
+  "power.digs_dnd_origins.dragonborn/red/molten_habitat.description": "Whenever you are in a cold biome you will be slowed and weakened.",
+
+  "power.digs_dnd_origins.dragonborn/white/arctic_habitat.name": "Hypothermia",
+  "power.digs_dnd_origins.dragonborn/white/arctic_habitat.description": "Whenever you are in a hot biome you will be slowed and weakened.",
+  "power.digs_dnd_origins.dragonborn/white/breath_weapon.name": "Breath Weapon",
+  "power.digs_dnd_origins.dragonborn/white/breath_weapon.description": "You can breathe out frost before you in a small cone, damaging and slowing your enemies. You regain the ability to do so after a short or long rest.",
+  "power.digs_dnd_origins.dragonborn/white/damage_resistance.name": "Damage Resistance",
+  "power.digs_dnd_origins.dragonborn/white/damage_resistance.description": "You take half damage from freezing and slowness lasts half as long on you."
 }

@@ -1,6 +1,4 @@
 {
-	"name": "Damage Resistance",
-	"description": "You take half damage from lightning and slowness lasts half as long on you.",
 	"type": "origins:multiple",
 	"lightning": {
 		"type": "origins:modify_damage_taken",

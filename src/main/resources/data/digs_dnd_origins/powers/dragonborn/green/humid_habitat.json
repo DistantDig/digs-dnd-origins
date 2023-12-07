@@ -1,6 +1,4 @@
 {
-	"name": "Humid Habitat",
-	"description": "Whenever you are in a dry biome you will be slowed and weakened.",
     "type": "origins:multiple",
     
     "debuffs": {

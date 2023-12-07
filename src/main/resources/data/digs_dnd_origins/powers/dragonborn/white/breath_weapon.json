@@ -1,6 +1,4 @@
 {
-    "name": "Breath Weapon",
-    "description": "You can breathe out frost before you in a small cone, damaging and slowing your enemies. You regain the ability to do so after a short or long rest.",
     "type": "origins:multiple",
     
     "frost": {

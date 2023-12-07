@@ -1,6 +1,4 @@
 {
-    "name": "Breath Weapon",
-    "description": "You can breathe out flames before you in a small cone, burning your enemies. You regain the ability to do so after a short or long rest.",
     "type": "origins:multiple",
     
     "flames": {

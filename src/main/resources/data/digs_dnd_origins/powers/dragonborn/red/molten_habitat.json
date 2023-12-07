@@ -1,6 +1,4 @@
 {
-	"name": "Molten Habitat",
-	"description": "Whenever you are in a cold biome you will be slowed and weakened.",
     "type": "origins:multiple",
     
     "shiver": {

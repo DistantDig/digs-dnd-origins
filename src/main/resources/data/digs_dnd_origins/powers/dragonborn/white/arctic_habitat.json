@@ -1,6 +1,4 @@
 {
-	"name": "Hypothermia",
-	"description": "Whenever you are in a hot biome you will be slowed and weakened.",
     "type": "origins:multiple",
     
     "debuffs": {

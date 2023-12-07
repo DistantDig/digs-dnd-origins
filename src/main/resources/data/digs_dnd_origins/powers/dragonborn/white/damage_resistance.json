@@ -1,6 +1,4 @@
 {
-	"name": "Damage Resistance",
-	"description": "You take half damage from freezing and slowness lasts half as long on you.",
 	"type": "origins:multiple",
 	"freeze": {
 		"type": "origins:modify_damage_taken",
