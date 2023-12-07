@@ -11,7 +11,7 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:feats/variant_human_feats",
+            "layer": "origins:feats/feat_1",
             "origin": "digs_dnd_origins:feats/skilled"
           }
         ]
@@ -50,7 +50,7 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:feats/variant_human_feats",
+            "layer": "origins:feats/feat_1",
             "origin": "digs_dnd_origins:feats/skilled"
           }
         ]
@@ -70,7 +70,7 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:feats/variant_human_feats",
+            "layer": "origins:feats/feat_1",
             "origin": "digs_dnd_origins:feats/skilled"
           }
         ]
@@ -90,7 +90,7 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:feats/variant_human_feats",
+            "layer": "origins:feats/feat_1",
             "origin": "digs_dnd_origins:feats/skilled"
           }
         ]
@@ -110,7 +110,7 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:feats/variant_human_feats",
+            "layer": "origins:feats/feat_1",
             "origin": "digs_dnd_origins:feats/skilled"
           }
         ]
@@ -130,7 +130,7 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:feats/variant_human_feats",
+            "layer": "origins:feats/feat_1",
             "origin": "digs_dnd_origins:feats/skilled"
           }
         ]
@@ -150,7 +150,7 @@
           },
           {
             "type": "origins:origin",
-            "layer": "origins:feats/variant_human_feats",
+            "layer": "origins:feats/feat_1",
             "origin": "digs_dnd_origins:feats/skilled"
           }
         ]
@@ -160,7 +160,6 @@
       ]
     }
   ],
-  "order": 6,
-  "name": "Fourth Skill",
+  "order": 5,
   "hidden": true
 }

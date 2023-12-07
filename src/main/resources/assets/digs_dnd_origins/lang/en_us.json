@@ -19,5 +19,18 @@
   "entity.digs_dnd_origins.toy_frog": "Toy Frog",
 
   "effect.digs_dnd_origins.freeze": "Freezing",
-  "effect.digs_dnd_origins.stun": "Stunned"
+  "effect.digs_dnd_origins.stun": "Stunned",
+
+  "layer.origins.cantrips/cantrip_1.name": "cantrips",
+  "layer.origins.feats/feat_1.name": "Feat",
+  "layer.origins.skills/skill_1.name": "Skill",
+  "layer.origins.skills/skill_2.name": "Second Skill",
+  "layer.origins.skills/skill_3.name": "Third Skill",
+  "layer.origins.skills/skill_4.name": "Fourth Skill",
+
+  "layer.origins.dragonborn.name": "Draconic Ancestry",
+  "layer.origins.dwarf.name": "Dwarven Lineage",
+  "layer.origins.elf.name": "Elven Lineage",
+  "layer.origins.gnome.name": "Gnomic Descendance",
+  "layer.origins.halfling.name": "Halfling Descendance"
 }
