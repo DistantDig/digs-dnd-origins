@@ -8,7 +8,5 @@
 	],
 	"icon": "minecraft:pumpkin_pie",
 	"order": 0,
-	"impact": 2,
-	"name": "Halfling",
-	"description": "The comforts of home are the goals of most halflings’ lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation."
+	"impact": 2
 }

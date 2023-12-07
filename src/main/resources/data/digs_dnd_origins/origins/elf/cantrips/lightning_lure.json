@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:enchanted_book",
 	"order": 1,
-	"impact": 0,
-	"name": "Lightning Lure",
-	"description": "You create a lash of lightning energy that strikes at one creature you're aiming at. On a hit, the target takes 4 lightning damage and is stunned for half a second."
+	"impact": 0
 }

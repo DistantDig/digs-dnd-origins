@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:carrot",
 	"order": 1,
-	"impact": 0,
-	"name": "Animal Handling",
-	"description": "You deal no damage to animals tamed by you."
+	"impact": 0
 }

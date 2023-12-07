@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:goat_horn",
 	"order": 1,
-	"impact": 0,
-	"name": "Charger",
-	"description": "While you are sprinting, you can choose to either shove or deal extra damage to a creature. If you hit a target while your hand is empty, you have significantly more knockback, but if you hit the creature with a weapon you will gain +4 to the damage you deal. This ability has a 6 second cooldown and you cannot sprint in that time."
+	"impact": 0
 }

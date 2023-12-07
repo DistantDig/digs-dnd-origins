@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:gray_dye",
 	"order": 1,
-	"impact": 0,
-	"name": "Sleight of Hand",
-	"description": "Most of your actions do not trigger sculk sensors."
+	"impact": 0
 }

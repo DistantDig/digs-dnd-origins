@@ -5,7 +5,5 @@
 	],
 	"icon": "minecraft:bow",
 	"order": 1,
-	"impact": 1,
-	"name": "Wood Elf",
-	"description": "As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests."
+	"impact": 1
 }

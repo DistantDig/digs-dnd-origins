@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:iron_pickaxe",
 	"order": 2,
-	"impact": 2,
-	"name": "Mountain Dwarf",
-	"description": "As a mountain dwarf, you’re strong and hardy, accustomed to a difficult life in rugged terrain."
+	"impact": 2
 }

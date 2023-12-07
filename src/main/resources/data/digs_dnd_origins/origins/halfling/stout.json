@@ -5,7 +5,5 @@
 	],
 	"icon": "minecraft:cooked_mutton",
 	"order": 1,
-	"impact": 2,
-	"name": "Stout Halfling",
-	"description": "As a stout halfling, you’re hardier than average and have some resistance to poison."
+	"impact": 2
 }

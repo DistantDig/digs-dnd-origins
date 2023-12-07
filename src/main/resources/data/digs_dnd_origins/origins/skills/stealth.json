@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:black_dye",
 	"order": 1,
-	"impact": 0,
-	"name": "Stealth",
-	"description": "Most of your movements do not trigger sculk sensors."
+	"impact": 0
 }

@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:dark_oak_sapling",
 	"order": 1,
-	"impact": 2,
-	"name": "Forest Gnome",
-	"description": "Forest gnomes tend to be friendly with other good-spirited woodland folk, and they regard elves and good fey as their most important allies."
+	"impact": 2
 }

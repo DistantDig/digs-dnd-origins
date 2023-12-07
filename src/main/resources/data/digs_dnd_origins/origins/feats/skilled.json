@@ -5,7 +5,5 @@
 	"icon": "minecraft:golden_apple",
 	"order": 1,
 	"impact": 0,
-	"hidden": true,
-	"name": "Skilled",
-	"description": "You gain proficiency in three additional skills of your choice, but all skills will be half as effective. You will choose your skills upon selecting this feat."
+	"hidden": true
 }

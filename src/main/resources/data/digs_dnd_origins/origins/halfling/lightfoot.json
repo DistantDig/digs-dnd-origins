@@ -5,7 +5,5 @@
 	],
 	"icon": "minecraft:baked_potato",
 	"order": 1,
-	"impact": 2,
-	"name": "Lightfoot Halfling",
-	"description": "As a lightfoot halfling, you can easily hide from notice, even using other people as cover."
+	"impact": 2
 }

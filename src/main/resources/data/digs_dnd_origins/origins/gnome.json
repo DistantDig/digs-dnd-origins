@@ -7,7 +7,5 @@
 	],
 	"icon": "minecraft:spyglass",
 	"order": 0,
-	"impact": 2,
-	"name": "Gnome",
-	"description": "A gnome’s energy and enthusiasm for living shines through every inch of their tiny body."
+	"impact": 2
 }

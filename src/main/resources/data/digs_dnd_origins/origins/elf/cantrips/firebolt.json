@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:enchanted_book",
 	"order": 1,
-	"impact": 0,
-	"name": "Firebolt",
-	"description": "You hurl a mote of fire at a creature or object within range. On a hit, the target takes 3 fire damage. Any target hit by this spell ignites and continues to burn for 2 fire ticks."
+	"impact": 0
 }

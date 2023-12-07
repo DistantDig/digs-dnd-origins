@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:iron_chestplate",
 	"order": 1,
-	"impact": 0,
-	"name": "Moderate Armor",
-	"description": "You have trained to master the use of medium armor. You gain proficiency with medium armor, giving you +2 to your armor toughness while a full set of armor heavier than chainmail but lighter than diamond is equipped. You are 7% slower while benefiting from this effect."
+	"impact": 0
 }

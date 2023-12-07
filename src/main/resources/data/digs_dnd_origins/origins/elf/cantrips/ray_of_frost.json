@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:enchanted_book",
 	"order": 1,
-	"impact": 0,
-	"name": "Ray of Frost",
-	"description": "A frigid beam of blue-white light streaks toward a creature within range."
+	"impact": 0
 }

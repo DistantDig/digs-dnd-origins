@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:golden_boots",
 	"order": 1,
-	"impact": 0,
-	"name": "Mobile",
-	"description": "Your speed increases by 20% but your exhaustion increases by 30%."
+	"impact": 0
 }

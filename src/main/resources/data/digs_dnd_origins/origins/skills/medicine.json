@@ -4,7 +4,5 @@
 	],
 	"icon": "minecraft:potion",
 	"order": 1,
-	"impact": 0,
-	"name": "Medicine",
-	"description": "All healing for you is increased by 20%."
+	"impact": 0
 }
