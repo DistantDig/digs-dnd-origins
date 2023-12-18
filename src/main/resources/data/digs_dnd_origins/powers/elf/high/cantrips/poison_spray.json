@@ -1,6 +1,4 @@
 {
-  "name": "Range",
-  "description": "8 Blocks",
   "type": "origins:multiple",
 
   "firebolt": {

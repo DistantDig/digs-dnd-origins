@@ -1,6 +1,4 @@
 {
-	"name": "Ability Score Increase",
-	"description": "Due to your increased intelligence, your arcane spell power is increased by 1.",
 	"type": "origins:attribute",
     "modifier": {
         "attribute": "spell_power:arcane",

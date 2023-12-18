@@ -1,5 +1,3 @@
 {
-  "name": "Cantrip",
-  "description": "You know one cantrip of your choice from the following list: Firebolt, Poison Spray, Ray of Frost or Lightning Lure. You will pick your cantrip upon selecting this subrace.",
   "type": "origins:simple"
 }

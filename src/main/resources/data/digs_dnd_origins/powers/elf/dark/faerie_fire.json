@@ -1,6 +1,4 @@
 {
-  "name": "Faerie Fire",
-  "description": "Each entity within a 6 block range of the target location will have the glowing effect. This area will remain to glow entities for 1 minute. Activating this ability a second time or taking damage will cause the effect to end early.",
   "type": "origins:multiple",
 
   "cast": {

@@ -1,6 +1,4 @@
 {
-  "name": "Darkness",
-  "description": "Magical darkness spreads from a point you are aiming at within range to fill a 5 block radius sphere for the duration. A creature with darkvision cannot see through this darkness, and non magical light can't illuminate it. If the point you choose is an entity then the darkness emanates from them and moves with them. Activating this ability a second time or taking damage will cause the effect to end early.",
   "type": "origins:multiple",
 
   "cast": {

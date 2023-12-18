@@ -1,6 +1,4 @@
 {
-	"name": "Mask of the Wild",
-	"description": "Sneaking while up against foliage will render you (but not your armor) invisible.",
 	"type": "origins:multiple",
 	"phase": {
     "type": "origins:invisibility",

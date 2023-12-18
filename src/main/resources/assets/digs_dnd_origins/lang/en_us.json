@@ -214,5 +214,50 @@
   "power.digs_dnd_origins.dwarf/hill/dwarven_toughness.description": "You have 10% less health points rather than the 20% less of other dwarves.",
 
   "power.digs_dnd_origins.dwarf/mountain/dwarven_armor_training.name": "Dwarven Armor Training",
-  "power.digs_dnd_origins.dwarf/mountain/dwarven_armor_training.description": "You have proficiency with armor, giving you +2 to your armor toughness while a full set is equipped."
+  "power.digs_dnd_origins.dwarf/mountain/dwarven_armor_training.description": "You have proficiency with armor, giving you +2 to your armor toughness while a full set is equipped.",
+
+  "power.digs_dnd_origins.elf/darkvision.name": "Darkvision",
+  "power.digs_dnd_origins.elf/darkvision.description": "Accustomed to twilit forests and the night sky, you have superior vision in dark or dim conditions.",
+  "power.digs_dnd_origins.elf/elf_weapon_training.name": "Elf Weapon Training",
+  "power.digs_dnd_origins.elf/elf_weapon_training.description": "You have proficiency with the sword and bow, dealing 2 extra damage with both.",
+  "power.digs_dnd_origins.elf/size.name": "Size",
+  "power.digs_dnd_origins.elf/size.description": "You are slightly slimmer than humans and you have 20% less health points. Your size is medium.",
+  "power.digs_dnd_origins.elf/subrace.name": "Elven Lineage",
+  "power.digs_dnd_origins.elf/subrace.description": "Once you select this race you will select a subrace. You have a choice of wood elf, high elf or dark elf, which vary greatly in their skills and favored environments.",
+  "power.digs_dnd_origins.elf/trance.name": "Trance",
+  "power.digs_dnd_origins.elf/trance.description": "Elves don't need to sleep. Instead they meditate deeply, remaining semiconscious for 4 hours a day. Your insomnia builds half as fast.",
+
+  "power.digs_dnd_origins.elf/dark/ability_score_increase.name": "Ability Score Increase",
+  "power.digs_dnd_origins.elf/dark/dwarven_toughness.description": "Due to your increased intelligence, your frost spell power is increased by 1.",
+  "power.digs_dnd_origins.elf/dark/darkness.name": "Darkness",
+  "power.digs_dnd_origins.elf/dark/darkness.description": "Magical darkness spreads from a point you are aiming at within range to fill a 5 block radius sphere for the duration. A creature with darkvision cannot see through this darkness, and non magical light can't illuminate it. If the point you choose is an entity then the darkness emanates from them and moves with them. Activating this ability a second time or taking damage will cause the effect to end early.",
+  "power.digs_dnd_origins.elf/dark/drow_magic.name": "Drow Magic",
+  "power.digs_dnd_origins.elf/dark/drow_magic.description": "You can cast the faerie fire and darkness spells each once a day with this ability. You regain the ability to do so once you take a long rest. These spells both require concentration and cannot be active at the same time.",
+  "power.digs_dnd_origins.elf/dark/drow_weapon_training.name": "Drow Weapon Training",
+  "power.digs_dnd_origins.elf/dark/drow_weapon_training.description": "You deal 2 more damage with swords, rapiers and crossbows.",
+  "power.digs_dnd_origins.elf/dark/faerie_fire.name": "Faerie Fire",
+  "power.digs_dnd_origins.elf/dark/faerie_fire.description": "Each entity within a 6 block range of the target location will have the glowing effect. This area will remain to glow entities for 1 minute. Activating this ability a second time or taking damage will cause the effect to end early.",
+  "power.digs_dnd_origins.elf/dark/sunlight_sensitivity.name": "Sunlight Sensitivity",
+  "power.digs_dnd_origins.elf/dark/sunlight_sensitivity.description": "Your vision is reduced when in direct sunlight.",
+  "power.digs_dnd_origins.elf/dark/superior_darkvision.name": "Superior Darkvision",
+  "power.digs_dnd_origins.elf/dark/superior_darkvision.description": "Accustomed to the Underdark, your vision is superior even to those with normal darkvision.",
+
+  "power.digs_dnd_origins.elf/high/ability_score_increase.name": "Ability Score Increase",
+  "power.digs_dnd_origins.elf/high/dwarven_toughness.description": "Due to your increased intelligence, your arcane spell power is increased by 1.",
+  "power.digs_dnd_origins.elf/high/cantrip.name": "Cantrip",
+  "power.digs_dnd_origins.elf/high/cantrip.description": "You know one cantrip of your choice from the following list: Firebolt, Poison Spray, Ray of Frost or Lightning Lure. You will pick your cantrip upon selecting this subrace.",
+
+  "power.digs_dnd_origins.elf/high/cantrips/firebolt.name": "Range",
+  "power.digs_dnd_origins.elf/high/cantrips/firebolt.description": "35 Blocks",
+  "power.digs_dnd_origins.elf/high/cantrips/lightning_lure.name": "Range",
+  "power.digs_dnd_origins.elf/high/cantrips/lightning_lure.description": "11 Blocks",
+  "power.digs_dnd_origins.elf/high/cantrips/poison_spray.name": "Range",
+  "power.digs_dnd_origins.elf/high/cantrips/poison_spray.description": "8 Blocks",
+  "power.digs_dnd_origins.elf/high/cantrips/ray_of_frost.name": "Range",
+  "power.digs_dnd_origins.elf/high/cantrips/ray_of_frost.description": "18 Blocks",
+
+  "power.digs_dnd_origins.elf/wood/fleet_of_foot.name": "Fleet of Foot",
+  "power.digs_dnd_origins.elf/wood/fleet_of_foot.description": "Your base walking speed is 10% faster.",
+  "power.digs_dnd_origins.elf/wood/mask_of_the_wild.name": "Mask of the Wild",
+  "power.digs_dnd_origins.elf/wood/mask_of_the_wild.description": "Sneaking while up against foliage will render you (but not your armor) invisible."
 }

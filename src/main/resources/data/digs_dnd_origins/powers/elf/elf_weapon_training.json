@@ -1,6 +1,4 @@
 {
-    "name": "Elf Weapon Training",
-    "description": "You have proficiency with the sword and bow, dealing 2 extra damage with both.",
     "type": "origins:multiple",
     "melee": {
         "type": "origins:modify_damage_dealt",
