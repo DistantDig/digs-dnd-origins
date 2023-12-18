@@ -1,6 +1,4 @@
 {
-  "name": "Dwarven Toughness",
-  "description": "You have 20% less health points rather than the 40% less of other small races. You also deal 0.5 less damage.",
   "type": "origins:multiple",
 
   "attribute": {

@@ -1,6 +1,4 @@
 {
-    "name": "Dwarven Armor Training",
-    "description": "You have proficiency with armor, giving you +2 to your armor toughness while a full set is equipped.",
     "type": "origins:conditioned_attribute",
     "modifier": {
         "attribute": "minecraft:generic.armor_toughness",

@@ -1,6 +1,4 @@
 {
-    "name": "Dwarven Combat Training",
-    "description": "You have proficiency with axes, dealing +2 damage with them.",
     "type": "origins:multiple",
     "melee": {
         "type": "origins:modify_damage_dealt",

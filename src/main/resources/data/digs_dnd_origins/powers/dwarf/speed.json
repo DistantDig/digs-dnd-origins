@@ -1,6 +1,4 @@
 {
-	"name": "Speed",
-	"description": "Your base walking speed is 10% slower.",
 	"type": "origins:attribute",
 	"modifier": {
 		"attribute": "minecraft:generic.movement_speed",

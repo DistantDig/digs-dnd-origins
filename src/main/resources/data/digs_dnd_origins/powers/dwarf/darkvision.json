@@ -1,6 +1,4 @@
 {
-    "name": "Darkvision",
-	"description": "Accustomed to life underground, you have superior vision in dark and dim conditions.",
 	"type": "origins:night_vision",
 	"strength": 0.5
 }

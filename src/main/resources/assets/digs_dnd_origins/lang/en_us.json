@@ -191,5 +191,28 @@
   "power.digs_dnd_origins.dragonborn/white/breath_weapon.name": "Breath Weapon",
   "power.digs_dnd_origins.dragonborn/white/breath_weapon.description": "You can breathe out frost before you in a small cone, damaging and slowing your enemies. You regain the ability to do so after a short or long rest.",
   "power.digs_dnd_origins.dragonborn/white/damage_resistance.name": "Damage Resistance",
-  "power.digs_dnd_origins.dragonborn/white/damage_resistance.description": "You take half damage from freezing and slowness lasts half as long on you."
+  "power.digs_dnd_origins.dragonborn/white/damage_resistance.description": "You take half damage from freezing and slowness lasts half as long on you.",
+
+  "power.digs_dnd_origins.dwarf/darkvision.name": "Darkvision",
+  "power.digs_dnd_origins.dwarf/darkvision.description": "Accustomed to life underground, you have superior vision in dark and dim conditions.",
+  "power.digs_dnd_origins.dwarf/dwarven_combat_training.name": "Dwarven Combat Training",
+  "power.digs_dnd_origins.dwarf/dwarven_combat_training.description": "You have proficiency with axes, dealing +2 damage with them.",
+  "power.digs_dnd_origins.dwarf/dwarven_resilience.name": "Dwarven Resilience",
+  "power.digs_dnd_origins.dwarf/dwarven_resilience.description": "The poison status effect lasts half as long for you.",
+  "power.digs_dnd_origins.dwarf/dwarven_toughness.name": "Dwarven Toughness",
+  "power.digs_dnd_origins.dwarf/dwarven_toughness.description": "You have 20% less health points rather than the 40% less of other small races. You also deal 0.5 less damage.",
+  "power.digs_dnd_origins.dwarf/size.name": "Size",
+  "power.digs_dnd_origins.dwarf/size.description": "You are a block and a half tall. Your size is medium.",
+  "power.digs_dnd_origins.dwarf/speed.name": "Speed",
+  "power.digs_dnd_origins.dwarf/speed.description": "Your base walking speed is 10% slower.",
+  "power.digs_dnd_origins.dwarf/subrace.name": "Dwarven Lineage",
+  "power.digs_dnd_origins.dwarf/subrace.description": "Once you select this race you will select a subrace. You have a choice of hill or mountain dwarf, which vary slightly in skills and health.",
+  "power.digs_dnd_origins.dwarf/tool_proficiency.name": "Tool Proficiency",
+  "power.digs_dnd_origins.dwarf/tool_proficiency.description": "You gain proficiency with mason's tools, you can mine any ore with a stone pickaxe or greater.",
+
+  "power.digs_dnd_origins.dwarf/hill/dwarven_toughness.name": "Dwarven Toughness",
+  "power.digs_dnd_origins.dwarf/hill/dwarven_toughness.description": "You have 10% less health points rather than the 20% less of other dwarves.",
+
+  "power.digs_dnd_origins.dwarf/mountain/dwarven_armor_training.name": "Dwarven Armor Training",
+  "power.digs_dnd_origins.dwarf/mountain/dwarven_armor_training.description": "You have proficiency with armor, giving you +2 to your armor toughness while a full set is equipped."
 }

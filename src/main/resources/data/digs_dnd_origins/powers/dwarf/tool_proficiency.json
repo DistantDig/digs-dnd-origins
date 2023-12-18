@@ -1,6 +1,4 @@
 {
-  "name": "Tool Proficiency",
-  "description": "You gain proficiency with mason's tools, you can mine any ore with a stone pickaxe or greater.",
   "type": "origins:multiple",
 
   "wood_pick": {

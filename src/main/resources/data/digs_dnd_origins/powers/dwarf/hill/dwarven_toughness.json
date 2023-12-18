@@ -1,6 +1,4 @@
 {
-  "name": "Dwarven Toughness",
-  "description": "You have 10% less health points rather than the 20% less of other dwarves.",
   "type": "origins:multiple",
 
   "attributes": {
