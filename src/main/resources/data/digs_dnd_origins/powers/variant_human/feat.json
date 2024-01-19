@@ -1,5 +1,3 @@
 {
-  "name": "Feat",
-  "description": "You gain one feat of your choice. You will select your feat upon selecting this race.",
   "type": "origins:simple"
 }

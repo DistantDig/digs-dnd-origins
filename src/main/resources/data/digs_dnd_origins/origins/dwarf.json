@@ -11,6 +11,5 @@
 	],
 	"icon": "minecraft:iron_pickaxe",
 	"order": 0,
-	"impact": 2,
-	"name": "Dwarf"
+	"impact": 2
 }

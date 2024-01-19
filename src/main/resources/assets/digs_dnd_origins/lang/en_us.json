@@ -186,7 +186,7 @@
   "power.digs_dnd_origins.dragonborn/red/molten_habitat.name": "Molten Habitat",
   "power.digs_dnd_origins.dragonborn/red/molten_habitat.description": "Whenever you are in a cold biome you will be slowed and weakened.",
 
-  "power.digs_dnd_origins.dragonborn/white/arctic_habitat.name": "Hypothermia",
+  "power.digs_dnd_origins.dragonborn/white/arctic_habitat.name": "Arctic Habitat",
   "power.digs_dnd_origins.dragonborn/white/arctic_habitat.description": "Whenever you are in a hot biome you will be slowed and weakened.",
   "power.digs_dnd_origins.dragonborn/white/breath_weapon.name": "Breath Weapon",
   "power.digs_dnd_origins.dragonborn/white/breath_weapon.description": "You can breathe out frost before you in a small cone, damaging and slowing your enemies. You regain the ability to do so after a short or long rest.",
@@ -339,5 +339,10 @@
   "power.digs_dnd_origins.tiefling/horns.name": "Horns",
   "power.digs_dnd_origins.tiefling/horns.description": "Your infernal legacy shows.",
   "power.digs_dnd_origins.tiefling/infernal_legacy.name": "Infernal Legacy",
-  "power.digs_dnd_origins.tiefling/infernal_legacy.description": "You can cast the hellish rebuke and darkness spells once each with this ability. You regain the ability to do so once you take a long rest."
+  "power.digs_dnd_origins.tiefling/infernal_legacy.description": "You can cast the hellish rebuke and darkness spells once each with this ability. You regain the ability to do so once you take a long rest.",
+
+  "power.digs_dnd_origins.variant_human/feat.name": "Feat",
+  "power.digs_dnd_origins.variant_human/feat.description": "You gain one feat of your choice. You will select your feat upon selecting this race.",
+  "power.digs_dnd_origins.variant_human/skills.name": "Skills",
+  "power.digs_dnd_origins.variant_human/skills.description": "You gain proficiency in one skill of your choice. You will select your skill upon selecting this race."
 }
