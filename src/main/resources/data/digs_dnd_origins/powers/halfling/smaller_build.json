@@ -1,0 +1,45 @@
+{
+  "type": "origins:multiple",
+
+  "attributes": {
+    "type": "origins:attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "multiply_total",
+        "value": -0.4
+      },
+      {
+        "attribute": "generic.attack_damage",
+        "value": -0.5,
+        "operation": "addition"
+      }
+    ]
+  },
+
+  "self_revoke": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen":
+    {
+      "type": "origins:revoke_power",
+      "power": "digs_dnd_origins:halfling/small_size",
+      "source": "digs_dnd_origins:halfling"
+    },
+    "entity_action_added":
+    {
+      "type": "origins:revoke_power",
+      "power": "digs_dnd_origins:halfling/small_size",
+      "source": "digs_dnd_origins:halfling"
+    },
+    "entity_action_respawned":
+    {
+      "type": "origins:revoke_power",
+      "power": "digs_dnd_origins:halfling/small_size",
+      "source": "digs_dnd_origins:halfling"
+    },
+    "condition": {
+      "type": "origins:power",
+      "power": "digs_dnd_origins:halfling/stout/ability_score_increase"
+    }
+  }
+}

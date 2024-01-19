@@ -1,6 +1,4 @@
 {
-	"name": "Lucky",
-	"description": "You find better loot in chests and when fishing.",
 	"type": "origins:attribute",
 	"modifier": {
         "attribute": "generic.luck",

@@ -1,6 +1,4 @@
 {
-	"name": "Ability Score Increase",
-	"description": "You have increased constitution. You have 35% less health points rather than the 40% less of other small races.",
 	"type": "origins:multiple",
 
 	"attributes": {

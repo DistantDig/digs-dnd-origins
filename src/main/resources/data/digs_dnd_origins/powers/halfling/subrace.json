@@ -1,5 +1,3 @@
 {
-  "name": "Halfling Descendance",
-  "description": "Once you select this race you will select a subrace. You have a choice of lightfoot or stout halfling, which vary slightly in health and skills.",
   "type": "origins:simple"
 }

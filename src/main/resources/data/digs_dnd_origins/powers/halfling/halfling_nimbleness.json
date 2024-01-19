@@ -1,6 +1,4 @@
 {
-	"name": "Halfling Nimbleness",
-	"description": "You can move through the space of any creature that is a size larger than you without being slowed by entity collision. This ability can be toggled.",
 	"type": "origins:multiple",
 	
 	"toggle": {
