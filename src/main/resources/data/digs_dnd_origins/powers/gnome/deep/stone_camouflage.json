@@ -1,6 +1,4 @@
 {
-	"name": "Stone Camouflage",
-	"description": "You have an easier time hiding among rocks. Sneaking while up against stone will render you (but not your armor) invisible.",
 	"type": "origins:multiple",
 	"phase": {
     "type": "origins:invisibility",

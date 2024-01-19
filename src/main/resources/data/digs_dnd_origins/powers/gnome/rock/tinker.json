@@ -1,6 +1,4 @@
 {
-    "name": "Tinker",
-    "description": "You can construct a tiny clockwork toy that resembles a frog. When placed on the ground, the toy moves at a slower than walking pace in random directions.",
     "type": "origins:multiple",
     "animated_gear":
     {

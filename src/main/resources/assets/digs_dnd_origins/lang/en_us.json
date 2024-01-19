@@ -259,5 +259,25 @@
   "power.digs_dnd_origins.elf/wood/fleet_of_foot.name": "Fleet of Foot",
   "power.digs_dnd_origins.elf/wood/fleet_of_foot.description": "Your base walking speed is 10% faster.",
   "power.digs_dnd_origins.elf/wood/mask_of_the_wild.name": "Mask of the Wild",
-  "power.digs_dnd_origins.elf/wood/mask_of_the_wild.description": "Sneaking while up against foliage will render you (but not your armor) invisible."
+  "power.digs_dnd_origins.elf/wood/mask_of_the_wild.description": "Sneaking while up against foliage will render you (but not your armor) invisible.",
+
+  "power.digs_dnd_origins.gnome/darkvision.name": "Description",
+  "power.digs_dnd_origins.gnome/darkvision.description": "Accustomed to life underground, you have superior vision in dark and dim conditions.",
+  "power.digs_dnd_origins.gnome/size.name": "Size",
+  "power.digs_dnd_origins.gnome/size.description": "You are half as tall as a human. Your size is small.",
+  "power.digs_dnd_origins.gnome/speed.name": "Speed",
+  "power.digs_dnd_origins.gnome/speed.description": "Your base speed is 10% slower.",
+  "power.digs_dnd_origins.gnome/subrace.name": "Gnomic Descendance",
+  "power.digs_dnd_origins.gnome/subrace.description": "Once you select this race you will select a subrace. You have a choice of deep gnome, forest gnome or rock gnome, which vary moderately in their skills.",
+
+  "power.digs_dnd_origins.gnome/deep/stone_camouflage.name": "Stone Camouflage",
+  "power.digs_dnd_origins.gnome/deep/stone_camouflage.description": "You have an easier time hiding among rocks. Sneaking while up against stone will render you (but not your armor) invisible.",
+  "power.digs_dnd_origins.gnome/deep/superior_darkvision.name": "Superior Darkvision",
+  "power.digs_dnd_origins.gnome/deep/superior_darkvision.description": "Accustomed to the Underdark, your vision is superior even to those with normal darkvision.",
+
+  "power.digs_dnd_origins.gnome/forest/speak_with_small_beasts.name": "Speak With Small Beasts",
+  "power.digs_dnd_origins.gnome/forest/speak_with_small_beasts.description": "Through sounds and gestures, you can communicate simple ideas with small beasts. Using an empty hand, you can immediately tame small animals.",
+
+  "power.digs_dnd_origins.gnome/rock/tinker.name": "Tinker",
+  "power.digs_dnd_origins.gnome/rock/tinker.description": "You can construct a tiny clockwork toy that resembles a frog. When placed on the ground, the toy moves at a slower than walking pace in random directions."
 }

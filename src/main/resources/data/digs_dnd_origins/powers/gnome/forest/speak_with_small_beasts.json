@@ -1,6 +1,4 @@
 {
-    "name": "Speak With Small Beasts",
-    "description": "Through sounds and gestures, you can communicate simple ideas with small beasts. Using an empty hand, you can immediately tame small animals.",
     "type": "origins:action_on_entity_use",
     "bientity_action": {
         "type": "origins:tame"
