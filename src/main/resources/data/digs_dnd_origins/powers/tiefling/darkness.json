@@ -1,6 +1,4 @@
 {
-  "name": "Darkness",
-  "description": "Magical darkness spreads from a point you are aiming at for a duration of 10 minutes. If you target an entity with this ability then the darkness moves with them. Activating this ability a second time or taking damage will cause the effect to drop.",
   "type": "origins:multiple",
 
   "cast": {

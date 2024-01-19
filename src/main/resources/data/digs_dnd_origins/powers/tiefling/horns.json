@@ -1,6 +1,4 @@
 {
-  "name": "Horns",
-  "description": "Your infernal legacy shows.",
   "type": "origins:horns",
   "render-horns": true
 }

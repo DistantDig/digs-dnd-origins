@@ -1,6 +1,4 @@
 {
-  "name": "Hellish Rebuke",
-  "description": "Activating this ability will cause the next attack against you to be rebuked. The creature who damaged you is momentarily surrounded by hellish flames.",
   "type": "origins:multiple",
 
   "rebuke": {

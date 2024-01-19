@@ -1,6 +1,4 @@
 {
-  "name": "Hellish Resistance",
-  "description": "You take half damage from fire damage.",
   "type": "origins:modify_damage_taken",
   "damage_condition": {
     "type": "origins:or",

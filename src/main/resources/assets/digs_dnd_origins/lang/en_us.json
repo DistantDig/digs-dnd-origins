@@ -322,5 +322,22 @@
   "power.digs_dnd_origins.halfling/stout/ability_score_increase.name": "Ability Score Increase",
   "power.digs_dnd_origins.halfling/stout/ability_score_increase.description": "You have increased constitution. You have 35% less health points rather than the 40% less of other small races.",
   "power.digs_dnd_origins.halfling/stout/stout_resilience.name": "Stout Resilience",
-  "power.digs_dnd_origins.halfling/stout/stout_resilience.description": "Poisons last half as long for you."
+  "power.digs_dnd_origins.halfling/stout/stout_resilience.description": "Poisons last half as long for you.",
+
+  "power.digs_dnd_origins.tiefling/ability_score_increase.name": "Ability Score Increase",
+  "power.digs_dnd_origins.tiefling/ability_score_increase.description": "Due to your increased charisma, your fire spell power is increased by 1.",
+  "power.digs_dnd_origins.tiefling/darkness.name": "Darkness",
+  "power.digs_dnd_origins.tiefling/darkness.description": "Magical darkness spreads from a point you are aiming at for a duration of 10 minutes. If you target an entity with this ability then the darkness moves with them. Activating this ability a second time or taking damage will cause the effect to drop.",
+  "power.digs_dnd_origins.tiefling/darkvision.name": "Darkvision",
+  "power.digs_dnd_origins.tiefling/darkvision.description": "Thanks to your infernal heritage, you have superior vision in dark and dim conditions.",
+  "power.digs_dnd_origins.tiefling/feared.name": "Feared",
+  "power.digs_dnd_origins.tiefling/feared.description": "Your infernal ancestry is feared by most. Villagers are too afraid of you to trade.",
+  "power.digs_dnd_origins.tiefling/hellish_rebuke.name": "Hellish Rebuke",
+  "power.digs_dnd_origins.tiefling/hellish_rebuke.description": "Activating this ability will cause the next attack against you to be rebuked. The creature who damaged you is momentarily surrounded by hellish flames.",
+  "power.digs_dnd_origins.tiefling/hellish_resistance.name": "Hellish Resistance",
+  "power.digs_dnd_origins.tiefling/hellish_resistance.description": "You take half damage from fire damage.",
+  "power.digs_dnd_origins.tiefling/horns.name": "Horns",
+  "power.digs_dnd_origins.tiefling/horns.description": "Your infernal legacy shows.",
+  "power.digs_dnd_origins.tiefling/infernal_legacy.name": "Infernal Legacy",
+  "power.digs_dnd_origins.tiefling/infernal_legacy.description": "You can cast the hellish rebuke and darkness spells once each with this ability. You regain the ability to do so once you take a long rest."
 }
