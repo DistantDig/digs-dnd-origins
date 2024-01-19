@@ -1,6 +1,4 @@
 {
-	"name": "Size",
-	"description": "You are slightly slimmer than humans, but broader than an elf and you have 10% less health points. Your size is medium.",
 	"type": "origins:multiple",
 	"size": {
 		"type": "origins:action_on_callback",

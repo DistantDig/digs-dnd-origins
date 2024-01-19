@@ -279,5 +279,25 @@
   "power.digs_dnd_origins.gnome/forest/speak_with_small_beasts.description": "Through sounds and gestures, you can communicate simple ideas with small beasts. Using an empty hand, you can immediately tame small animals.",
 
   "power.digs_dnd_origins.gnome/rock/tinker.name": "Tinker",
-  "power.digs_dnd_origins.gnome/rock/tinker.description": "You can construct a tiny clockwork toy that resembles a frog. When placed on the ground, the toy moves at a slower than walking pace in random directions."
+  "power.digs_dnd_origins.gnome/rock/tinker.description": "You can construct a tiny clockwork toy that resembles a frog. When placed on the ground, the toy moves at a slower than walking pace in random directions.",
+
+  "power.digs_dnd_origins.half-elf/ability_score_increase.name": "Ability Score Increase",
+  "power.digs_dnd_origins.half-elf/ability_score_increase.description": "Due to your increased charisma, villagers reduce their prices for you.",
+  "power.digs_dnd_origins.half-elf/darkvision.name": "Darkvision",
+  "power.digs_dnd_origins.half-elf/darkvision.description": "Thanks to your elf blood, you have superior vision in dark and dim conditions.",
+  "power.digs_dnd_origins.half-elf/size.name": "Size",
+  "power.digs_dnd_origins.half-elf/size.description": "You are slightly slimmer than humans, but broader than an elf and you have 10% less health points. Your size is medium.",
+  "power.digs_dnd_origins.half-elf/skill_versatility.name": "Skill Versatility",
+  "power.digs_dnd_origins.half-elf/skill_versatility.description": "You gain proficiency in two skills of your choice. You will select your skills upon selecting this race.",
+
+  "power.digs_dnd_origins.half-orc/darkvision.name": "Darkvision",
+  "power.digs_dnd_origins.half-orc/darkvision.description": "Thanks to your orc blood, you have superior vision in dark and dim conditions.",
+  "power.digs_dnd_origins.half-orc/menacing.name": "Menacing",
+  "power.digs_dnd_origins.half-orc/menacing.description": "You are proficient in being intimidating, too proficient. Villagers are too afraid of you to trade.",
+  "power.digs_dnd_origins.half-orc/relentless_endurance.name": "Relentless Endurance",
+  "power.digs_dnd_origins.half-orc/relentless_endurance.description": "When you are reduced to 0 health points, you are reduced to 1 instead. Once you use this trait, you can't use it again until you finish a long rest.",
+  "power.digs_dnd_origins.half-orc/savage_attacks.name": "Savage Attacks",
+  "power.digs_dnd_origins.half-orc/savage_attacks.description": "You deal 20% more melee damage",
+  "power.digs_dnd_origins.half-orc/size.name": "Size",
+  "power.digs_dnd_origins.half-orc/size.description": "You are larger than a human, your size is medium."
 }

@@ -1,6 +1,4 @@
 {
-    "name": "Intimidating",
-    "description": "You are proficient in being intimidating, too proficient. Villagers are too afraid of you to trade.",
     "type": "origins:prevent_entity_use",
     "bientity_condition": {
         "type": "origins:target_condition",

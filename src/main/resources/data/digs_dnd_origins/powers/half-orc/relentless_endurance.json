@@ -1,6 +1,4 @@
 {
-    "name": "Relentless Endurance",
-    "description": "When you are reduced to 0 health points, you are reduced to 1 instead. Once you use this trait, you can't use it again until you finish a long rest.",
     "type": "origins:multiple",
     "prevent_death": {
         "type": "origins:prevent_death",
