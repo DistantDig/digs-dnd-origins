@@ -1,9 +1,9 @@
 {
 	"powers": [
+		"digs_dnd_origins:dwarf/ability_score_increase",
 		"digs_dnd_origins:dwarf/darkvision",
 		"digs_dnd_origins:dwarf/dwarven_combat_training",
 		"digs_dnd_origins:dwarf/dwarven_resilience",
-		"digs_dnd_origins:dwarf/dwarven_toughness",
 		"digs_dnd_origins:dwarf/size",
 		"digs_dnd_origins:dwarf/speed",
 		"digs_dnd_origins:dwarf/tool_proficiency",

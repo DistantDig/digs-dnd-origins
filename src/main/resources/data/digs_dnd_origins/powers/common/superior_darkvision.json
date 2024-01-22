@@ -1,0 +1,24 @@
+{
+	"type": "origins:multiple",
+
+	"revoke_regular_vision": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen":
+		{
+			"type": "origins:revoke_power",
+			"power": "digs_dnd_origins:common/darkvision",
+			"source": "example:power_source"
+		},
+		"entity_action_added":
+		{
+			"type": "origins:revoke_power",
+			"power": "digs_dnd_origins:common/darkvision",
+			"source": "example:power_source"
+		}
+	},
+
+	"superior_vision": {
+		"type": "origins:night_vision",
+		"strength": 1.0
+	}
+}

@@ -3,25 +3,25 @@
 	"entity_action_chosen":
 	{
 		"type": "origins:grant_power",
-		"power": "digs_dnd_origins:common/superior_darkvision",
+		"power": "origins:more_exhaustion",
 		"source": "example:power_source"
 	},
 	"entity_action_added":
 	{
 		"type": "origins:grant_power",
-		"power": "digs_dnd_origins:common/superior_darkvision",
+		"power": "origins:more_exhaustion",
 		"source": "example:power_source"
 	},
 	"entity_action_lost":
 	{
 		"type": "origins:revoke_power",
-		"power": "digs_dnd_origins:common/superior_darkvision",
+		"power": "origins:more_exhaustion",
 		"source": "example:power_source"
 	},
 	"entity_action_removed":
 	{
 		"type": "origins:revoke_power",
-		"power": "digs_dnd_origins:common/superior_darkvision",
+		"power": "origins:more_exhaustion",
 		"source": "example:power_source"
 	}
 }

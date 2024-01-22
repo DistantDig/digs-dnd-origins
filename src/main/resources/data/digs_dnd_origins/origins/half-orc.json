@@ -5,7 +5,7 @@
         "digs_dnd_origins:half-orc/menacing",
         "digs_dnd_origins:half-orc/relentless_endurance",
         "digs_dnd_origins:half-orc/savage_attacks",
-        "origins:more_exhaustion"
+        "digs_dnd_origins:half-orc/large_appetite"
     ],
     "icon": "minecraft:goat_horn",
     "order": 0,

@@ -1,7 +1,6 @@
 {
 	"powers": [
 		"digs_dnd_origins:gnome/size",
-		"digs_dnd_origins:gnome/smaller_build",
 		"digs_dnd_origins:gnome/speed",
 		"digs_dnd_origins:gnome/darkvision",
 		"digs_dnd_origins:gnome/subrace"

@@ -1,90 +1,27 @@
 {
-	"type": "origins:multiple",
-	"size": {
-		"type": "origins:action_on_callback",
-		"entity_action_chosen":
-		{
-			"type": "origins:and",
-			"actions": [
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:height 0.75 @s"
-			},
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:width 0.75 @s"
-			},
-			{
-			    "type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "tag @s add small"
-			}
-			]
-		},
-		"entity_action_added":
-		{
-			"type": "origins:and",
-			"actions": [
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:height 0.75 @s"
-			},
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:width 0.75 @s"
-			},
-			{
-			    "type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "tag @s add small"
-			}
-			]
-		},
-		"entity_action_lost":
-		{
-			"type": "origins:and",
-			"actions": [
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:height 1 @s"
-			},
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:width 1 @s"
-			},
-			{
-			    "type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "tag @s remove small"
-			}
-			]
-		},
-		"entity_action_removed":
-		{
-			"type": "origins:and",
-			"actions": [
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:height 1 @s"
-			},
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:width 1 @s"
-			},
-			{
-			    "type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "tag @s remove small"
-			}
-			]
-		}
+	"type": "origins:action_on_callback",
+	"entity_action_chosen":
+	{
+		"type": "origins:grant_power",
+		"power": "digs_dnd_origins:common/size/small_tall",
+		"source": "example:power_source"
+	},
+	"entity_action_added":
+	{
+		"type": "origins:grant_power",
+		"power": "digs_dnd_origins:common/size/small_tall",
+		"source": "example:power_source"
+	},
+	"entity_action_lost":
+	{
+		"type": "origins:revoke_power",
+		"power": "digs_dnd_origins:common/size/small_tall",
+		"source": "example:power_source"
+	},
+	"entity_action_removed":
+	{
+		"type": "origins:revoke_power",
+		"power": "digs_dnd_origins:common/size/small_tall",
+		"source": "example:power_source"
 	}
 }

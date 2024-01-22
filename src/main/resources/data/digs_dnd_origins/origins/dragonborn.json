@@ -6,7 +6,7 @@
 		"digs_dnd_origins:dragonborn/breath_weapon_description",
 		"digs_dnd_origins:dragonborn/damage_resistance_description",
 		"digs_dnd_origins:dragonborn/habitat_description",
-		"origins:more_exhaustion"
+		"digs_dnd_origins:dragonborn/large_appetite"
 	],
 	"icon": "digs_dnd_origins:black_scale",
 	"order": 0,

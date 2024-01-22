@@ -1,15 +1,27 @@
 {
-  "type": "origins:action_over_time",
-  "entity_action": {
-    "type": "origins:apply_effect",
-    "effect": {
-      "effect": "minecraft:hero_of_the_village",
-      "duration": 240,
-      "amplifier": 0,
-      "is_ambient": true,
-      "show_particles": false,
-      "show_icon": false
-    }
+  "type": "origins:action_on_callback",
+  "entity_action_chosen":
+  {
+    "type": "origins:grant_power",
+    "power": "digs_dnd_origins:common/ability_score_increase/charisma",
+    "source": "example:power_source"
   },
-  "interval": 200
+  "entity_action_added":
+  {
+    "type": "origins:grant_power",
+    "power": "digs_dnd_origins:common/ability_score_increase/charisma",
+    "source": "example:power_source"
+  },
+  "entity_action_lost":
+  {
+    "type": "origins:revoke_power",
+    "power": "digs_dnd_origins:common/ability_score_increase/charisma",
+    "source": "example:power_source"
+  },
+  "entity_action_removed":
+  {
+    "type": "origins:revoke_power",
+    "power": "digs_dnd_origins:common/ability_score_increase/charisma",
+    "source": "example:power_source"
+  }
 }

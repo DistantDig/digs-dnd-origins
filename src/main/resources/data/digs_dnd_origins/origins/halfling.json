@@ -1,7 +1,6 @@
 {
 	"powers": [
 		"digs_dnd_origins:halfling/size",
-		"digs_dnd_origins:halfling/smaller_build",
 		"digs_dnd_origins:halfling/speed",
 		"digs_dnd_origins:halfling/lucky",
 		"digs_dnd_origins:halfling/halfling_nimbleness"

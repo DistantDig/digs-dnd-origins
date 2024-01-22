@@ -1,38 +1,27 @@
 {
-	"type": "origins:multiple",
-	"size": {
-		"type": "origins:action_on_callback",
-		"entity_action_chosen":
-		{
-			"type": "origins:execute_command",
-			"permission_level": 4,
-			"command": "scale set pehkui:width 0.9 @s"
-		},
-		"entity_action_added":
-		{
-			"type": "origins:execute_command",
-			"permission_level": 4,
-			"command": "scale set pehkui:width 0.9 @s"
-		},
-		"entity_action_lost":
-		{
-			"type": "origins:execute_command",
-			"permission_level": 4,
-			"command": "scale set pehkui:width 1 @s"
-		},
-		"entity_action_removed":
-		{
-			"type": "origins:execute_command",
-			"permission_level": 4,
-			"command": "scale set pehkui:width 1 @s"
-		}
+	"type": "origins:action_on_callback",
+	"entity_action_chosen":
+	{
+		"type": "origins:grant_power",
+		"power": "digs_dnd_origins:common/size/medium_thin",
+		"source": "example:power_source"
 	},
-	"health": {
-		"type": "origins:attribute",
-		"modifier": {
-			"attribute": "minecraft:generic.max_health",
-			"operation": "multiply_total",
-			"value": -0.2
-		}
+	"entity_action_added":
+	{
+		"type": "origins:grant_power",
+		"power": "digs_dnd_origins:common/size/medium_thin",
+		"source": "example:power_source"
+	},
+	"entity_action_lost":
+	{
+		"type": "origins:revoke_power",
+		"power": "digs_dnd_origins:common/size/medium_thin",
+		"source": "example:power_source"
+	},
+	"entity_action_removed":
+	{
+		"type": "origins:revoke_power",
+		"power": "digs_dnd_origins:common/size/medium_thin",
+		"source": "example:power_source"
 	}
 }
