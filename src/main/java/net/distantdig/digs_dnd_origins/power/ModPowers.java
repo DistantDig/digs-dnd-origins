@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 public class ModPowers {
     public static void registerPowers() {
         register(HornsPower::createFactory);
+        register(ReputationPower::createFactory);
     }
 
 

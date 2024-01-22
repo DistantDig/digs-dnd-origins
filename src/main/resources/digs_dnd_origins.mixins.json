@@ -3,7 +3,8 @@
 	"package": "net.distantdig.digs_dnd_origins.mixins",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"HornsFeatureRendererMixin"
+		"HornsFeatureRendererMixin",
+		"VillagerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
